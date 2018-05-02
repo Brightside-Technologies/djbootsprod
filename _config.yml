@@ -1,0 +1,24 @@
+title: Site Title
+favicon: assets/images/favicon.ico
+type: website
+description: Lorem Ipsum
+keywords: Comma delimited list of words
+image: assets/images/site-preview.png
+url: https://website.com
+email: email@sample.com
+twitterUrl: http://www.twitter.com/
+linkedInUrl: https://www.linkedin.com/
+facebookUrl: https://www.facebook.com/
+googleAnalyticsId: ""
+markdown: kramdown
+source: src/jekyll
+destination: dist
+include:
+  - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - node_modules
+  - package-lock.json
+  - src/vendors
