@@ -90,30 +90,30 @@ header .download {
     -ms-flex-pack: center;
     justify-content: center;
 }
-header .download a {
-    display: inline-block;
-    width: 250px;
-    margin: 0 10px;
-}
-header .download .btn-latest {
-    padding: 15px 15px;
-    color: #fff;
-    border: 1px solid #dedede;
-}
-header .download .btn-light {
-    padding: 15px 15px;
-    color: #fff;
-    border: 0;
-    background-image: linear-gradient(
-        to right,
-        #b8cbb8 0%,
-        #b8cbb8 0%,
-        #b465da 0%,
-        #cf6cc9 33%,
-        #ee609c 66%,
-        #ee609c 100%
-    );
-}
+// header .download a {
+//     display: inline-block;
+//     width: 250px;
+//     margin: 0 10px;
+// }
+// header .download .btn-latest {
+//     padding: 15px 15px;
+//     color: #fff;
+//     border: 1px solid #dedede;
+// }
+// header .download .btn-light {
+//     padding: 15px 15px;
+//     color: #fff;
+//     border: 0;
+//     background-image: linear-gradient(
+//         to right,
+//         #b8cbb8 0%,
+//         #b8cbb8 0%,
+//         #b465da 0%,
+//         #cf6cc9 33%,
+//         #ee609c 66%,
+//         #ee609c 100%
+//     );
+// }
 header .download .btn-light:hover {
     opacity: 0.8;
 }
