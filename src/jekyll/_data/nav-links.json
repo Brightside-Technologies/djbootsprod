@@ -2,5 +2,13 @@
     {
         "url": "index.html",
         "label": "Home"
+    },
+    {
+        "url": "services.html",
+        "label": "Services"
+    },
+    {
+        "url": "contact.html",
+        "label": "Contact"
     }
 ]
