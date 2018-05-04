@@ -11,7 +11,7 @@ permalink: index.html
                 <h3>About
                     <span class="bg-gradient"></span>
                 </h3>
-                <p class="lead pt-4 text-justify">
+                <p class="lead pt-4">
                     Welcome to Boots Production, where entertainment moves your soul. Boots Production has been around since 2010, providing
                     excellent dj service, audio visual, special affect lighting, and more. Producing various events including
                     corporate meetings, holiday parties, school events, weddings, quinceneras, and many other special occasions.
@@ -37,23 +37,23 @@ permalink: index.html
                     A Lion lay asleep in the forest, his great head resting on his paws. A timid little Mouse came upon him unexpectedly, and
                     in her fright and haste to get away, ran across the Lion's nose.
                 </p>
-                <div class="row d-flex flex-wrap py-5">
-                {% for testimonial in site.data.testimonials %}
-                    <div class="col-md-4 mb-3">
-                        <div class="shadow d-flex flex-column justify-content-between h-100 testimonials-body border p-4 rounded bg-light">
-                            <p>{{testimonial.text}}</p>
-                            <div class="row pt-3">
-                                <div class="col-lg-5 col-md-12">
-                                    <img class="img-fluid rounded-circle" src="{{testimonial.image}}" alt="Face 1">
-                                </div>
-                                <div class="col-lg-7 col-md-12 pt-3">
-                                    <div class="h5">{{testimonial.name}}</div>
-                                    <p class="text-muted">{{testimonial.location}}</p>
+                <div class="d-flex flex-column" style="height: 35rem;">
+                    <div class="py-5 testimonials-carousel h-100">
+                        {% for testimonial in site.data.testimonials %}
+                            <div class="testimonials-carousel--cell pb-3 h-100 col-md-4">
+                                <div class="h-100 shadow d-flex flex-column justify-content-between testimonials-body border p-4 rounded bg-light">
+                                    <p>{{testimonial.text}}</p>
+                                    <div class="row d-flex align-items-center justify-content-around pt-1">
+                                        <img class="img-fluid rounded-circle" src="{{testimonial.image}}" alt="{{testimonial.name}}">
+                                        <div>
+                                            <div class="h5 m-0">{{testimonial.name}}</div>
+                                            <p class="text-muted m-0">{{testimonial.location}}</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        {% endfor %}
                     </div>
-                {% endfor %}
                 </div>
             </div>
         </div>

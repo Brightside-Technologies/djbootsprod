@@ -62,4 +62,12 @@ $(document).ready(function() {
         $wHeight = $(window).height();
         $item.height($wHeight);
     });
+
+    $(".testimonials-carousel").flickity({
+        cellAlign: "center",
+        wrapAround: true,
+        setGallerySize: false,
+        //prevNextButtons: false,
+        freeScroll: true
+    });
 });
