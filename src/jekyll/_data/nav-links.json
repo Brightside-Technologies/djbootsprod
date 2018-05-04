@@ -8,6 +8,10 @@
         "label": "Services"
     },
     {
+        "url": "gallery.html",
+        "label": "Gallery"
+    },
+    {
         "url": "contact.html",
         "label": "Contact"
     }

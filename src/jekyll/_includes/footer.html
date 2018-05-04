@@ -1,1 +1,21 @@
-<!--FOOTER HERE-->
+<footer class="p-3 bg-dark text-white">
+    <div class="row m-0">
+    {% comment %} <div class="col-sm-12">
+        {% include social-buttons.html %}
+    </div> {% endcomment %}
+        <div class="col-sm-12 col-md-12">
+            <span class="float-left">
+                <small>&copy; Copyright 
+                    {% assign currentYear = site.time | date: '%Y' %} 
+                    {{site.time | date: '%Y'}}
+                </small>
+            </span>
+            <span class="float-right">
+                <small>
+                    <a class="made-with-heart" href="{{site.developerUrl}}" target="_blank">Made with
+                        <i class="fas fa-heart" aria-hidden="true"></i>&nbsp;by {{site.developer}}</a>
+                </small>
+            </span>
+        </div>
+    </div>
+</footer>

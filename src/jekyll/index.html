@@ -4,22 +4,58 @@ title: Home
 permalink: index.html 
 ---
 
-<section class="about" id="about">
+<div class="about" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <h3>About
-                    <span></span>
+                    <span class="bg-gradient"></span>
                 </h3>
-                <p>
-                    Welcome to Boots Production, where entertainment moves your soul. Boots Production has been around since 2010, providing excellent dj service, audio visual, special affect lighting, and more. Producing various events including corporate meetings, holiday parties, school events, weddings, quinceneras, and  many other special occasions. Our goal is to make your experience the most memorable by providing the best service possible. Boots Production offers a variety of music for all tastes and ages. Creating great memories with body-moving music and lighting, we serve all Southern California. We look forward to making your next event dynamic and exciting, keeping the energy going throughout the event.
+                <p class="lead pt-4 text-justify">
+                    Welcome to Boots Production, where entertainment moves your soul. Boots Production has been around since 2010, providing
+                    excellent dj service, audio visual, special affect lighting, and more. Producing various events including
+                    corporate meetings, holiday parties, school events, weddings, quinceneras, and many other special occasions.
+                    Our goal is to make your experience the most memorable by providing the best service possible. Boots
+                    Production offers a variety of music for all tastes and ages. Creating great memories with body-moving
+                    music and lighting, we serve all Southern California. We look forward to making your next event dynamic
+                    and exciting, keeping the energy going throughout the event.
                 </p>
-                <p>
-                    Don't hesitate on booking your next event with us, as we are certain it will be a great experience and you wont be disappointed! Hablamos espanol!
+                <p class="lead">
+                    Don't hesitate on booking your next event with us, as we are certain it will be a great experience and you wont be disappointed!
+                    Hablamos Espa&ntilde;ol!
                 </p>
-                <hr>
+                <hr class="my-5">
                 <br>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>What our customers are saying
+                    <span class="bg-gradient"></span>
+                </h3>
+                <p class="lead pt-4">
+                    A Lion lay asleep in the forest, his great head resting on his paws. A timid little Mouse came upon him unexpectedly, and
+                    in her fright and haste to get away, ran across the Lion's nose.
+                </p>
+                <div class="row d-flex flex-wrap py-5">
+                {% for testimonial in site.data.testimonials %}
+                    <div class="col-md-4 mb-3">
+                        <div class="shadow d-flex flex-column justify-content-between h-100 testimonials-body border p-4 rounded bg-light">
+                            <p>{{testimonial.text}}</p>
+                            <div class="row pt-3">
+                                <div class="col-lg-5 col-md-12">
+                                    <img class="img-fluid rounded-circle" src="{{testimonial.image}}" alt="Face 1">
+                                </div>
+                                <div class="col-lg-7 col-md-12 pt-3">
+                                    <div class="h5">{{testimonial.name}}</div>
+                                    <p class="text-muted">{{testimonial.location}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
-</section>
+</div>

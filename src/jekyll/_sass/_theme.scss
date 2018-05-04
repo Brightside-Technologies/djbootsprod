@@ -15,7 +15,7 @@
 body {
     font-family: "Nunito", sans-serif;
     letter-spacing: 0.5px;
-    color: #fff;
+    // color: #fff;
     background: #fff;
 }
 h1,
@@ -63,12 +63,7 @@ header .title {
     -ms-flex-pack: center;
     justify-content: center;
 }
-header .title h1 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    margin-right: -40px;
-    letter-spacing: 40px;
-}
+
 header .full-screen {
     background-repeat: no-repeat;
     background-position: center;
@@ -310,8 +305,8 @@ header .download .btn-light:hover {
 /* About- Section */
 .about {
     padding: 120px 0;
-    color: #fff;
-    background: #000;
+    // color: #fff;
+    // background: #000;
 }
 .about h3 {
     font-weight: bold;
@@ -323,31 +318,31 @@ header .download .btn-light:hover {
     top: 15px;
     left: -65px;
     width: 40px;
-    height: 2px;
-    background-color: #fff;
+    height: 5px;
+    // background-color: rgb(128, 30, 30);
 }
-.about .box {
-    text-align: center;
-}
-.about .box img {
-    width: 100%;
-    margin-bottom: 20px;
-}
-.about .box p {
-    padding-right: 10px;
-    padding-left: 10px;
-}
-.about .box ul {
-    padding-left: 0;
-}
-.about .box ul li {
-    display: inline-block;
-}
-.about .box ul li a {
-    font-size: 1.3rem;
-    padding: 5px;
-    color: #fff;
-}
+// .about .box {
+// text-align: center;
+// }
+// .about .box img {
+// width: 100%;
+// margin-bottom: 20px;
+// }
+// .about .box p {
+// padding-right: 10px;
+// padding-left: 10px;
+// }
+// .about .box ul {
+// padding-left: 0;
+// }
+// .about .box ul li {
+// display: inline-block;
+// }
+// .about .box ul li a {
+// font-size: 1.3rem;
+// padding: 5px;
+// color: #fff;
+// }
 /* Contact - Section */
 .contact {
     padding: 0 0 120px;
@@ -387,7 +382,6 @@ footer {
     padding: 20px 0;
     text-align: center;
     color: #333;
-    border-top: 1px dashed #dedede;
     background: #f8f8f8;
 }
 footer i {
@@ -564,11 +558,6 @@ footer i {
     header .title {
         display: block;
         text-align: center;
-    }
-    header .title h1 {
-        font-size: 2rem;
-        margin-right: -5px;
-        letter-spacing: 5px;
     }
     header .download {
         display: block;
