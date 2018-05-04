@@ -4,15 +4,15 @@
         "label": "Home"
     },
     {
-        "url": "services.html",
+        "url": "#",
         "label": "Services"
     },
     {
-        "url": "gallery.html",
+        "url": "#",
         "label": "Gallery"
     },
     {
-        "url": "contact.html",
+        "url": "#",
         "label": "Contact"
     }
 ]
