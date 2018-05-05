@@ -63,3 +63,15 @@ section {
     opacity: 1;
     filter: alpha(opacity=100);
 }
+
+header {
+    height: 100vh;
+    background: url("assets/images/djboots-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-span {
+    width: 75px;
+    height: 5px;
+}

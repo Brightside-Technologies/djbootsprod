@@ -6,8 +6,8 @@
     </ol>
     <div class="carousel-inner">
         {% for slide in site.data.header-carousel %}
-        <div class="carousel-item item {% if forloop.first %}active{% endif %}">
-            <img class="d-block w-100" src="{{slide | absolute_url}}" alt="First slide">
+        <div class="d-flex flex-column carousel-item item {% if forloop.first %}active{% endif %}" style="background-image: url('{{slide}}')">
+            {% comment %} <h1 class="text-white text-center">SOUTHERN CALIFORNIA'S BEST IN DJ AND EVENT PRODUCTION</h1> {% endcomment %}
         </div>
         {% endfor %}
     </div>

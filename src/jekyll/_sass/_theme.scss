@@ -47,71 +47,7 @@ header .navbar-brand {
     font-weight: bold;
     text-transform: uppercase;
 }
-header .title {
-    position: absolute;
-    z-index: 15;
-    z-index: 999;
-    right: 0;
-    bottom: 50%;
-    left: 0;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: 15%;
-    margin-left: 15%;
-    padding-left: 0;
-    list-style: none;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
 
-header .full-screen {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-header .download {
-    position: absolute;
-    z-index: 15;
-    z-index: 999;
-    right: 0;
-    bottom: 20%;
-    left: 0;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: 15%;
-    margin-left: 15%;
-    padding-left: 0;
-    list-style: none;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-// header .download a {
-//     display: inline-block;
-//     width: 250px;
-//     margin: 0 10px;
-// }
-// header .download .btn-latest {
-//     padding: 15px 15px;
-//     color: #fff;
-//     border: 1px solid #dedede;
-// }
-// header .download .btn-light {
-//     padding: 15px 15px;
-//     color: #fff;
-//     border: 0;
-//     background-image: linear-gradient(
-//         to right,
-//         #b8cbb8 0%,
-//         #b8cbb8 0%,
-//         #b465da 0%,
-//         #cf6cc9 33%,
-//         #ee609c 66%,
-//         #ee609c 100%
-//     );
-// }
-header .download .btn-light:hover {
-    opacity: 0.8;
-}
 /* Show - Section */
 .show-stage {
     padding: 120px 0;
@@ -310,17 +246,15 @@ header .download .btn-light:hover {
 }
 .about h3 {
     font-weight: bold;
-    position: relative;
     letter-spacing: 5px;
 }
-.about h3 span {
-    position: absolute;
-    top: 15px;
-    left: -65px;
-    width: 40px;
-    height: 5px;
-    // background-color: rgb(128, 30, 30);
-}
+// .about h3 span {
+// position: absolute;
+// top: 15px;
+// left: -65px;
+// width: 40px;
+// height: 5px;
+// }
 // .about .box {
 // text-align: center;
 // }
