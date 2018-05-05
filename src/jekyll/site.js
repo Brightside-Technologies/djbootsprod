@@ -28,9 +28,9 @@ $(document).ready(function() {
     //Sticky
     $(window).scroll(function() {
         if ($(window).scrollTop() > 0) {
-            $(".navbar").addClass("sticky");
+            $(".navbar:not(.default)").addClass("sticky");
         } else {
-            $(".navbar").removeClass("sticky");
+            $(".navbar:not(.default)").removeClass("sticky");
         }
         if ($(window).scrollTop() > 50) {
             $(".scroll-to-top").addClass("affix");

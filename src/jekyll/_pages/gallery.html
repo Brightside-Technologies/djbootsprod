@@ -1,0 +1,37 @@
+--- 
+layout: default 
+title: Gallery 
+permalink: gallery.html 
+---
+<div class="gallery" id="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="d-flex flex-column align-items-center">
+                    <h3 class="text-center">Gallery</h3>
+                    <span class="header-span bg-gradient"></span>
+                </div>
+                
+                <p class="lead pt-4">
+                    A  Town Mouse once visited a relative who lived in the country. For lunch the Country Mouse served wheat stalks, roots, and acorns, with a dash of cold water for drink. The Town Mouse ate very sparingly, nibbling a little of this and a little of that, and by her manner making it very plain that she ate the simple food only to be polite.
+                </p>
+            </div>
+        </div>
+        <div class="row d-flex flex-wrap">
+            {% for video in site.data.videos %}
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 py-2">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="embed-responsive embed-responsive-1by1">
+                                    <iframe class="embed-responsive-item" allow="autoplay; encrypted-media" allowfullscreen src="{{video.url}}"></iframe>
+                                </div>
+                            </div>
+                            <h6 class="card-title pt-2">{{video.title}}</h6>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
