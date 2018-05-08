@@ -1,0 +1,93 @@
+.service-card.card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px -1px;
+    background-color: #f5fafd;
+    .btn {
+        width: 8rem;
+    }
+    .package-title {
+        padding: 25px 5px;
+        margin-left: -1.25rem;
+        margin-right: -1.25rem;
+        font-size: 22px;
+        font-family: "Dosis", "Helvetica", Arial, sans-serif;
+        font-weight: 600;
+        span {
+            font-family: "Dosis", "Helvetica", Arial, sans-serif;
+            font-weight: 600;
+            font-size: 38px;
+        }
+    }
+    // .aa-price-section {
+    //     padding: 25px 5px;
+    //     background-color: white;
+    //     margin-left: -1.25rem;
+    //     margin-right: -1.25rem;
+    //     font-size: 28px;
+    //     font-family: "Dosis", "Helvetica", Arial, sans-serif;
+    //     font-weight: 600;
+    //     span {
+    //         font-family: "Dosis", "Helvetica", Arial, sans-serif;
+    //         font-weight: 600;
+    //         font-size: 38px;
+    //     }
+    // }
+    ul li {
+        line-height: 1.25;
+        border-bottom: 1px dashed #eee;
+    }
+    .text-small {
+        font-size: 90%;
+        line-height: 3;
+        opacity: 0.75;
+    }
+}
+
+.aa-price-package .aa-price {
+    padding-bottom: 1.5rem;
+    background-color: #f5fafd;
+}
+
+.aa-price-package .aa-price .btn {
+    width: 8rem;
+}
+
+.aa-price-package .aa-price .aa-price-section {
+    padding: 25px 5px;
+    background-color: white;
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+    font-size: 28px;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+    font-weight: 600;
+}
+
+.aa-price-package .aa-price .aa-price-section span {
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.aa-price-package .aa-price ul li {
+    line-height: 3;
+    border-bottom: 1px dashed #eee;
+}
+
+.aa-price-package .aa-price-active {
+    background-color: white;
+}
+
+.aa-price-package .aa-price-active .btn {
+    border: none;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+}
+
+.aa-price-package .text-small {
+    font-size: 90%;
+    line-height: 3;
+    opacity: 0.75;
+}
+
+.aa-price-package .text-small:hover {
+    opacity: 1;
+}

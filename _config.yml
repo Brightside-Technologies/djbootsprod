@@ -20,6 +20,8 @@ source: src/jekyll
 destination: dist
 include:
   - _pages
+plugins:
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock

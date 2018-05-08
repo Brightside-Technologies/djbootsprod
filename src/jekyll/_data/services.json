@@ -1,0 +1,77 @@
+{
+    "schools": [
+        {
+            "title": "Double Boots",
+            "details": "* Custom features can be added",
+            "features": [
+                "2 7 ft stand-alone truss",
+                "2 PA speakers and 2 subwoofers",
+                "2 50in screens or video projection for video mixing and slideshow presentation that guest provides",
+                "2 intelligent up lighting in truss and two moving head fixtures",
+                "2 square fixture lighting",
+                "1 haze fixture",
+                "4 hours of continuous music"
+            ]
+        },
+        {
+            "title": "Golden Boot",
+            "details": "* Custom features can be added",
+            "features": [
+                "10 ft truss goal with colorful intelligent up lighting around the goal",
+                "Revolutionary sound system",
+                "4 50in screens or video projection for video mixing and slideshow presentation that guest provides",
+                "Lighting fixtures with two moving heads",
+                "2 laser features",
+                "6 LED intelligent lights",
+                "Haze feature",
+                "Wireless mic",
+                "Master of MC",
+                "5 hours of continuous music"
+            ]
+        },
+        {
+            "title": "Sir Boots Nightclub Style",
+            "details": "* Custom features can be added",
+            "features": [
+                "'X' custom flying truss with lighting",
+                "Revolutionary sound system",
+                "4 smart TVs or 2 projection screens",
+                "Special effects with moving heads, laser features and 2 fog machines",
+                "14 LED lights around the room including the main table if needed",
+                "Master of MC for ceremony",
+                "Gobo Custom that will make your initials 3D",
+                "5-6 hours of continuous music",
+                "Background drape that makes a colorful scene if guest requires it",
+                "Ceremony system 2 PA speakers and a wireless mic"
+            ]
+        }
+    ],
+    "weddings": [
+        {
+            "title": "Standard",
+            "details": "* Custom features can be added",
+            "features": ["'T' lighting with two light fixtures", "2 PA speakers", "4 hours of continuous music"]
+        },
+        {
+            "title": "Boots",
+            "details": "* Custom features can be added",
+            "features": [
+                "'T' lighting with three light fixtures",
+                "2 PA speakers and 1 subwoofer",
+                "2 50in screens for video mixing during dinner and dancing",
+                "4 hours of continuous music"
+            ]
+        },
+        {
+            "title": "Medium",
+            "details": "* Custom features can be added",
+            "features": [
+                "6 ft long lighting truss",
+                "2 PA speakers and subwoofer",
+                "Projection video for video mixing and a slide show presentation that guest presents durning dinner and dancing",
+                "1 haze fixture",
+                "4 hours of continuous music"
+            ]
+        }
+    ]
+}
