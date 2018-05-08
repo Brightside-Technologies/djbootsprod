@@ -17,8 +17,16 @@ permalink: gallery.html
                 </p>
             </div>
         </div>
+        <div class="row d-flex flex-wrap px-3">  
+            {% for picture in site.data.gallery.pictures %}
+                <div class="col-lg-3 col-md-4 col-6 p-0 rounded-0 border-0 h-100">
+                    <div class="gallery-image" style="background: url('{{picture.url | absolute_url}}')">
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
         <div class="row d-flex flex-wrap">
-            {% for video in site.data.videos %}
+            {% for video in site.data.gallery.videos %}
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 py-2">
                     <div class="card h-100 shadow">
                         <div class="card-body">
@@ -32,6 +40,6 @@ permalink: gallery.html
                     </div>
                 </div>
             {% endfor %}
-        </div>
+        </div>  
     </div>
 </div>

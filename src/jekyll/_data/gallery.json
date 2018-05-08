@@ -1,0 +1,88 @@
+{
+    "videos": [
+        {
+            "url": "https://www.youtube.com/embed/Cyc8oTfd8ls",
+            "title": "DJ Boots Productions",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/Brk6lSXhy0s",
+            "title": "Renaissance holiday Event",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/VKMMCIm7yFA",
+            "title": "Boots Productions Vibe",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/QYheCVSuBvw",
+            "title": "Dj Boots mixing in the 1s and 2s",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/YqCgfrx13OE",
+            "title": "Boots Pro in pajarete San Bernadino",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/0m7-6ATLeRI",
+            "title": "Boots in the mix",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/W-siYCgKZz0",
+            "title": "Get Low - Boots Mixing Live",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/wc9eEaML4VE",
+            "title": "Black Beatles performed by shadow hills students",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/URd8lL4bPaU",
+            "title": "Disco Time",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/3Uj0GJnQ5F4",
+            "title": "Moscoy CA Boots Mixing Live",
+            "location": ""
+        }
+    ],
+    "pictures": [
+        {
+            "url": "assets/images/school-dances.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/djboots-1.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/double-boot-package-1.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/double-boot-package-2.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/double-boot-package-3.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/double-boot-package-4.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/golden-boot-package-1.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/sir-boot-nightclub-2.jpg",
+            "caption": ""
+        }
+    ]
+}
