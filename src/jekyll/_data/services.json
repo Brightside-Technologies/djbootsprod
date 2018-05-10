@@ -73,5 +73,47 @@
                 "4 hours of continuous music"
             ]
         }
+    ],
+    "corporate": [
+        {
+            "title": "Premium",
+            "details": "* Accomodates 300 guests",
+            "features": [
+                "10 ft truss goal with colorful intelligent up lighting around the goal",
+                "4 50in screens or video projection for video mixing and slideshow presentation that guest provides",
+                "Lighting features on the dance floor with moving heads",
+                "Laser features with 2 fog machines",
+                "10 intelligent colorful up lighting around the room including the main table",
+                "Ceremony system included with 2 PA speakers and a wireless mic",
+                "5 hours of continuous music"
+            ]
+        },
+        {
+            "title": "Sir Boots Nightclub Style",
+            "details": "* Custom features can be added",
+            "features": [
+                "'X' custom flying truss with lighting",
+                "Revolutionary sound system",
+                "4 smart TVs or 2 projection screens",
+                "Special effects with moving heads, laser features and 2 fog machines",
+                "14 LED lights around the room including the main table if needed",
+                "Master of MC for ceremony",
+                "Gobo Custom that will make your initials 3D",
+                "5-6 hours of continuous music",
+                "Background drape that makes a colorful scene if guest requires it",
+                "Ceremony system 2 PA speakers and a wireless mic"
+            ]
+        },
+        {
+            "title": "Trade Shows",
+            "details": "* Custom features can be added",
+            "features": ["Exhibit rentals", "Small custom exhibits", "Large custom exhibits"],
+            "hasImages": true,
+            "images": [
+                "assets/images/trade-show-1.jpg",
+                "assets/images/trade-show-2.jpg",
+                "assets/images/trade-show-3.jpg"
+            ]
+        }
     ]
 }

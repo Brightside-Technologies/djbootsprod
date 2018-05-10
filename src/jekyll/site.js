@@ -70,4 +70,12 @@ $(document).ready(function() {
         //prevNextButtons: false,
         //freeScroll: true
     });
+
+    $(".trade-shows-package-carousel").flickity({
+        cellAlign: "center",
+        wrapAround: true,
+        setGallerySize: false
+        //prevNextButtons: false,
+        //freeScroll: true
+    });
 });
