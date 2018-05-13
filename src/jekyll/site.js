@@ -1,4 +1,3 @@
-// Famous v1.1
 $(document).ready(function() {
     $(".navbar-toggler").on("click", function(e) {
         e.preventDefault();
@@ -6,24 +5,24 @@ $(document).ready(function() {
     });
 
     // Smoth Scroll
-    $('a[href^="#"]').on("click", function(e) {
-        e.preventDefault();
+    // $('a[href^="#"]').on("click", function(e) {
+    //     e.preventDefault();
 
-        var target = this.hash;
-        var $target = $(target);
+    //     var target = this.hash;
+    //     var $target = $(target);
 
-        $("html, body")
-            .stop()
-            .animate(
-                {
-                    scrollTop: $target.offset().top - 79
-                },
-                900,
-                "swing"
-            );
+    //     $("html, body")
+    //         .stop()
+    //         .animate(
+    //             {
+    //                 scrollTop: $target.offset().top - 79
+    //             },
+    //             900,
+    //             "swing"
+    //         );
 
-        $(".navbar-collapse.collapse").removeClass("show");
-    });
+    //     $(".navbar-collapse.collapse").removeClass("show");
+    // });
 
     //Sticky
     $(window).scroll(function() {
@@ -39,44 +38,16 @@ $(document).ready(function() {
         }
     });
 
-    // Carousel;
-    // var $item = $(".carousel-item");
-    // var $wHeight = $(window).height();
-    // $item.eq(0).addClass("active");
-    // $item.height($wHeight);
-    // $item.addClass("full-screen");
-
-    // $(".carousel img").each(function() {
-    //     var $src = $(this).attr("src");
-    //     var $color = $(this).attr("data-color");
-    //     $(this)
-    //         .parent()
-    //         .css({
-    //             "background-image": "url(" + $src + ")",
-    //             "background-color": $color
-    //         });
-    //     $(this).remove();
-    // });
-
-    // $(window).on("resize", function() {
-    //     $wHeight = $(window).height();
-    //     $item.height($wHeight);
-    // });
-
     $(".testimonials-carousel").flickity({
         cellAlign: "center",
         wrapAround: true,
         setGallerySize: false
-        //prevNextButtons: false,
-        //freeScroll: true
     });
 
     $(".trade-shows-package-carousel").flickity({
         cellAlign: "center",
         wrapAround: true,
         setGallerySize: false
-        //prevNextButtons: false,
-        //freeScroll: true
     });
 
     var $contactForm = $("#contact-form");
@@ -94,7 +65,7 @@ $(document).ready(function() {
                         '<button type="button" class="close" data-dismiss="alert" aria-label="Close">',
                         '<span aria-hidden="true">&times;</span>',
                         "</button>",
-                        "<strong>Success!</strong> I have received your message and will reply to as soon as possible.",
+                        "<strong>Success!</strong> I have received your message and will reply to it as soon as possible.",
                         "</div>"
                     ]
                         .join("")
