@@ -56,7 +56,7 @@ permalink: contact.html
                                 <div class="d-flex justify-content-between align-items-center w-100">
                                     <a class="btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center" href="{{site.facebookUrl}}"
                                         target="_blank">
-                                        <i class="fab fa-facebook"></i>
+                                        <i class="fab fa-facebook-f"></i>
                                     </a>
                                     <div class="d-flex flex-column col">
                                         <span class="h4">Like Me On Facebook</span>
@@ -70,6 +70,7 @@ permalink: contact.html
             <div class="col-12 col-lg-6 my-2">
                 <div class="card h-100">
                     <div class="card-body p-4">
+                        <p class="h5 card-title mb-3 text-center">Leave Me A Message</h>
                         <form netlify netlify-honeypot="bot-field" id="contact-form" class="form" method="post" novalidate="true">
                             <div class="row form-group">
                                 <label class="form-control-label col-md-12 p-0" for="name">Name</label>
@@ -114,15 +115,6 @@ permalink: contact.html
                     </div>
                 </div>
             </div>
-            {% comment %}
-            <div class="col-12 d-flex justify-content-center">
-                <div class="card bg-light col-12 col-md-8 col-lg-6 p-0">
-
-                </div>
-            </div> {% endcomment %} {% comment %}
-            <div class="card-header bg-gradient p-3 d-flex justify-content-center">
-                {% include social-buttons.html %}
-            </div> {% endcomment %}
         </div>
     </div>
 </section>
