@@ -110,7 +110,7 @@ $(document).ready(function() {
                         '<button type="button" class="close" data-dismiss="alert" aria-label="Close">',
                         '<span aria-hidden="true">&times;</span>',
                         "</button>",
-                        '<strong>Oops!</strong> An error occurred while sending your message. Please try again or email me directly at <a class="alert-link" href="mailto:a.jeffredo2@gmail.com">a.jeffredo2@gmail.com</a>.',
+                        '<strong>Oops!</strong> An error occurred while sending your message. Please try again or email me directly at <a class="alert-link" href="mailto:bryanmaldo7@gmail.com">bryanmaldo7@gmail.com</a>.',
                         "</div>"
                     ]
                         .join("")
