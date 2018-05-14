@@ -18,16 +18,41 @@ permalink: services.html
                 </p>
             </div>
         </div>
-        <div class="row pt-5">
-            <div class="col-lg-12">
-                <div class="d-flex flex-column align-items-center">
-                    <h5 class="text-center">School Functions</h5>
-                    <span class="header-span bg-gradient"></span>
-                    <p class="py-3">Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. {{site.company}} will help create those memories with spectacular set-ups and music. </p>
+
+        {% for type in site.data.services.eventTypes %}
+            <div class="row pt-5">
+                <div class="col-lg-12">
+                    <div class="d-flex flex-column align-items-center">
+                        <h5 class="text-center">{{type.name}}</h5>
+                        <span class="header-span bg-gradient"></span>
+                        <p class="py-3">{{type.description}}</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row d-flex flex-wrap pb-5">
+            <div class="row d-flex flex-wrap pb-5">
+                {% for package in type.packages %}
+                    <div class="col-lg-4 col-md-6 col-12 mb-3">
+                        <div class="service-card card h-100 text-center">
+                            <div class="card-body pt-0">
+                                <div class="h5 mt-0 bg-gradient text-white package-title">{{package}}</div>
+                                <ul class="list-unstyled text-muted m-0">
+                                    {% for feature in site.data.services.packages[package].features %}
+                                        <li class="pt-3">{{feature | markdownify | smartify}}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <p class="text-muted text-small">
+                                    {{package.details}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        
+        {% comment %} <div class="row d-flex flex-wrap pb-5">
         {% for package in site.data.services.schools %}
             <div class="col-lg-4 col-md-6 col-12 mb-3">
                 <div class="service-card card h-100 text-center">
@@ -47,80 +72,6 @@ permalink: services.html
                 </div>
             </div>
         {% endfor %}
-        </div>
-        <div class="row pt-5">
-            <div class="col-lg-12">
-                <div class="d-flex flex-column align-items-center">
-                    <h5 class="text-center">Weddings &amp; Quincea&ntilde;eras</h5>
-                    <span class="header-span bg-gradient"></span>
-                    <p class="py-3">
-                    Let's make your event unforgettable by booking your event with {{site.company}}. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap pb-5">
-        {% for package in site.data.services.weddings %}
-            <div class="col-lg-4 col-md-6 col-12 mb-3">
-                <div class="service-card card h-100 text-center">
-                    <div class="card-body pt-0">
-                        <div class="h5 mt-0 bg-gradient text-white package-title">{{package.title}}</div>
-                        <ul class="list-unstyled text-muted m-0">
-                            {% for feature in package.features %}
-                                <li class="pt-3">{{feature | markdownify | smartify}}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    {% comment %} <div class="card-footer">
-                        <p class="text-muted text-small">
-                            {{package.details}}
-                        </p>
-                    </div> {% endcomment %}
-                </div>
-            </div>
-        {% endfor %}
-        </div>
-        <div class="row pt-5">
-            <div class="col-lg-12">
-                <div class="d-flex flex-column align-items-center">
-                    <h5 class="text-center">Corporate</h5>
-                    <span class="header-span bg-gradient"></span>
-                    <p class="py-3">
-                    {{site.company}} brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap pb-5">
-        {% for package in site.data.services.corporate %}
-            <div class="col-lg-4 col-md-6 col-12 mb-3">
-                <div class="service-card card h-100 text-center">
-                    <div class="card-body pt-0">
-                        <div class="h5 mt-0 bg-gradient text-white package-title">{{package.title}}</div>
-                        <ul class="list-unstyled text-muted m-0">
-                            {% for feature in package.features %}
-                                <li class="pt-3">{{feature | markdownify | smartify}}</li>
-                            {% endfor %}
-                        </ul>
-                        {% if package.hasImages %}
-                            <div style="height: 15rem" class="row d-flex flex-column {{package.title | replace: ' ', '-' | downcase}}-package-carousel px-3">  
-                                {% for image in package.images %}
-                                    <div class="h-100 col-12">
-                                        <div class="gallery-image h-100" style="background: url('{{image | absolute_url}}')">
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        {% endif %}
-                    </div>
-                    <div class="card-footer">
-                        <p class="text-muted text-small">
-                            {{package.details}}
-                        </p>
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-        </div>
+        </div> {% endcomment %}
     </div>
 </section>
