@@ -107,14 +107,140 @@
                 "May include 1 time Surprise Dj Remix if needed",
                 "5-6 hours of continuous music"
             ]
+        },
+        "Rally DJ &amp; Lighting I": {
+            "details": "Pricing based on same day setup. 3-4 hours",
+            "price": "595",
+            "features": [
+                "4 intelligent moving head lights",
+                "4 truss columns",
+                "4 truss intelligent up lighting",
+                "DMX software and laptop",
+                "Lighting Tech/Programmer"
+            ]
+        },
+        "Rally DJ &amp; Lighting II": {
+            "details": "Pricing based on same day setup. 3-4 hours",
+            "price": "795",
+            "features": [
+                "4 intelligent moving head lights",
+                "4 intelligent moving head wash lights",
+                "6 truss columns",
+                "6 truss intelligent up lighting",
+                "DMX software and laptop",
+                "Lighting Tech/Programmer"
+            ]
+        },
+        "School Rally Sound  &amp; Lighting": {
+            "details": "Pricing based on same day setup. 3-4 hours",
+            "price": "900",
+            "features": [
+                "4 12in two-way line array speakers",
+                "4 18in subwoofers",
+                "1 cordless UHF microphone",
+                "4 intelligent moving head lights",
+                "4 truss columns",
+                "4 truss warmers",
+                "DMX software and laptop",
+                "Lighting Tech/Programmer"
+            ]
+        },
+        "School Dance I": {
+            "details": "3-4 hours. Not recommended for groups larger than 250 students",
+            "price": "895",
+            "features": [
+                "2 12in two-way speakers",
+                "2 18in subwoofers",
+                "2 intelligent moving head lights",
+                "2 truss columns",
+                "2 truss intelligent up lights"
+            ]
+        },
+        "School Dance II": {
+            "details": "3-4 hours. Not recommended for groups larger than 250 students",
+            "price": "1295",
+            "features": [
+                "4 12in two-way line array speakers",
+                "2 18in subwoofers",
+                "4 intelligent moving head lights",
+                "4 truss columns",
+                "4 truss intelligent up lights"
+            ]
+        },
+        "School Dance III": {
+            "details": "3-4 hours. Not recommended for groups larger than 250 students",
+            "price": "1795",
+            "features": [
+                "4 12in two-way line array speakers",
+                "4 18in subwoofers",
+                "4 intelligent moving head lights",
+                "8 truss columns or pyramid custom truss",
+                "8 truss intelligent up lights"
+            ]
         }
     },
+    "extras": [
+        {
+            "description": "4 **dance boxes** 3ft x 3ft x 16in ",
+            "price": "380"
+        },
+        {
+            "description": "**C<sub>O</sub>2 gun** with 3 15lbs C<sub>O</sub>2 tanks",
+            "price": "295"
+        },
+        {
+            "description":
+                "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
+            "price": "280"
+        },
+        {
+            "description": "**Up Lighting** includes 20+ lights",
+            "price": "300"
+        },
+        {
+            "description": "**Gobo Monogram** displays your initials or name on the dance floor",
+            "price": "85"
+        },
+        {
+            "description": "**Ceremony sound** adds 2 PA speakers and a wireless microphone",
+            "price": "140"
+        },
+        {
+            "description": "**Fog machine**",
+            "price": "60"
+        },
+        {
+            "description": "**Ceremony sound** adds 2 PA speakers and a wireless microphone",
+            "price": "140"
+        },
+        {
+            "description": "**50in TV or projection**: show family pictures or videos throughout the night",
+            "price": "70"
+        },
+        {
+            "description": "**Revolutionary sound system**",
+            "price": "500"
+        },
+        {
+            "description": "**Colorful LED bacground drape**",
+            "price": "140"
+        }
+    ],
     "eventTypes": [
         {
             "name": "School Functions",
             "description":
                 "Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. DJ Boots Productions will help create those memories with spectacular set-ups and music.",
-            "packages": ["Standard", "Double Boot", "Twin Boots", "Trio Boots", "Sir Boots Nightclub Style"]
+            "packages": [
+                "Standard",
+                "Double Boot",
+                "Twin Boots",
+                "Trio Boots",
+                "Sir Boots Nightclub Style",
+                "School Dance I",
+                "School Dance II",
+                "School Dance III"
+            ]
         },
         {
             "name": "Weddings &amp; Quiencea&ntilde;eras",
@@ -127,6 +253,15 @@
             "description":
                 "DJ Boots Productions brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.",
             "packages": ["Golden Boot", "Premium", "Sir Boots Nightclub Style"]
+        },
+        {
+            "name": "Rally DJ and Lighting",
+            "description": "",
+            "packages": [
+                "Rally DJ &amp; Lighting I",
+                "Rally DJ &amp; Lighting II",
+                "School Rally Sound  &amp; Lighting"
+            ]
         }
     ]
 }
