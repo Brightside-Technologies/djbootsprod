@@ -29,7 +29,7 @@ permalink: services.html
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-column pb-5" style="height: 700px">
+            <div class="d-flex flex-column pb-5" style="height: 600px">
                 <div class="service-carousel service-type-{{forloop.index0}}-carousel h-100">
                 {% for package in type.packages %}
                     <div class="col-lg-4 col-md-6 col-12 mb-3 cell service-type-{{forloop.index0}}-carousel-cell h-100">
@@ -43,7 +43,7 @@ permalink: services.html
                                 {% endif %}
                                 <ul class="list-unstyled text-muted m-0">
                                     {% for feature in site.data.services.packages[package].features %}
-                                        <li class="py-2 text-left">{{feature | markdownify | smartify | replace: '<p>', '' | replace: '</p>', ''}}</li>
+                                        <li class="py-1 text-left">{{feature | markdownify | smartify | replace: '<p>', '' | replace: '</p>', ''}}</li>
                                     {% endfor %}
                                 </ul>
                             </div>
