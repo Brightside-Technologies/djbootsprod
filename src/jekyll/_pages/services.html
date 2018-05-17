@@ -29,9 +29,10 @@ permalink: services.html
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap pb-5">
+            <div class="d-flex flex-column pb-5" style="height: 700px">
+                <div class="service-carousel service-type-{{forloop.index0}}-carousel h-100">
                 {% for package in type.packages %}
-                    <div class="col-lg-4 col-md-6 col-12 mb-3">
+                    <div class="col-lg-4 col-md-6 col-12 mb-3 cell service-type-{{forloop.index0}}-carousel-cell h-100">
                         <div class="service-card card h-100 text-center">
                             <div class="card-body pt-0">
                                 <div class="h5 mt-0 bg-gradient text-white package-title">{{package}}</div>
@@ -56,6 +57,7 @@ permalink: services.html
                         </div>
                     </div>
                 {% endfor %}
+                </div>
             </div>
         {% endfor %}
         <div class="row pt-5">

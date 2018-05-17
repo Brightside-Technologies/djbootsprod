@@ -50,6 +50,18 @@ $(document).ready(function() {
         setGallerySize: false
     });
 
+    $(".service-carousel").each(function(index) {
+        var cellCount = $(this).find(".cell").length;
+        var isGroupCells = cellCount <= 3;
+        var doesWrapAround = cellCount > 3;
+        $(this).flickity({
+            cellAlign: "center",
+            wrapAround: doesWrapAround,
+            setGallerySize: false,
+            groupCells: isGroupCells
+        });
+    });
+
     var $contactForm = $("#contact-form");
     var $formSubmitButton = $("button.btn-submit");
     $contactForm.submit(function(e) {
