@@ -39,14 +39,20 @@ permalink: index.html
                     A Lion lay asleep in the forest, his great head resting on his paws. A timid little Mouse came upon him unexpectedly, and
                     in her fright and haste to get away, ran across the Lion's nose.
                 </p>
-                <div class="d-flex flex-column" style="height: 35rem;">
+                <div class="d-flex flex-column" style="height: 500px;">
                     <div class="py-5 testimonials-carousel h-100">
                         {% for testimonial in site.data.testimonials %}
                             <div class="testimonials-carousel--cell pb-3 px-1 h-100 col-md-4">
                                 <div class="h-100 shadow d-flex flex-column justify-content-between testimonials-body border p-4 rounded bg-light">
                                     <p>{{testimonial.text}}</p>
                                     <div class="row d-flex align-items-center justify-content-around pt-1">
-                                        <img class="img-fluid rounded-circle" src="{{testimonial.image}}" alt="{{testimonial.name}}">
+                                        {% if testimonial.image != "" %}
+                                            <img class="testimonial-picture img-fluid rounded-circle h-50" src="{{testimonial.image | absolute_url}}" alt="{{testimonial.name}}">
+                                        {% else %}
+                                            <div class="testimonial-initials rounded-circle bg-gradient text-white d-flex justify-content-center align-items-center">
+                                                <span>{{testimonial.initials}}</span>
+                                            </div>
+                                        {% endif %}
                                         <div>
                                             <div class="h5 m-0">{{testimonial.name}}</div>
                                             <p class="text-muted m-0">{{testimonial.location}}</p>
