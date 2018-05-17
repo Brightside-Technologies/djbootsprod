@@ -76,7 +76,7 @@ permalink: services.html
                         <div class="h5 mt-0 bg-gradient text-white package-title text-center">DJ Boots Extra Customs</div>
                         <ul class="list-unstyled text-muted m-0">
                             {% for extra in site.data.services.extras %}
-                                <li class="py-2 text-left d-flex"><b class="pr-3">${{extra.price | money}}</b>{{extra.description | markdownify | smartify}}</li>
+                                <li class="py-2 text-left d-flex"><b class="pr-5">${{extra.price | money}}</b>{{extra.description | markdownify | smartify}}</li>
                             {% endfor %}
                         </ul>
                     </div>

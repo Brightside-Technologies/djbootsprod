@@ -44,12 +44,6 @@ $(document).ready(function() {
         setGallerySize: false
     });
 
-    $(".trade-shows-package-carousel").flickity({
-        cellAlign: "center",
-        wrapAround: true,
-        setGallerySize: false
-    });
-
     $(".service-carousel").each(function(index) {
         var cellCount = $(this).find(".cell").length;
         var isGroupCells = cellCount <= 3;
