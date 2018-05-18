@@ -4,8 +4,10 @@
     "description": "",
     "scripts": {
         "start": "bundle exec jekyll serve",
-        "build": "npm run browserify && bundle exec jekyll build",
-        "browserify": "browserify -t [ browserify-css --stripComments=true src/vendors/vendors.css --output src/jekyll/vendors.bundle.css] src/vendors/vendors.js -o src/jekyll/vendors.bundle.js"
+        "build": "npm run browserify && bundle exec jekyll build && npm run minify:images",
+        "browserify":
+            "browserify -t [ browserify-css --stripComments=true src/vendors/vendors.css --output src/jekyll/vendors.bundle.css] src/vendors/vendors.js -o src/jekyll/vendors.bundle.js",
+        "minify:images": "gulp minify:images"
     },
     "dependencies": {
         "bootstrap": "^4.1.0",
@@ -16,6 +18,8 @@
     },
     "devDependencies": {
         "browserify": "^16.2.0",
-        "browserify-css": "^0.14.0"
+        "browserify-css": "^0.14.0",
+        "gulp": "^3.9.1",
+        "gulp-imagemin": "^4.1.0"
     }
 }

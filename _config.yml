@@ -24,6 +24,7 @@ source: src/jekyll
 destination: dist
 include:
   - _pages
+  - assets/images #images are compressed and then moved to dist by gulp
 plugins:
   - jemoji
 exclude:
