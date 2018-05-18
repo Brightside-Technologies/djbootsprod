@@ -4,26 +4,6 @@ $(document).ready(function() {
         $(".navbar").addClass("sticky");
     });
 
-    // Smoth Scroll
-    // $('a[href^="#"]').on("click", function(e) {
-    //     e.preventDefault();
-
-    //     var target = this.hash;
-    //     var $target = $(target);
-
-    //     $("html, body")
-    //         .stop()
-    //         .animate(
-    //             {
-    //                 scrollTop: $target.offset().top - 79
-    //             },
-    //             900,
-    //             "swing"
-    //         );
-
-    //     $(".navbar-collapse.collapse").removeClass("show");
-    // });
-
     //Sticky
     $(window).scroll(function() {
         if ($(window).scrollTop() > 0) {
