@@ -33,4 +33,3 @@ exclude:
   - node_modules
   - package-lock.json
   - src/vendors
-  - assets/images #images are compressed and then moved to dist by gulp

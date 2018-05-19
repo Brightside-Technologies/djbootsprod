@@ -7,7 +7,7 @@ gulp.task("default", function() {
 
 gulp.task("minify:images", function() {
     return gulp
-        .src("src/jekyll/assets/images/*")
+        .src("dist/assets/images/*")
         .pipe(
             imagemin(
                 [
