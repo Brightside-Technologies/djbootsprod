@@ -21,7 +21,7 @@ facebookUrl: https://www.facebook.com/bryan.maldonado.9634340
 googleAnalyticsId: ""
 markdown: kramdown
 source: src/jekyll
-destination: dist
+destination: jekyll-dist
 include:
   - _pages
 plugins:
