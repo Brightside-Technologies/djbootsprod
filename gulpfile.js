@@ -2,6 +2,8 @@ var gulp = require("gulp");
 var imagemin = require("gulp-imagemin");
 var uglify = require("gulp-uglify");
 var rename = require("gulp-rename");
+var cleanCss = require("gulp-clean-css");
+var autoprefixer = require("gulp-autoprefixer");
 var del = require("del");
 
 gulp.task("clean", function() {
@@ -31,6 +33,24 @@ gulp.task("minify:js", function() {
     return gulp
         .src("jekyll-dist/*.js")
         .pipe(uglify())
+        .pipe(
+            rename(function(path) {
+                path.basename += ".min";
+            })
+        )
+        .pipe(gulp.dest("dist"));
+});
+
+gulp.task("minify:css", function() {
+    return gulp
+        .src("jekyll-dist/*.css")
+        .pipe(
+            autoprefixer({
+                browsers: ["last 2 versions"],
+                cascade: false
+            })
+        )
+        .pipe(cleanCss())
         .pipe(
             rename(function(path) {
                 path.basename += ".min";
