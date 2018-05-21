@@ -84,7 +84,7 @@ gulp.task("inject", function() {
         var siteStream = gulp.src(["dist/site.*"], { read: false });
         return (
             gulp
-                .src("dist/index.html")
+                .src("dist/*.html")
                 // .pipe(inject(series(vendorsStream, siteStream)), {
                 //     relative: true,
                 //     addPrefix: url
