@@ -9,6 +9,7 @@ var htmlmin = require("gulp-htmlmin");
 var inject = require("gulp-inject");
 var del = require("del");
 var readYaml = require("read-yaml");
+var series = require("stream-series");
 
 gulp.task("clean", function() {
     return del(["dist/**/*", "!dist"]);
@@ -79,15 +80,23 @@ gulp.task("inject", function() {
             resolve(data.url);
         });
     }).then(function(url) {
-        console.log("url", url);
-        return gulp
-            .src("dist/index.html")
-            .pipe(
-                inject(gulp.src(["dist/*.js", "dist/*.css"], { read: false }), {
-                    relative: true,
-                    addPrefix: url
-                })
-            )
-            .pipe(gulp.dest("dist"));
+        var vendorsStream = gulp.src(["dist/vendors.*"], { read: false });
+        var siteStream = gulp.src(["dist/site.*"], { read: false });
+        return (
+            gulp
+                .src("dist/index.html")
+                // .pipe(inject(series(vendorsStream, siteStream)), {
+                //     relative: true,
+                //     addPrefix: url
+                // })
+                // .pipe(gulp.dest("dist"));
+                .pipe(
+                    inject(series(vendorsStream, siteStream), {
+                        relative: true,
+                        addPrefix: url
+                    })
+                )
+                .pipe(gulp.dest("dist"))
+        );
     });
 });
