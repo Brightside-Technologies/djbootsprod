@@ -1,10 +1,14 @@
+var path = require("path");
 var gulp = require("gulp");
 var imagemin = require("gulp-imagemin");
 var uglify = require("gulp-uglify");
 var rename = require("gulp-rename");
 var cleanCss = require("gulp-clean-css");
 var autoprefixer = require("gulp-autoprefixer");
+var htmlmin = require("gulp-htmlmin");
+var inject = require("gulp-inject");
 var del = require("del");
+var readYaml = require("read-yaml");
 
 gulp.task("clean", function() {
     return del(["dist/**/*", "!dist"]);
@@ -57,4 +61,33 @@ gulp.task("minify:css", function() {
             })
         )
         .pipe(gulp.dest("dist"));
+});
+
+gulp.task("minify:html", function() {
+    return gulp
+        .src("jekyll-dist/*.html")
+        .pipe(htmlmin({ collapseWhitespace: true, minifyJs: true, minifyCss: true }))
+        .pipe(gulp.dest("dist"));
+});
+
+gulp.task("inject", function() {
+    return new Promise(function(resolve, reject) {
+        readYaml("_config.yml", function(err, data) {
+            if (err) {
+                reject(err);
+            }
+            resolve(data.url);
+        });
+    }).then(function(url) {
+        console.log("url", url);
+        return gulp
+            .src("dist/index.html")
+            .pipe(
+                inject(gulp.src(["dist/*.js", "dist/*.css"], { read: false }), {
+                    relative: true,
+                    addPrefix: url
+                })
+            )
+            .pipe(gulp.dest("dist"));
+    });
 });
