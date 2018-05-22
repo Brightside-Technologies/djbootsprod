@@ -82,21 +82,14 @@ gulp.task("inject", function() {
     }).then(function(url) {
         var vendorsStream = gulp.src(["dist/vendors.*"], { read: false });
         var siteStream = gulp.src(["dist/site.*"], { read: false });
-        return (
-            gulp
-                .src("dist/*.html")
-                // .pipe(inject(series(vendorsStream, siteStream)), {
-                //     relative: true,
-                //     addPrefix: url
-                // })
-                // .pipe(gulp.dest("dist"));
-                .pipe(
-                    inject(series(vendorsStream, siteStream), {
-                        relative: true,
-                        addPrefix: url
-                    })
-                )
-                .pipe(gulp.dest("dist"))
-        );
+        return gulp
+            .src("dist/*.html")
+            .pipe(
+                inject(series(vendorsStream, siteStream), {
+                    relative: true,
+                    addPrefix: url
+                })
+            )
+            .pipe(gulp.dest("dist"));
     });
 });
