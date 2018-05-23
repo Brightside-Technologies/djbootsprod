@@ -47,7 +47,7 @@ permalink: index.html
                                     <p>{{testimonial.text}}</p>
                                     <div class="row d-flex align-items-center justify-content-around pt-1">
                                         {% if testimonial.image != "" %}
-                                            <img class="testimonial-picture img-fluid rounded-circle h-50" src="{{testimonial.image | absolute_url}}" alt="{{testimonial.name}}">
+                                            <img class="testimonial-picture img-fluid rounded-circle" src="{{testimonial.image | absolute_url}}" alt="{{testimonial.name}}">
                                         {% else %}
                                             <div class="testimonial-initials rounded-circle bg-gradient text-white d-flex justify-content-center align-items-center">
                                                 <span>{{testimonial.initials}}</span>
