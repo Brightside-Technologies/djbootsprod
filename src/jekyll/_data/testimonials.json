@@ -14,5 +14,12 @@
             "Had the honor of helping coordinate a huge event this weekend. I have to say DJ Boots was amazing! 5 star service. Book him for your next event.",
         "location": "Bermuda Dunes, CA",
         "image": "assets/images/ruben-guzman.jpg"
+    },
+    {
+        "name": "Perla Gomez",
+        "initials": "PG",
+        "text": "DJ Boots is an awesome dj! I highly and truly recommend him",
+        "location": "Bermuda Dunes, CA",
+        "image": "assets/images/perla-gomez.jpeg"
     }
 ]
