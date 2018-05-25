@@ -83,3 +83,21 @@ header {
     border-top: 1px dashed #dedede;
     background: #f8f8f8;
 }
+
+@media (max-width: 576px) { 
+    .d-xs-only{
+        display: flex !important;
+    }
+    .d-gt-xs{
+        display: none !important;
+    }
+ }
+
+ @media (min-width: 575px) { 
+    .d-gt-xs{
+        display: flex !important;
+    }
+    .d-xs-only{
+        display: none !important;
+    }
+}
