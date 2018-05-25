@@ -35,13 +35,13 @@ permalink: index.html
                     <h3 class="text-center">What our customers are saying</h3>
                     <span class="header-span bg-gradient"></span>
                 </div>
-                <div class="d-flex flex-column" style="height: 500px;">
+                <div class="d-flex flex-column" style="height: 400px;">
                     <div class="py-5 testimonials-carousel h-100">
                         {% for testimonial in site.data.testimonials %}
                             <div class="testimonials-carousel--cell pb-3 px-1 h-100 col-md-4">
                                 <div class="h-100 shadow d-flex flex-column justify-content-between testimonials-body border p-4 rounded bg-light">
                                     <p>{{testimonial.text}}</p>
-                                    <div class="row d-flex align-items-center justify-content-around pt-1">
+                                    <div class="row d-flex align-items-center justify-content-around pt-3">
                                         {% if testimonial.image != "" %}
                                             <img class="testimonial-picture img-fluid rounded-circle" src="{{testimonial.image | absolute_url}}" alt="{{testimonial.name}}">
                                         {% else %}
