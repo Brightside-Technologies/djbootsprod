@@ -21,7 +21,15 @@ $(document).ready(function() {
     $(".testimonials-carousel").flickity({
         cellAlign: "center",
         wrapAround: true,
-        setGallerySize: false
+        setGallerySize: false,
+        freeScroll: true
+    });
+
+    $(".gallery-carousel").flickity({
+        cellAlign: "center",
+        wrapAround: true,
+        //fullscreen: true,
+        freeScroll: true
     });
 
     $(".service-carousel").each(function(index) {

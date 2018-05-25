@@ -21,5 +21,12 @@
         "text": "DJ Boots is an awesome dj! I highly and truly recommend him",
         "location": "Bermuda Dunes, CA",
         "image": "assets/images/perla-gomez.jpeg"
+    },
+    {
+        "name": "Carmen Baker",
+        "initials": "CB",
+        "text": "Thank you DJ Boots for going the extra mile with the music. My husband was very happy! :heart:",
+        "location": "Bermuda Dunes, CA",
+        "image": ""
     }
 ]

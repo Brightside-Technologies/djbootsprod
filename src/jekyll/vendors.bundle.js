@@ -3927,7 +3927,7 @@
 })));
 
 
-},{"jquery":18,"popper.js":19}],2:[function(require,module,exports){
+},{"jquery":19,"popper.js":20}],2:[function(require,module,exports){
 /**
  * matchesSelector v2.0.2
  * matchesSelector( element, '.selector' )
@@ -4340,6 +4340,199 @@ return utils;
 }));
 
 },{"desandro-matches-selector":2}],5:[function(require,module,exports){
+/*!
+ * Flickity fullscreen v1.0.1
+ * Enable fullscreen view for Flickity
+ */
+
+/*jshint browser: true, undef: true, unused: true, strict: true*/
+
+( function( window, factory ) {
+  // universal module definition
+  /*jshint strict: false */ /*globals define, module, require */
+  if ( typeof define == 'function' && define.amd ) {
+    // AMD
+    define( [
+      'flickity/js/index',
+      'tap-listener/tap-listener',
+    ], factory );
+  } else if ( typeof module == 'object' && module.exports ) {
+    // CommonJS
+    module.exports = factory(
+      require('flickity'),
+      require('tap-listener')
+    );
+  } else {
+    // browser global
+    factory(
+      window.Flickity,
+      window.TapListener
+    );
+  }
+
+}( window, function factory( Flickity, TapListener ) {
+
+'use strict';
+
+Flickity.createMethods.push('_createFullscreen');
+var proto = Flickity.prototype;
+
+
+proto._createFullscreen = function() {
+  this.isFullscreen = false;
+
+  if ( !this.options.fullscreen ) {
+    return;
+  }
+  // buttons
+  this.viewFullscreenButton = new FullscreenButton( 'view', this );
+  this.exitFullscreenButton = new FullscreenButton( 'exit', this );
+
+  this.on( 'activate', this._changeFullscreenActive );
+  this.on( 'deactivate', this._changeFullscreenActive );
+};
+
+// ----- activation ----- //
+
+proto._changeFullscreenActive = function() {
+  var childMethod = this.isActive ? 'appendChild' : 'removeChild';
+  this.element[ childMethod ]( this.viewFullscreenButton.element );
+  this.element[ childMethod ]( this.exitFullscreenButton.element );
+  // activate or deactivate buttons
+  var activeMethod = this.isActive ? 'activate' : 'deactivate';
+  this.viewFullscreenButton[ activeMethod ]();
+  this.exitFullscreenButton[ activeMethod ]();
+};
+
+// ----- view, exit, toggle ----- //
+
+proto.viewFullscreen = function() {
+  this._changeFullscreen( true );
+  this.focus();
+};
+
+proto.exitFullscreen = function() {
+  this._changeFullscreen( false );
+};
+
+proto._changeFullscreen = function( isView ) {
+  if ( this.isFullscreen == isView ) {
+    return;
+  }
+  this.isFullscreen = isView;
+  var classMethod = isView ? 'add' : 'remove';
+  document.documentElement.classList[ classMethod ]('is-flickity-fullscreen');
+  this.element.classList[ classMethod ]('is-fullscreen');
+  this.resize();
+  // HACK extra reposition on fullscreen for images
+  if ( this.isFullscreen ) {
+    this.reposition();
+  }
+};
+
+proto.toggleFullscreen = function() {
+  this._changeFullscreen( !this.isFullscreen );
+};
+
+// ----- setGallerySize ----- //
+
+// overwrite so fullscreen cells are full height
+var setGallerySize = proto.setGallerySize;
+proto.setGallerySize = function() {
+  if ( !this.options.setGallerySize ) {
+    return;
+  }
+  if ( this.isFullscreen ) {
+    // remove height style on fullscreen
+    this.viewport.style.height = '';
+  } else {
+    // otherwise, do normal
+    setGallerySize.call( this );
+  }
+};
+
+// ----- keyboard ----- //
+
+// ESC key closes full screen
+Flickity.keyboardHandlers[27] = function() {
+  this.exitFullscreen();
+};
+
+// ----- FullscreenButton ----- //
+
+function FullscreenButton( name, flickity ) {
+  this.name = name;
+  this.createButton();
+  this.createIcon();
+  // events
+  // trigger viewFullscreen or exitFullscreen on button tap
+  this.onTap = function() {
+    flickity[ name + 'Fullscreen' ]();
+  };
+  this.bindTap( this.element );
+  this.clickHandler = this.onClick.bind( this );
+}
+
+FullscreenButton.prototype = Object.create( TapListener.prototype );
+
+FullscreenButton.prototype.createButton = function() {
+  var element = this.element = document.createElement('button');
+  element.className = 'flickity-button flickity-fullscreen-button ' +
+    'flickity-fullscreen-button-' + this.name;
+  // set label
+  var label = capitalize( this.name + ' full-screen' );
+  element.setAttribute( 'aria-label', label );
+  element.title = label;
+};
+
+function capitalize( text ) {
+  return text[0].toUpperCase() + text.slice(1);
+}
+
+var svgURI = 'http://www.w3.org/2000/svg';
+
+var pathDirections = {
+  view: 'M15,20,7,28h5v4H0V20H4v5l8-8Zm5-5,8-8v5h4V0H20V4h5l-8,8Z',
+  exit: 'M32,3l-7,7h5v4H18V2h4V7l7-7ZM3,32l7-7v5h4V18H2v4H7L0,29Z',
+};
+
+FullscreenButton.prototype.createIcon = function() {
+  var svg = document.createElementNS( svgURI, 'svg');
+  svg.setAttribute( 'class', 'flickity-button-icon' );
+  svg.setAttribute( 'viewBox', '0 0 32 32' );
+  // path & direction
+  var path = document.createElementNS( svgURI, 'path');
+  var direction = pathDirections[ this.name ];
+  path.setAttribute( 'd', direction );
+  // put it together
+  svg.appendChild( path );
+  this.element.appendChild( svg );
+};
+
+FullscreenButton.prototype.activate = function() {
+  this.on( 'tap', this.onTap );
+  this.element.addEventListener( 'click', this.clickHandler );
+};
+
+FullscreenButton.prototype.deactivate = function() {
+  this.off( 'tap', this.onTap );
+  this.element.removeEventListener( 'click', this.clickHandler );
+};
+
+FullscreenButton.prototype.onClick = function() {
+  var focused = document.activeElement;
+  if ( focused && focused == this.element ) {
+    this.onTap();
+  }
+};
+
+// ----- fin ----- //
+
+return Flickity;
+
+}));
+
+},{"flickity":11,"tap-listener":21}],6:[function(require,module,exports){
 // add, remove cell
 ( function( window, factory ) {
   // universal module definition
@@ -4502,7 +4695,7 @@ return Flickity;
 
 }));
 
-},{"./flickity":9,"fizzy-ui-utils":4}],6:[function(require,module,exports){
+},{"./flickity":10,"fizzy-ui-utils":4}],7:[function(require,module,exports){
 // animate
 ( function( window, factory ) {
   // universal module definition
@@ -4698,7 +4891,7 @@ return proto;
 
 }));
 
-},{"fizzy-ui-utils":4}],7:[function(require,module,exports){
+},{"fizzy-ui-utils":4}],8:[function(require,module,exports){
 // Flickity.Cell
 ( function( window, factory ) {
   // universal module definition
@@ -4792,7 +4985,7 @@ return Cell;
 
 }));
 
-},{"get-size":16}],8:[function(require,module,exports){
+},{"get-size":17}],9:[function(require,module,exports){
 // drag
 ( function( window, factory ) {
   // universal module definition
@@ -5191,7 +5384,7 @@ return Flickity;
 
 }));
 
-},{"./flickity":9,"fizzy-ui-utils":4,"unidragger":21}],9:[function(require,module,exports){
+},{"./flickity":10,"fizzy-ui-utils":4,"unidragger":22}],10:[function(require,module,exports){
 // Flickity main
 ( function( window, factory ) {
   // universal module definition
@@ -6095,7 +6288,7 @@ return Flickity;
 
 }));
 
-},{"./animate":6,"./cell":7,"./slide":15,"ev-emitter":3,"fizzy-ui-utils":4,"get-size":16}],10:[function(require,module,exports){
+},{"./animate":7,"./cell":8,"./slide":16,"ev-emitter":3,"fizzy-ui-utils":4,"get-size":17}],11:[function(require,module,exports){
 /*!
  * Flickity v2.1.1
  * Touch, responsive, flickable carousels
@@ -6139,7 +6332,7 @@ return Flickity;
   return Flickity;
 });
 
-},{"./add-remove-cell":5,"./drag":8,"./flickity":9,"./lazyload":11,"./page-dots":12,"./player":13,"./prev-next-button":14}],11:[function(require,module,exports){
+},{"./add-remove-cell":6,"./drag":9,"./flickity":10,"./lazyload":12,"./page-dots":13,"./player":14,"./prev-next-button":15}],12:[function(require,module,exports){
 // lazyload
 ( function( window, factory ) {
   // universal module definition
@@ -6275,7 +6468,7 @@ return Flickity;
 
 }));
 
-},{"./flickity":9,"fizzy-ui-utils":4}],12:[function(require,module,exports){
+},{"./flickity":10,"fizzy-ui-utils":4}],13:[function(require,module,exports){
 // page dots
 ( function( window, factory ) {
   // universal module definition
@@ -6461,7 +6654,7 @@ return Flickity;
 
 }));
 
-},{"./flickity":9,"fizzy-ui-utils":4,"tap-listener":20}],13:[function(require,module,exports){
+},{"./flickity":10,"fizzy-ui-utils":4,"tap-listener":21}],14:[function(require,module,exports){
 // player & autoPlay
 ( function( window, factory ) {
   // universal module definition
@@ -6654,7 +6847,7 @@ return Flickity;
 
 }));
 
-},{"./flickity":9,"ev-emitter":3,"fizzy-ui-utils":4}],14:[function(require,module,exports){
+},{"./flickity":10,"ev-emitter":3,"fizzy-ui-utils":4}],15:[function(require,module,exports){
 // prev/next buttons
 ( function( window, factory ) {
   // universal module definition
@@ -6877,7 +7070,7 @@ return Flickity;
 
 }));
 
-},{"./flickity":9,"fizzy-ui-utils":4,"tap-listener":20}],15:[function(require,module,exports){
+},{"./flickity":10,"fizzy-ui-utils":4,"tap-listener":21}],16:[function(require,module,exports){
 // slide
 ( function( window, factory ) {
   // universal module definition
@@ -6957,7 +7150,7 @@ return Slide;
 
 }));
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 /*!
  * getSize v2.0.3
  * measure size of elements
@@ -7166,7 +7359,7 @@ return getSize;
 
 });
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 /**
  * Bridget makes jQuery widgets
  * v2.0.1
@@ -7311,7 +7504,7 @@ return jQueryBridget;
 
 }));
 
-},{"jquery":18}],18:[function(require,module,exports){
+},{"jquery":19}],19:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
@@ -17677,7 +17870,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 (function (global){
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
@@ -20209,7 +20402,7 @@ return Popper;
 
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],20:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 /*!
  * Tap listener v2.0.0
  * listens to taps
@@ -20324,7 +20517,7 @@ return TapListener;
 
 }));
 
-},{"unipointer":22}],21:[function(require,module,exports){
+},{"unipointer":23}],22:[function(require,module,exports){
 /*!
  * Unidragger v2.3.0
  * Draggable base class
@@ -20605,7 +20798,7 @@ return Unidragger;
 
 }));
 
-},{"unipointer":22}],22:[function(require,module,exports){
+},{"unipointer":23}],23:[function(require,module,exports){
 /*!
  * Unipointer v2.3.0
  * base class for doing one thing with pointer event
@@ -20908,14 +21101,15 @@ return Unipointer;
 
 }));
 
-},{"ev-emitter":3}],23:[function(require,module,exports){
+},{"ev-emitter":3}],24:[function(require,module,exports){
 
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 require("./vendors.css");
 window.jQuery = $ = require("jquery");
 var popper = require("popper.js");
 var bootstrap = require("bootstrap");
 var jQueryBridget = require("jquery-bridget");
+var FlickityFullscreen = require("flickity-fullscreen");
 window.Flickity = require("flickity");
 
-},{"./vendors.css":23,"bootstrap":1,"flickity":10,"jquery":18,"jquery-bridget":17,"popper.js":19}]},{},[24]);
+},{"./vendors.css":24,"bootstrap":1,"flickity":11,"flickity-fullscreen":5,"jquery":19,"jquery-bridget":18,"popper.js":20}]},{},[25]);
