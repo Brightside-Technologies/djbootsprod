@@ -84,20 +84,34 @@ header {
     background: #f8f8f8;
 }
 
-@media (max-width: 576px) { 
-    .d-xs-only{
+@media (max-width: 576px) {
+    .d-xs-only {
         display: flex !important;
     }
-    .d-gt-xs{
+    .d-gt-xs {
         display: none !important;
     }
- }
+}
 
- @media (min-width: 575px) { 
-    .d-gt-xs{
+@media (min-width: 575px) {
+    .d-gt-xs {
         display: flex !important;
     }
-    .d-xs-only{
+    .d-xs-only {
         display: none !important;
     }
+}
+
+.mask-dark {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.mask {
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
 }
