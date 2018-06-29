@@ -3,7 +3,7 @@ company: DJ Boots Productions
 favicon: assets/images/favicon.ico
 logo: assets/images/boots-logo.png
 type: website
-description: Lorem Ipsum
+description: SOUTHERN CALIFORNIA'S BEST IN DJ AND EVENT PRODUCTION
 keywords: 
   - DJ Boots Productions
   - Event Planning
@@ -12,7 +12,7 @@ keywords:
 developer: Brightside Tech
 developerUrl: '#'
 image: /assets/images/site-preview.png
-#url: https://djbootsprod.com
+url: https://djbootsprod.com
 email: bryanmaldo7@gmail.com
 phone: (760)-844-0749
 phoneHref: "+17608440749"
