@@ -54,34 +54,42 @@
     "pictures": [
         {
             "url": "assets/images/school-dances.jpg",
+            "basename": "school-dances",
             "caption": ""
         },
         {
             "url": "assets/images/djboots-1.jpg",
+            "basename": "djboots-1",
             "caption": ""
         },
         {
             "url": "assets/images/double-boot-package-1.jpg",
+            "basename": "double-boot-package-1",
             "caption": ""
         },
         {
             "url": "assets/images/double-boot-package-2.jpg",
+            "basename": "double-boot-package-2",
             "caption": ""
         },
         {
             "url": "assets/images/double-boot-package-3.jpg",
+            "basename": "double-boot-package-3",
             "caption": ""
         },
         {
             "url": "assets/images/double-boot-package-4.jpg",
+            "basename": "double-boot-package-4",
             "caption": ""
         },
         {
             "url": "assets/images/golden-boot-package-1.jpg",
+            "basename": "golden-boot-package-1",
             "caption": ""
         },
         {
             "url": "assets/images/sir-boot-nightclub-2.jpg",
+            "basename": "sir-boot-nightclub-2",
             "caption": ""
         }
     ]

@@ -21,8 +21,10 @@ permalink: gallery.html
             <div class="gallery-carousel h-100 col-12">
                 {% for picture in site.data.gallery.pictures %}
                     <div class="col-lg-3 col-md-4 col-12 p-1 h-100">
-                        <div class="gallery-image h-100" style="background: url('{{picture.url | absolute_url}}')">
-                        </div>
+                        {% comment %} <div class="gallery-image h-100" style="background: url('{{picture.url | absolute_url}}')">
+                        </div> {% endcomment %}
+                        {% capture basename %} {{picture.basename}} {% endcapture %}
+                        {% include imageSet.html class="gallery-image h-100" basename=basename %}
                     </div>
                 {% endfor %}
             </div> 

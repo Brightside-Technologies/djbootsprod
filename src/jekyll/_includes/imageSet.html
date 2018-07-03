@@ -1,0 +1,25 @@
+{% capture basename %} {{include.basename | strip}} {% endcapture %}
+{% assign capturedBase = {{basename}} %}
+{% assign responsive_images = site.static_files | where: "responsive", true %}
+{% comment %} | where_exp: "file", "file.path contains {{include.url}}" {% endcomment %}
+{{responsive_images.size}}
+{% capture imgSet %}
+    {% for img in responsive_images %}
+    {% comment %} {{img.basename}}
+    {{basename}}  {% endcomment %}
+        {% if img.path contains basename %}
+            {{img.path}}
+        {% endif %}
+        {% comment %} {{img.basename}} |
+        {{basename}} |
+        {{img.responsive}} | {% endcomment %}
+        {% comment %} /{{ img.path }} {{ i.width }}w,  {% endcomment %}
+    {% endfor %}
+{% endcapture %}
+
+{% comment %} {% assign largest = resized | sort: 'width' | last %} {% endcomment %}
+
+{% comment %} <div class="{{include.class}}" style="background-image: url({{imgUrl}}); background-image: image-set({{imgSet}});"> {% endcomment %}
+<div class="{{include.class}}">
+{{imgSet}}
+</div>
