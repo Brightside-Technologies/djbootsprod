@@ -2,7 +2,11 @@
     "packages": {
         "Standard": {
             "details": "* Custom features can be added",
-            "features": ["'T' lighting with two light fixtures", "2 PA speakers", "3-4 hours of continuous music"]
+            "features": [
+                "'T' lighting with two light fixtures",
+                "2 PA speakers",
+                "3-4 hours of continuous music"
+            ]
         },
         "Golden Boot": {
             "details": "* Custom features can be added",
@@ -145,7 +149,7 @@
                 "Lighting Tech/Programmer"
             ]
         },
-        "School Dance I": {
+        "Cowgirl Boots Package": {
             "details": "3-4 hours. Not recommended for groups larger than 250 students",
             "price": "895",
             "features": [
@@ -156,7 +160,7 @@
                 "2 truss intelligent up lights"
             ]
         },
-        "School Dance II": {
+        "Cowboy Boots Package": {
             "details": "3-4 hours. Not recommended for groups larger than 250 students",
             "price": "1295",
             "features": [
@@ -167,7 +171,7 @@
                 "4 truss intelligent up lights"
             ]
         },
-        "School Dance III": {
+        "Rodeo Boots Package": {
             "details": "3-4 hours. Not recommended for groups larger than 250 students",
             "price": "1795",
             "features": [
@@ -185,12 +189,11 @@
             "price": "380"
         },
         {
-            "description": "**C<sub>O</sub>2 gun** with 3 15lbs C<sub>O</sub>2 tanks",
-            "price": "295"
+            "description": "**C<sub>O</sub>2 confetti** with 20 lbs tanks",
+            "price": "115"
         },
         {
-            "description":
-                "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
+            "description": "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
             "price": "280"
         },
         {
@@ -203,15 +206,11 @@
         },
         {
             "description": "**Ceremony sound** adds 2 PA speakers and a wireless microphone",
-            "price": "140"
+            "price": "160"
         },
         {
             "description": "**Fog machine**",
             "price": "60"
-        },
-        {
-            "description": "**Ceremony sound** adds 2 PA speakers and a wireless microphone",
-            "price": "140"
         },
         {
             "description": "**50in TV or projection**: show family pictures or videos throughout the night",
@@ -228,34 +227,42 @@
     ],
     "eventTypes": [
         {
-            "name": "School Functions",
-            "description":
-                "Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. DJ Boots Productions will help create those memories with spectacular set-ups and music.",
+            "name": "School Only Packages",
+            "description": "Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. DJ Boots Productions will help create those memories with spectacular set-ups and music.",
             "packages": [
                 "Standard",
                 "Double Boot",
                 "Twin Boots",
                 "Trio Boots",
                 "Sir Boots Nightclub Style",
-                "School Dance I",
-                "School Dance II",
-                "School Dance III"
+                "Cowgirl Boots Package",
+                "Cowboy Boots Package",
+                "Rodeo Boots Package"
             ]
         },
         {
             "name": "Weddings &amp; Quiencea&ntilde;eras",
-            "description":
-                "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
-            "packages": ["Medium", "Boots", "Twin Boots", "Golden Boot", "Premium", "Sir Boots Nightclub Style"]
+            "description": "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
+            "packages": [
+                "Medium",
+                "Boots",
+                "Twin Boots",
+                "Golden Boot",
+                "Premium",
+                "Sir Boots Nightclub Style"
+            ]
         },
         {
             "name": "Corporate",
-            "description":
-                "DJ Boots Productions brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.",
-            "packages": ["Golden Boot", "Premium", "Sir Boots Nightclub Style"]
+            "description": "DJ Boots Productions brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.",
+            "packages": [
+                "Golden Boot",
+                "Premium",
+                "Sir Boots Nightclub Style"
+            ]
         },
         {
-            "name": "Rally DJ and Lighting",
+            "name": "School Rallies Only",
             "description": "",
             "packages": [
                 "Rally DJ &amp; Lighting I",
