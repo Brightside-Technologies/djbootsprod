@@ -177,6 +177,16 @@
                 "8 truss columns or pyramid custom truss",
                 "8 truss intelligent up lights"
             ]
+        },
+        "Pool Party Package": {
+            "details": "",
+            "price": "",
+            "features": ["2 PA speakers", "MC", "4 hours of continuous music"]
+        },
+        "Boot Coachella Pool Party": {
+            "details": "",
+            "price": "",
+            "features": ["2 PA speakers", "2 18in subwoofers", "MC", "5 hours of continuous music"]
         }
     },
     "extras": [
@@ -275,6 +285,11 @@
                 "Rally DJ &amp; Lighting II",
                 "School Rally Sound  &amp; Lighting"
             ]
+        },
+        {
+            "name": "Pool Parties",
+            "description": "",
+            "packages": ["Pool Party Package", "Boot Coachella Pool Party"]
         }
     ]
 }
