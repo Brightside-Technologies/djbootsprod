@@ -19,7 +19,7 @@ $(document).ready(function() {
     });
 
     $(".testimonials-carousel").flickity({
-        cellAlign: "center",
+        // cellAlign: "center",
         wrapAround: true,
         setGallerySize: false,
         freeScroll: true
@@ -28,7 +28,7 @@ $(document).ready(function() {
     $(".gallery-carousel").flickity({
         cellAlign: "center",
         wrapAround: true,
-        //fullscreen: true,
+        fullscreen: true,
         freeScroll: true
     });
 
