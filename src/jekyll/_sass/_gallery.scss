@@ -1,11 +1,13 @@
 .gallery-carousel {
     background: hsla(0, 0%, 0%, 0.9);
     &.is-fullscreen {
+        background: hsla(0, 0%, 0%, 1);
         top: 54px;
         .gallery-image {
             margin: 0;
             height: 100%;
-            width: 66%;
+            flex: 0 0 100%;
+            max-width: 100%;
             //
             // display: -webkit-box;
             // display: -webkit-flex;
@@ -43,9 +45,12 @@
     }
     .gallery-image {
         height: 12rem;
-        width: 20%;
+        // width: 20%;
         // background-size: cover !important;
         // background-repeat: no-repeat !important;
+        img {
+            max-height: 100%;
+        }
     }
 
     .flickity-fullscreen-button {

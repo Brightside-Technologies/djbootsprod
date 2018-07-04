@@ -20,8 +20,8 @@ permalink: gallery.html
         <div class="row d-flex flex-column pb-5 m-0" style="height: 15rem"> 
             <div class="gallery-carousel h-100">
                 {% for picture in site.data.gallery.pictures %}
-                    <div class="gallery-image h-100 d-flex align-items-center justify-content-center">
-                        <img class="h-100" src="{{picture.url | absolute_url}}">
+                    <div class="col-sm-12 col-md-2 p-0 gallery-image h-100 d-flex align-items-center justify-content-center">
+                        <img src="{{picture.url | absolute_url}}">
                     </div>
                 {% endfor %}
             </div> 
