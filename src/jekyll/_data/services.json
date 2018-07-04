@@ -147,7 +147,7 @@
         },
         "Cowgirl Boots Package": {
             "details": "3-4 hours. Not recommended for groups larger than 250 students",
-            "price": "895",
+            "price": "",
             "features": [
                 "2 12in two-way speakers",
                 "2 18in subwoofers",
@@ -158,7 +158,7 @@
         },
         "Cowboy Boots Package": {
             "details": "3-4 hours. Not recommended for groups larger than 250 students",
-            "price": "1295",
+            "price": "",
             "features": [
                 "4 12in two-way line array speakers",
                 "2 18in subwoofers",
@@ -169,7 +169,7 @@
         },
         "Rodeo Boots Package": {
             "details": "3-4 hours. Not recommended for groups larger than 250 students",
-            "price": "1795",
+            "price": "",
             "features": [
                 "4 12in two-way line array speakers",
                 "4 18in subwoofers",
