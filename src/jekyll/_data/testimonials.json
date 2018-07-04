@@ -35,5 +35,20 @@
         "text": "Nice setups :thumbsup: :thumbsup: ",
         "location": "Indio, CA",
         "image": "assets/images/desert-empire-elite-djs.png"
+    },
+    {
+        "name": "Joana Sanchez",
+        "initials": "JS",
+        "text": "Thank you for everything :thumbsup: Best DJ! ",
+        "location": "Indio, CA",
+        "image": ""
+    },
+    {
+        "name": "Ed",
+        "initials": "",
+        "text":
+            "Just wanted to thank you for the support you've given us at every event we see you. You and your team do such a great work!",
+        "location": "Indio, CA",
+        "image": "assets/images/ed.jpg"
     }
 ]
