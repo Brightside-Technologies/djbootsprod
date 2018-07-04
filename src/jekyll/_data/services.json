@@ -246,7 +246,8 @@
                 "Standard",
                 "Trio Boots",
                 "Sir Boots Nightclub Style"
-            ]
+            ],
+            "globalFeatures": ["DJ surprises with 50 pcs Glow sticks and 60 long balloons "]
         },
         {
             "name": "School Dance Party",
@@ -257,7 +258,8 @@
             "name": "Weddings &amp; Quiencea&ntilde;eras",
             "description":
                 "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
-            "packages": ["Medium", "Boots", "Twin Boots", "Golden Boot", "Premium", "Sir Boots Nightclub Style"]
+            "packages": ["Medium", "Boots", "Twin Boots", "Golden Boot", "Premium", "Sir Boots Nightclub Style"],
+            "globalFeatures": ["DJ surprises with 50 pcs Glow sticks and 60 long balloons "]
         },
         {
             "name": "Corporate",
