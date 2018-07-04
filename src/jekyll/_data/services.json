@@ -2,11 +2,7 @@
     "packages": {
         "Standard": {
             "details": "* Custom features can be added",
-            "features": [
-                "'T' lighting with two light fixtures",
-                "2 PA speakers",
-                "3-4 hours of continuous music"
-            ]
+            "features": ["'T' lighting with two light fixtures", "2 PA speakers", "3-4 hours of continuous music"]
         },
         "Golden Boot": {
             "details": "* Custom features can be added",
@@ -103,7 +99,7 @@
                 "‘X’ custom flying truss with intelligent lighting around the truss ",
                 "Revolutionary sound system (For Outdoor Events)",
                 "2 50 In Smart T.V. for video mixing and Slide show Projecting",
-                "Special effects with 6 LED moving heads, laser features, Colorful Panels, and 2 fog machines to create a live nightclub experience.",
+                "Special effects with 6 LED moving heads, laser features, Colorful Panels and 2 fog machines",
                 "14 LED lights around the room including the main table if needed",
                 "Master of MC for ceremony",
                 "Gobo Custom that can be projected on the wall or dance floor ",
@@ -193,7 +189,8 @@
             "price": "115"
         },
         {
-            "description": "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
+            "description":
+                "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
             "price": "280"
         },
         {
@@ -214,52 +211,59 @@
         },
         {
             "description": "**50in TV or projection**: show family pictures or videos throughout the night",
-            "price": "70"
+            "price": "85"
         },
         {
             "description": "**Revolutionary sound system**",
             "price": "500"
         },
         {
-            "description": "**Colorful LED bacground drape**",
-            "price": "140"
+            "description": "Colorful string lighting 100ft",
+            "price": "180"
+        },
+        {
+            "description": "Surprise dance remixes",
+            "price": "65"
+        },
+        {
+            "description": "50+ Glow Sticks",
+            "price": "40"
+        },
+        {
+            "description": "250+ balloons",
+            "price": "75"
         }
     ],
     "eventTypes": [
         {
             "name": "School Only Packages",
-            "description": "Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. DJ Boots Productions will help create those memories with spectacular set-ups and music.",
+            "description":
+                "Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. DJ Boots Productions will help create those memories with spectacular set-ups and music.",
             "packages": [
-                "Standard",
-                "Double Boot",
-                "Twin Boots",
-                "Trio Boots",
-                "Sir Boots Nightclub Style",
                 "Cowgirl Boots Package",
                 "Cowboy Boots Package",
-                "Rodeo Boots Package"
+                "Rodeo Boots Package",
+                "Standard",
+                "Trio Boots",
+                "Sir Boots Nightclub Style"
             ]
+        },
+        {
+            "name": "School Dance Party",
+            "description": "",
+            "packages": ["Standard", "Double Boot", "Twin Boots", "Trio Boots", "Sir Boots Nightclub Style"]
         },
         {
             "name": "Weddings &amp; Quiencea&ntilde;eras",
-            "description": "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
-            "packages": [
-                "Medium",
-                "Boots",
-                "Twin Boots",
-                "Golden Boot",
-                "Premium",
-                "Sir Boots Nightclub Style"
-            ]
+            "description":
+                "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
+            "packages": ["Medium", "Boots", "Twin Boots", "Golden Boot", "Premium", "Sir Boots Nightclub Style"]
         },
         {
             "name": "Corporate",
-            "description": "DJ Boots Productions brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.",
-            "packages": [
-                "Golden Boot",
-                "Premium",
-                "Sir Boots Nightclub Style"
-            ]
+            "description":
+                "DJ Boots Productions brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.",
+            "packages": ["Golden Boot", "Premium", "Sir Boots Nightclub Style"]
         },
         {
             "name": "School Rallies Only",

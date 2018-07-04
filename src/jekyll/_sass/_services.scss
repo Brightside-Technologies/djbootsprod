@@ -40,3 +40,14 @@
         opacity: 0.75;
     }
 }
+
+.service-carousel {
+    .flickity-button {
+        &.next {
+            right: -10px;
+        }
+        &.previous {
+            left: -10px;
+        }
+    }
+}
