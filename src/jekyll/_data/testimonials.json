@@ -40,7 +40,7 @@
         "name": "Joana Sanchez",
         "initials": "JS",
         "text": "Thank you for everything :thumbsup: Best DJ! ",
-        "location": "Indio, CA",
+        "location": "Mecca, CA",
         "image": ""
     },
     {
@@ -50,5 +50,13 @@
             "Just wanted to thank you for the support you've given us at every event we see you. You and your team do such a great work!",
         "location": "Indio, CA",
         "image": "assets/images/ed.jpg"
+    },
+    {
+        "name": "Humberto Ortega",
+        "initials": "HO",
+        "text":
+            "I recommend Dj Boots for any type of celebrations. Bryan was available at the last minute when I needed someone to Dj for my wedding. He was flexible with his equipment and ready in hours. I thank Bryan for being professional at his work and being a friend",
+        "location": "Indio, CA",
+        "image": ""
     }
 ]

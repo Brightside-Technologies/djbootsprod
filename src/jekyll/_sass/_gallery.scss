@@ -59,4 +59,10 @@
             fill: #fff;
         }
     }
+
+    .flickity-slider {
+        img {
+            visibility: visible !important;
+        }
+    }
 }

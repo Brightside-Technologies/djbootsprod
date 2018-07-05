@@ -88,6 +88,10 @@
     ],
     "pictures": [
         {
+            "url": "assets/images/boots-pyramid-custom-1.jpg",
+            "caption": ""
+        },
+        {
             "url": "assets/images/school-dances.jpg",
             "caption": ""
         },
@@ -117,6 +121,10 @@
         },
         {
             "url": "assets/images/sir-boot-nightclub-2.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/golden-boot-package-2.jpg",
             "caption": ""
         }
     ]
