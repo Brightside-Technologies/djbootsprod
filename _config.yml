@@ -18,7 +18,7 @@ phone: (760)-844-0749
 phoneHref: "+17608440749"
 instagramUrl: https://www.instagram.com/djbootspro/
 facebookUrl: https://www.facebook.com/bryan.maldonado.9634340
-googleAnalyticsId: ""
+googleAnalyticsId: "UA-121872095-1"
 markdown: kramdown
 source: src/jekyll
 destination: jekyll-dist
