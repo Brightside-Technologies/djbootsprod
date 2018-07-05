@@ -1,25 +1,29 @@
-{% capture basename %} {{include.basename | strip}} {% endcapture %}
-{% assign capturedBase = {{basename}} %}
+{% capture basename %} {{include.basename}} {% endcapture %}
+{% assign stripBasename = {{basename | strip}} %}
 {% assign responsive_images = site.static_files | where: "responsive", true %}
-{% comment %} | where_exp: "file", "file.path contains {{include.url}}" {% endcomment %}
-{{responsive_images.size}}
+{% assign imageSetUrls = "" | split: ',' %}
+{% assign imageSetItem = "" %}
+{% assign default = "" %}
 {% capture imgSet %}
     {% for img in responsive_images %}
-    {% comment %} {{img.basename}}
-    {{basename}}  {% endcomment %}
-        {% if img.path contains basename %}
-            {{img.path}}
+        {% if img.path contains stripBasename %}
+
+            {% if img.path contains '@1x' %}
+                {% assign imageSetItem = {{img.path | prepend: 'url(' | append: ') 1x'}} %} 
+            {% elsif img.path contains '@2x' %}
+                {% assign imageSetItem = {{img.path | prepend: 'url(' | append: ') 2x'}} %}
+                {% assign default = {{imageSetItem | replace: " 2x", ""}} %}
+            {% elsif img.path contains '@3x' %}
+                {% assign imageSetItem = {{img.path | prepend: 'url(' | append: ') 3x'}} %}
+            {% else %}
+                {% assign imageSetItem = {{img.path | prepend: 'url(' | append: ') 2x'}} %}
+            {% endif %}
+
+            {% assign imageSetUrls = imageSetUrls | push: imageSetItem %}
+
         {% endif %}
-        {% comment %} {{img.basename}} |
-        {{basename}} |
-        {{img.responsive}} | {% endcomment %}
-        {% comment %} /{{ img.path }} {{ i.width }}w,  {% endcomment %}
     {% endfor %}
+    {{imageSetUrls | join: ', '}}
 {% endcapture %}
 
-{% comment %} {% assign largest = resized | sort: 'width' | last %} {% endcomment %}
-
-{% comment %} <div class="{{include.class}}" style="background-image: url({{imgUrl}}); background-image: image-set({{imgSet}});"> {% endcomment %}
-<div class="{{include.class}}">
-{{imgSet}}
-</div>
+<div class="{{include.class}}" style="background-image: {{default}}; background-image: image-set({{imgSet | strip}});"></div>

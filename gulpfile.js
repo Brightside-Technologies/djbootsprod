@@ -99,7 +99,11 @@ gulp.task("inject", function() {
         });
 });
 
-gulp.task("responsive-images", function() {
+gulp.task("clean-responsive-images", function() {
+    return del(["src/jekyll/assets/responsive-images/**/*", "!src/jekyll/assets/responsive-images"]);
+});
+
+gulp.task("responsive-images", ["clean-responsive-images"], function() {
     return gulp
         .src("src/jekyll/assets/images/*.{jpg,png}")
         .pipe(
@@ -109,25 +113,25 @@ gulp.task("responsive-images", function() {
                     "*": [
                         {
                             // image-medium.jpg is 375 pixels wide
-                            width: 375,
+                            width: 300,
                             rename: {
-                                suffix: "-md",
+                                suffix: "@1x",
                                 extname: ".jpg"
                             }
                         },
                         {
                             // image-large.jpg is 480 pixels wide
-                            width: 480,
+                            width: 300 * 2,
                             rename: {
-                                suffix: "-lg",
+                                suffix: "@2x",
                                 extname: ".jpg"
                             }
                         },
                         {
                             // image-extralarge.jpg is 768 pixels wide
-                            width: 768,
+                            width: 300 * 3,
                             rename: {
-                                suffix: "-xl",
+                                suffix: "@3x",
                                 extname: ".jpg"
                             },
                             skipOnEnlargement: true
