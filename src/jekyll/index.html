@@ -41,7 +41,7 @@ permalink: index.html
                             <div class="testimonials-carousel--cell pb-3 px-1 h-100 col-md-12">
                                 <div class="h-100 shadow d-flex flex-column justify-content-between testimonials-body border p-4 rounded bg-light">
                                     <p>{{testimonial.text}}</p>
-                                    <div class="row d-flex align-items-center justify-content-around pt-3">
+                                    <div class="row d-flex align-items-center pt-3">
                                         {% if testimonial.image != "" %}
                                             <img class="testimonial-picture img-fluid rounded-circle" src="{{testimonial.image | absolute_url}}" alt="{{testimonial.name}}">
                                         {% else %}
@@ -49,7 +49,7 @@ permalink: index.html
                                                 <span>{{testimonial.initials}}</span>
                                             </div>
                                         {% endif %}
-                                        <div>
+                                        <div class="pl-3">
                                             <div class="h5 m-0">{{testimonial.name}}</div>
                                             <p class="text-muted m-0">{{testimonial.location}}</p>
                                         </div>
