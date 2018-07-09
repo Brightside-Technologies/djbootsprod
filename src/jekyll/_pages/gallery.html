@@ -20,12 +20,11 @@ permalink: gallery.html
         <div class="row d-flex flex-column pb-5" style="height: 15rem"> 
             <div class="gallery-carousel h-100 col-12">
                 {% for picture in site.data.gallery.pictures %}
-                    <div class="col-lg-3 col-md-4 col-12 p-1 h-100">
-                        {% comment %} <div class="gallery-image h-100" style="background: url('{{picture.url | absolute_url}}')">
-                        </div> {% endcomment %}
-                        {% capture basename %} {{picture.basename}} {% endcapture %}
-                        {% include imageSet.html class="gallery-image h-100" basename=basename %}
-                    </div>
+                <div class="col-sm-12 col-md-2 p-0 gallery-image h-100 d-flex align-items-center justify-content-center">
+                    {% capture basename %} {{picture.basename}} {% endcapture %}
+                    {% include img_srcset.html basename=basename %}
+                    {% comment %} <img class="invisible" src="{{picture.url | absolute_url}}"> {% endcomment %}
+                </div>
                 {% endfor %}
             </div> 
         </div>
