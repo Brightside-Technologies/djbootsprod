@@ -40,8 +40,8 @@ permalink: index.html
                         {% for testimonial in site.data.testimonials %}
                             <div class="testimonials-carousel--cell pb-3 px-1 h-100 col-md-12">
                                 <div class="h-100 shadow d-flex flex-column justify-content-between testimonials-body border p-4 rounded bg-light">
-                                    <p>{{testimonial.text}}</p>
-                                    <div class="row d-flex align-items-center pt-3">
+                                    <p class="line-clamp line-clamp-8">{{testimonial.text}}</p>
+                                    <div class="d-flex align-items-center pt-1">
                                         {% if testimonial.image != "" %}
                                             <img class="testimonial-picture img-fluid rounded-circle" src="{{testimonial.image | absolute_url}}" alt="{{testimonial.name}}">
                                         {% else %}
