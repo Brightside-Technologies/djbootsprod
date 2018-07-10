@@ -2,10 +2,12 @@
     "packages": {
         "Standard": {
             "details": "* Custom features can be added",
+            "display": { "image": "assets/images/standard-package.jpg", "caption": "Standard Boot Package" },
             "features": ["'T' lighting with two light fixtures", "2 PA speakers", "3-4 hours of continuous music"]
         },
         "Golden Boot": {
             "details": "* Custom features can be added",
+            "display": { "image": "assets/images/golden-boot-package.jpg", "caption": "Golden Boot Package" },
             "features": [
                 "7ft x 14ft truss goal with colorful intelligent up lighting around the goal",
                 "4 PA speakers with 2 subwoofers",
@@ -21,6 +23,7 @@
         },
         "Double Boot": {
             "details": "* Custom features can be added",
+            "display": { "image": "assets/images/double-boot-package.jpg", "caption": "Double Boot Package" },
             "features": [
                 "2 7 ft stand-alone truss",
                 "2 PA speakers and 2 subwoofers",
@@ -33,6 +36,10 @@
         },
         "Medium": {
             "details": "* Custom features can be added",
+            "display": {
+                "image": "assets/images/medium-package.jpg",
+                "caption": "Medium Package"
+            },
             "features": [
                 "6 ft long lighting truss",
                 "2 colorful LED panels and 2 lasers",
@@ -44,6 +51,10 @@
         },
         "Twin Boots": {
             "details": "",
+            "display": {
+                "image": "assets/images/twin-boots-package.jpg",
+                "caption": "Twin Boots Package"
+            },
             "features": [
                 "4 7 ft. stand-alone truss",
                 "4 PA speakers and 2 subwoofers",
@@ -65,6 +76,10 @@
         },
         "Premium": {
             "details": "",
+            "display": {
+                "image": "assets/images/premium-package-custom-audio-rental.jpg",
+                "caption": "Premium Custom Package with custom audio rental"
+            },
             "features": [
                 "10 ft. Tall by 20 ft. long truss goal with colorful intelligent up lighting around the goal",
                 "Revolutionary sound system (For outdoor Events)",
@@ -80,6 +95,10 @@
         },
         "Trio Boots": {
             "details": "",
+            "display": {
+                "image": "assets/images/trio-boots.jpg",
+                "caption": "Trio Boots Package"
+            },
             "features": [
                 "10 Ft. Tall by 20 Ft. and a cross fly bar of 30 Ft. through the dance floor",
                 "Revolutionary Sound System (For Outdoor Events)",
@@ -95,6 +114,10 @@
         },
         "Sir Boots Nightclub Style": {
             "details": "",
+            "display": {
+                "image": "assets/images/sir-boots-nightclub.jpg",
+                "caption": "Sir Boots Nightclub Package"
+            },
             "features": [
                 "‘X’ custom flying truss with intelligent lighting around the truss ",
                 "Revolutionary sound system (For Outdoor Events)",
@@ -180,6 +203,10 @@
         },
         "Pool Party Package": {
             "details": "",
+            "display": {
+                "image": "assets/images/pool-party.jpg",
+                "caption": "Pool Party Package"
+            },
             "price": "",
             "features": ["2 PA speakers", "MC", "4 hours of continuous music"]
         },
