@@ -49,3 +49,14 @@ img.logo {
     height: 3rem;
     width: 3rem;
 }
+
+.testimonials-carousel {
+    .flickity-button {
+        &.next {
+            right: -20px;
+        }
+        &.previous {
+            left: -20px;
+        }
+    }
+}

@@ -3,7 +3,7 @@
         "name": "Ernesto Gomez",
         "initials": "EG",
         "text":
-        "DJ. BOOTS THANK YOU FOR THE AWESOME JOB YOU DID. MUSIC WAS GREAT YOU HAD US ON OUR FEET DANCING AWAY.... VERY WELL RECOMMEND YOU TO ANYONE. I GIVE YOU 5 STARS. THANK YOU ONCE AGAIN",
+            "DJ. BOOTS THANK YOU FOR THE AWESOME JOB YOU DID. MUSIC WAS GREAT YOU HAD US ON OUR FEET DANCING AWAY.... VERY WELL RECOMMEND YOU TO ANYONE. I GIVE YOU 5 STARS. THANK YOU ONCE AGAIN",
         "location": "Indio, CA",
         "image": ""
     },
@@ -25,7 +25,8 @@
     {
         "name": "Carmen Baker",
         "initials": "CB",
-        "text": "Thank you DJ Boots for going the extra mile with the music. Karina had the best dance ever especially enjoyed how you changed it up and made my age group close out the night with very special finish. My husband was very pleased and believe me he was very happy :heart:",
+        "text":
+            "Thank you DJ Boots for going the extra mile with the music. Karina had the best dance ever especially enjoyed how you changed it up and made my age group close out the night with very special finish. My husband was very pleased and believe me he was very happy :heart:",
         "location": "La Quinta, CA",
         "image": "assets/images/carmen-baker.jpg"
     },
@@ -57,6 +58,14 @@
         "text":
             "I recommend Dj Boots for any type of celebrations, Bryan was available at the last minute when I needed someone to Dj on my Wedding, he was flexible with his equipment and hours. At the time of the wedding everything was coming all together I was nervous and when I least expected the guy from the audio equipment I had rented was running late, the band that was going to play in my wedding was at the ballroom already to do sound check, it was that time that the band had to start playing already and Bryan from Dj Boots went above & beyond to provide audio equipment for the band to start playing. When Me & My Wife got to the ballroom we did the entrance everything looked perfect the music sound excellent. I thank Bryan for being professional at his work and being a friend.",
         "location": "Indio, CA",
+        "image": ""
+    },
+    {
+        "name": "Verenice Gastelum",
+        "initials": "VG",
+        "text":
+            "My name is Verenice Gastelum I live in La Quinta California. Last year my daughter turned 15 yrs and we hired DJ Boots. My good Friend recommended him. The whole night my daughter had a blast, family members dancing and everyone enjoying the music. No profanity, or inappropriate seens on TV's. Very professional, punctual and friendly. I would highly recommend DJ BOOTS!!",
+        "location": "La Quinta, CA",
         "image": ""
     }
 ]
