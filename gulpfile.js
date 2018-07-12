@@ -18,7 +18,7 @@ gulp.task("clean", function() {
 
 gulp.task("minify:images", function() {
     return gulp
-        .src("jekyll-dist/assets/images/*")
+        .src("jekyll-dist/assets/**/*")
         .pipe(
             imagemin(
                 [
@@ -32,7 +32,7 @@ gulp.task("minify:images", function() {
                 { verbose: true }
             )
         )
-        .pipe(gulp.dest("dist/assets/images"));
+        .pipe(gulp.dest("dist/assets"));
 });
 
 gulp.task("minify:js", function() {
@@ -153,3 +153,8 @@ gulp.task("responsive-images", ["clean-responsive-images"], function() {
         )
         .pipe(gulp.dest("src/jekyll/assets/responsive-images"));
 });
+
+gulp.task("copy-assets", function(){
+    return gulp.src("jekyll-dist/assets/responsive-images/*")
+    .pipe(gulp.dest("dist/assets/images"));
+})
