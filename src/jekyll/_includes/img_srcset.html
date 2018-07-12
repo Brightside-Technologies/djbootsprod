@@ -1,6 +1,6 @@
 {% capture basename %} {{include.basename}} {% endcapture %}
 {% assign stripBasename = {{basename | strip}} %}
-{% assign responsive_images = site.static_files | where: "responsive", true %}
+{% assign responsive_images = site.static_files | where_exp: "file", "file.name contains '@'" %}
 {% assign srcSetUrls = "" | split: ',' %}
 {% assign srcSetItem = "" %}
 {% assign default = "" %}

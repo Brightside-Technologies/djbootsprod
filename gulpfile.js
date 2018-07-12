@@ -100,7 +100,7 @@ gulp.task("inject", function() {
 });
 
 gulp.task("clean-responsive-images", function() {
-    return del(["src/jekyll/assets/responsive-images/**/*", "!src/jekyll/assets/responsive-images"]);
+    return del(["src/jekyll/assets/images/**/*@"]);
 });
 
 gulp.task("responsive-images", ["clean-responsive-images"], function() {
@@ -151,10 +151,10 @@ gulp.task("responsive-images", ["clean-responsive-images"], function() {
                 }
             )
         )
-        .pipe(gulp.dest("src/jekyll/assets/responsive-images"));
+        .pipe(gulp.dest("src/jekyll/assets/images"));
 });
 
 gulp.task("copy-assets", function(){
-    return gulp.src("jekyll-dist/assets/responsive-images/*")
-    .pipe(gulp.dest("dist/assets/images"));
+    return gulp.src("jekyll-dist/assets/**/*")
+    .pipe(gulp.dest("dist/assets"));
 })

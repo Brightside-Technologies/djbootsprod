@@ -9,14 +9,14 @@
         {% if img.path contains stripBasename %}
 
             {% if img.path contains '@1x' %}
-                {% assign imageSetItem = {{img.path | prepend: 'url(' | append: ') 1x'}} %} 
+                {% assign imageSetItem = {{img.path | absolute_url | prepend: 'url(' | append: ') 1x'}} %} 
             {% elsif img.path contains '@2x' %}
-                {% assign imageSetItem = {{img.path | prepend: 'url(' | append: ') 2x'}} %}
+                {% assign imageSetItem = {{img.path | absolute_url | prepend: 'url(' | append: ') 2x'}} %}
                 {% assign default = {{imageSetItem | replace: " 2x", ""}} %}
             {% elsif img.path contains '@3x' %}
-                {% assign imageSetItem = {{img.path | prepend: 'url(' | append: ') 3x'}} %}
+                {% assign imageSetItem = {{img.path | absolute_url | prepend: 'url(' | append: ') 3x'}} %}
             {% else %}
-                {% assign imageSetItem = {{img.path | prepend: 'url(' | append: ') 2x'}} %}
+                {% assign imageSetItem = {{img.path | absolute_url | prepend: 'url(' | append: ') 2x'}} %}
             {% endif %}
 
             {% assign imageSetUrls = imageSetUrls | push: imageSetItem %}
