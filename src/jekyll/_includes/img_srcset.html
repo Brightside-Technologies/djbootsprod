@@ -26,4 +26,4 @@
     {{srcSetUrls | join: ', '}}
 {% endcapture %}
 
-<img class="{{ content.class }}" src="{{ default | absolute_url }}" alt="{{ content.alt }}" srcset="{{ srcset | strip }}" sizes="(max-width: 380px) 300px, (max-width: 640px): 600px, 1000px">
+<img class="{{ content.class }}" src="{{ default | absolute_url }}" alt="{{ content.alt }}" srcset="{{ srcset | strip }}" sizes="(min-width: 300px) 50vw, 100vw" width="300">
