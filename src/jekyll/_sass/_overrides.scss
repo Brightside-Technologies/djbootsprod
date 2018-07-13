@@ -117,8 +117,13 @@ header {
 }
 
 .flickity-button {
-    background: rgba(0, 0, 0, 0.2);
+    opacity: 0.75;
+    background: linear-gradient(270deg, #f7395f 0%, #fe702e 100%);
     &:hover {
-        background: rgba(0, 0, 0, 0.5);
+        opacity: 1;
+        background: linear-gradient(270deg, #f7395f 0%, #fe702e 100%);
+    }
+    .flickity-button-icon {
+        fill: white;
     }
 }
