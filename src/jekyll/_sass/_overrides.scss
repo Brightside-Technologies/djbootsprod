@@ -115,3 +115,10 @@ header {
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
+
+.flickity-button {
+    background: rgba(0, 0, 0, 0.2);
+    &:hover {
+        background: rgba(0, 0, 0, 0.5);
+    }
+}

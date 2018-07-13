@@ -1,13 +1,38 @@
 {
     "videos": [
         {
-            "url": "https://www.youtube.com/embed/Cyc8oTfd8ls",
-            "title": "DJ Boots Productions",
+            "url": "https://www.youtube.com/embed/eusvmpON5Ps",
+            "title": "Boots Production Sir Boots Night Club",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/2_KueXK7fcE",
+            "title": "Boots Production Pyramid",
             "location": ""
         },
         {
             "url": "https://www.youtube.com/embed/Brk6lSXhy0s",
             "title": "Renaissance holiday Event",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/Cyc8oTfd8ls",
+            "title": "DJ Boots Productions",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/45MFylRl9do",
+            "title": "Banda MS - Saluda a su compa de Boots Productions",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/DnBIRFm9C2k",
+            "title": "Boots Production Team Mixing Live at Jocel's Quince",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/wj1Bc5OrGAM",
+            "title": "Sir Boots Night Club",
             "location": ""
         },
         {
@@ -37,7 +62,7 @@
         },
         {
             "url": "https://www.youtube.com/embed/wc9eEaML4VE",
-            "title": "Black Beatles performed by shadow hills students",
+            "title": "Black Beatles performed by Shadow Hills students",
             "location": ""
         },
         {
@@ -49,47 +74,57 @@
             "url": "https://www.youtube.com/embed/3Uj0GJnQ5F4",
             "title": "Moscoy CA Boots Mixing Live",
             "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/ax-4tuBauCg",
+            "title": "James Monroe Elementary Staff Party",
+            "location": ""
+        },
+        {
+            "url": "https://www.youtube.com/embed/pJhmfebWPs8",
+            "title": "Los Nuevos Rebeldes at Agua Caliente for Ortega's Wedding",
+            "location": ""
         }
     ],
     "pictures": [
         {
+            "url": "assets/images/boots-pyramid-custom-1.jpg",
+            "caption": ""
+        },
+        {
             "url": "assets/images/school-dances.jpg",
-            "basename": "school-dances",
             "caption": ""
         },
         {
             "url": "assets/images/djboots-1.jpg",
-            "basename": "djboots-1",
             "caption": ""
         },
         {
-            "url": "assets/images/double-boot-package-1.jpg",
-            "basename": "double-boot-package-1",
+            "url": "assets/images/sir-boot-nightclub-5.jpg",
             "caption": ""
         },
         {
             "url": "assets/images/double-boot-package-2.jpg",
-            "basename": "double-boot-package-2",
             "caption": ""
         },
         {
             "url": "assets/images/double-boot-package-3.jpg",
-            "basename": "double-boot-package-3",
             "caption": ""
         },
         {
             "url": "assets/images/double-boot-package-4.jpg",
-            "basename": "double-boot-package-4",
             "caption": ""
         },
         {
             "url": "assets/images/golden-boot-package-1.jpg",
-            "basename": "golden-boot-package-1",
             "caption": ""
         },
         {
             "url": "assets/images/sir-boot-nightclub-2.jpg",
-            "basename": "sir-boot-nightclub-2",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/golden-boot-package-2.jpg",
             "caption": ""
         }
     ]

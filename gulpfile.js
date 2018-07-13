@@ -100,7 +100,7 @@ gulp.task("inject", function() {
 });
 
 gulp.task("clean-responsive-images", function() {
-    return del(["src/jekyll/assets/images/**/*@"]);
+    return del(["src/jekyll/assets/images/**/*.responsive.*"]);
 });
 
 gulp.task("responsive-images", ["clean-responsive-images"], function() {
@@ -115,7 +115,7 @@ gulp.task("responsive-images", ["clean-responsive-images"], function() {
                             // image-medium.jpg is 375 pixels wide
                             width: 300,
                             rename: {
-                                suffix: "@1x",
+                                suffix: "@1x.responsive",
                                 extname: ".jpg"
                             }
                         },
@@ -123,7 +123,7 @@ gulp.task("responsive-images", ["clean-responsive-images"], function() {
                             // image-large.jpg is 480 pixels wide
                             width: 300 * 2,
                             rename: {
-                                suffix: "@2x",
+                                suffix: "@2x.responsive",
                                 extname: ".jpg"
                             }
                         },
@@ -131,7 +131,7 @@ gulp.task("responsive-images", ["clean-responsive-images"], function() {
                             // image-extralarge.jpg is 768 pixels wide
                             width: 300 * 3,
                             rename: {
-                                suffix: "@3x",
+                                suffix: "@3x.responsive",
                                 extname: ".jpg"
                             },
                             skipOnEnlargement: true
@@ -154,7 +154,6 @@ gulp.task("responsive-images", ["clean-responsive-images"], function() {
         .pipe(gulp.dest("src/jekyll/assets/images"));
 });
 
-gulp.task("copy-assets", function(){
-    return gulp.src("jekyll-dist/assets/**/*")
-    .pipe(gulp.dest("dist/assets"));
-})
+gulp.task("copy-assets", function() {
+    return gulp.src("jekyll-dist/assets/**/*").pipe(gulp.dest("dist/assets"));
+});
