@@ -8,15 +8,6 @@
             height: 100%;
             flex: 0 0 100%;
             max-width: 100%;
-            //
-            // display: -webkit-box;
-            // display: -webkit-flex;
-            // display: flex;
-            // -webkit-box-pack: center;
-            // -webkit-justify-content: center;
-            // justify-content: center;
-            // -webkit-align-items: center;
-            // align-items: center;
             img {
                 display: block;
                 max-width: 100%;
@@ -34,6 +25,7 @@
             &.is-selected {
                 img {
                     height: auto;
+                    width: 100%;
                     opacity: 1;
                     -webkit-transform: scale(1);
                     transform: scale(1);
@@ -45,9 +37,6 @@
     }
     .gallery-image {
         height: 12rem;
-        // width: 20%;
-        // background-size: cover !important;
-        // background-repeat: no-repeat !important;
         img {
             max-height: 100%;
         }
