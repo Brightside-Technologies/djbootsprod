@@ -27,6 +27,7 @@ include:
   - assets
 plugins:
   - jemoji
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
