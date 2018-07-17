@@ -24,7 +24,7 @@ gulp.task("clean:prebuild", function() {
 });
 
 gulp.task("clean:postbuild", function() {
-    var filesToClean = ["dist/*.min.{css,js}"];
+    var filesToClean = ["dist/*.min.{css,js}", "dist/*.json"];
     return del(filesToClean);
 });
 
