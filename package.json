@@ -13,9 +13,9 @@
         "minify:js": "gulp minify:js",
         "minify:css": "gulp minify:css",
         "minify:html": "gulp minify:html",
-        "minify": "npm run minify:js & npm run minify:css & npm run minify:html",
+        "minify": "npm run minify:js && npm run minify:css && npm run minify:html",
         "responsive-images": "gulp responsive-images",
-        "copy": "npm run copy:assets & npm run copy:root-files",
+        "copy": "npm run copy:assets && npm run copy:root-files",
         "copy:root-files": "gulp copy:root-files",
         "copy:assets": "gulp copy:assets"
     },
