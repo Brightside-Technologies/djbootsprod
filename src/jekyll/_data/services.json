@@ -231,8 +231,8 @@
             "price": "280"
         },
         {
-            "description": "**Up Lighting** includes 20+ lights",
-            "price": "300"
+            "description": "**Up Lighting** includes 12 lights",
+            "price": "350"
         },
         {
             "description": "**Gobo Monogram** displays your initials or name on the dance floor",
@@ -269,6 +269,10 @@
         {
             "description": "250+ balloons",
             "price": "75"
+        },
+        {
+            "description": "Stage: 6ft x 8ft either 16in or 24in tall",
+            "price": "160"
         }
     ],
     "eventTypes": [
