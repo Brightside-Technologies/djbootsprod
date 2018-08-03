@@ -117,4 +117,10 @@ $(document).ready(function() {
             }
         });
     });
+
+    $(".card-reveal").each(function() {
+        $(this).click(function() {
+            $(this).addClass("is-revealed");
+        });
+    });
 });

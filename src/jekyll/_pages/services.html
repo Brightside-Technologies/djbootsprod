@@ -33,7 +33,7 @@ permalink: services.html
                 <div class="service-carousel service-type-{{forloop.index0}}-carousel h-100">
                 {% for package in type.packages %}
                     <div class="px-1 col-lg-4 col-md-6 col-12 mb-3 cell service-type-{{forloop.index0}}-carousel-cell h-100">
-                        <div class="service-card card h-100 text-center">
+                        <div class="service-card card card-reveal h-100 text-center">
                             <div class="card-body pt-0">
                                 <div class="h6 mt-0 bg-gradient text-white package-title py-3">{{package}}</div>
                                 {% if site.data.services.packages[package].price != "" and site.data.services.packages[package].price != nil %}
@@ -57,6 +57,9 @@ permalink: services.html
                                     </small>
                                 </div>
                             {% endif %}
+                            <div class="card-reveal-mask">
+                                <p>REVEAL</p>
+                            </div>
                         </div>
                     </div>
                 {% endfor %}
