@@ -34,7 +34,7 @@ permalink: services.html
                 {% for package in type.packages %}
                     <div class="px-1 col-lg-4 col-md-6 col-12 mb-3 cell service-type-{{forloop.index0}}-carousel-cell h-100">
                         <div class="service-card card card-reveal h-100 text-center">
-                            {%-capture url-%}{{{% if site.data.services.packages[package].display.image %} {{site.data.services.packages[package].display.image}} {% else %} assets/images/boots-logo.png {%endif%}}}{%-endcapture-%}
+                            {%-capture url-%} {% if site.data.services.packages[package].display.image %} {{site.data.services.packages[package].display.image}} {% else %} assets/images/boots-logo.png {%endif%} {%-endcapture-%}
                             {%-capture alt-%}{{package}}{%-endcapture-%}
                             {% include img_srcset.html class="card-img-top" url=url alt=alt %}
                             <div class="card-body">
