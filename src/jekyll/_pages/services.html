@@ -29,26 +29,15 @@ permalink: services.html
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-column pb-5" style="height: 600px">
+            <div class="d-flex flex-column pb-5" style="height: 500px">
                 <div class="service-carousel service-type-{{forloop.index0}}-carousel h-100">
                 {% for package in type.packages %}
                     <div class="px-1 col-lg-4 col-md-6 col-12 mb-3 cell service-type-{{forloop.index0}}-carousel-cell h-100">
                         <div class="service-card card card-reveal h-100 text-center">
-                            <div class="card-body pt-0">
-                                <div class="h6 mt-0 bg-gradient text-white package-title py-3">{{package}}</div>
-                                {% if site.data.services.packages[package].price != "" and site.data.services.packages[package].price != nil %}
-                                    <div class="price-section mb-3 py-1">
-                                        <sup>$</sup><span>{{site.data.services.packages[package].price}}</span>
-                                    </div>
-                                {% endif %}
-                                <ul class="list-unstyled text-muted m-0">
-                                    {% for feature in site.data.services.packages[package].features %}
-                                        <li class="py-1 text-left">{{feature | markdownify | smartify | replace: '<p>', '' | replace: '</p>', ''}}</li>
-                                    {% endfor %}
-                                    {% for globalFeature in type.globalFeatures %}
-                                        <li class="py-1 text-left">{{globalFeature}}</li> 
-                                    {% endfor %}
-                                </ul>
+                            <img class="card-img-top" src="{% if site.data.services.packages[package].display.image %} {{site.data.services.packages[package].display.image}} {% else %} assets/images/boots-logo.png {%endif%}" alt="{{package}}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{package}}</h5>
+                                <button type="button" class="btn activator bg-gradient border-0">View Details</button>
                             </div>
                             {% if site.data.services.packages[package].details != "" %}
                                 <div class="card-footer">
@@ -58,7 +47,21 @@ permalink: services.html
                                 </div>
                             {% endif %}
                             <div class="card-reveal-mask">
-                                <p>REVEAL</p>
+                                <div class="card-body pt-0">
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="pt-2 close float-right" aria-label="hide">
+                                            <span>&times;</span>
+                                        </button>
+                                    </div>
+                                    <ul class="list-unstyled text-muted m-0">
+                                        {% for feature in site.data.services.packages[package].features %}
+                                            <li class="py-1 text-left">{{feature | markdownify | smartify | replace: '<p>', '' | replace: '</p>', ''}}</li>
+                                        {% endfor %}
+                                        {% for globalFeature in type.globalFeatures %}
+                                            <li class="py-1 text-left">{{globalFeature}}</li> 
+                                        {% endfor %}
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

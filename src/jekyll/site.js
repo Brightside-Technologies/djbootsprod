@@ -118,9 +118,14 @@ $(document).ready(function() {
         });
     });
 
-    $(".card-reveal").each(function() {
-        $(this).click(function() {
-            $(this).addClass("is-revealed");
+    $(".card-reveal").each(function(i) {
+        var $this = $(this);
+        $this.find(".activator").click(function() {
+            $this.addClass("is-revealed");
+        });
+
+        $this.find(".close").click(function() {
+            $this.removeClass("is-revealed");
         });
     });
 });

@@ -129,9 +129,12 @@ header {
 }
 
 .card-reveal {
+    .card-img-top {
+        height: 15rem;
+    }
     .card-reveal-mask {
-        // display: none;
-        transform: translateY(0%);
+        overflow-y: auto;
+        transform: translateY(1%);
         position: absolute;
         top: 100%;
         height: 100%;
