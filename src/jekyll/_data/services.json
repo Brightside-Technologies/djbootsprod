@@ -53,7 +53,7 @@
         "Medium": {
             "details": "* Custom features can be added",
             "display": {
-                "image": "assets/images/medium-package.jpg",
+                "image": "assets/images/medium-package-2.jpg",
                 "caption": "Medium Package"
             },
             "features": [
@@ -363,8 +363,7 @@
             "price": "115"
         },
         {
-            "description":
-                "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
+            "description": "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
             "price": "280"
         },
         {
@@ -415,8 +414,7 @@
     "eventTypes": [
         {
             "name": "Weddings &amp; Quiencea&ntilde;eras",
-            "description":
-                "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
+            "description": "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
             "packages": [
                 "Medium",
                 "Boots",
@@ -431,8 +429,7 @@
         },
         {
             "name": "Corporate",
-            "description":
-                "DJ Boots Productions brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.",
+            "description": "DJ Boots Productions brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.",
             "packages": ["UR choice Boot", "Country Premium Boot", "Specialty Boot", "Corporate Custom"]
         },
         {
@@ -447,8 +444,7 @@
         },
         {
             "name": "School Only Packages",
-            "description":
-                "Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. DJ Boots Productions will help create those memories with spectacular set-ups and music.",
+            "description": "Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. DJ Boots Productions will help create those memories with spectacular set-ups and music.",
             "packages": ["Cowgirl Boots Package", "Cowboy Boots Package", "Standard"],
             "globalFeatures": ["DJ surprises with 50 pcs Glow sticks and 60 long balloons "]
         },
