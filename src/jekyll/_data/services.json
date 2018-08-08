@@ -2,7 +2,7 @@
     "packages": {
         "DJ Boots": {
             "details": "Custom features can be added",
-            "display": { "image": "assets/images/standard-package-2.jpg", "caption": "DJ Boots Package" },
+            "display": { "image": "assets/images/standard-package-1.jpg", "caption": "DJ Boots Package" },
             "features": ["'T' lighting with two light fixtures", "2 PA speakers", "3-4 hours of continuous music"]
         },
         "Golden Boot": {
@@ -97,7 +97,7 @@
         "Twin Tower Boots": {
             "details": "No more than 240 students. 4 hours",
             "display": {
-                "image": "assets/images/twin-boots-package.jpg",
+                "image": "assets/images/dj-boots-2.jpg.jpg",
                 "caption": "Twin Tower Boots Package"
             },
             "features": [
