@@ -1,8 +1,8 @@
 {
     "packages": {
-        "Standard": {
+        "DJ Boots": {
             "details": "Custom features can be added",
-            "display": { "image": "assets/images/standard-package.jpg", "caption": "Standard Boot Package" },
+            "display": { "image": "assets/images/standard-package-2.jpg", "caption": "DJ Boots Package" },
             "features": ["'T' lighting with two light fixtures", "2 PA speakers", "3-4 hours of continuous music"]
         },
         "Golden Boot": {
@@ -126,7 +126,7 @@
         "Premium": {
             "details": "",
             "display": {
-                "image": "assets/images/premium-package-6.jpg",
+                "image": "assets/images/premium-package-custom-audio-rental.jpg",
                 "caption": "Premium Custom Package with custom audio rental"
             },
             "features": [
@@ -185,7 +185,7 @@
         "Wild Dancing Boot": {
             "details": "300+ students. 4 hours",
             "display": {
-                "image": "assets/images/trio-boots.jpg",
+                "image": "assets/images/dj-boots-1.jpg",
                 "caption": "Trio Boots Package"
             },
             "features": [
@@ -196,8 +196,7 @@
                 "2 50 In Smart T.V for video mixing",
                 "10 Brilliant LED up lighting around the room including main table if needed ",
                 " Master of MC",
-                " Wireless Mic",
-                "May include 1 time Surprise Dj Remix if needed"
+                " Wireless Mic"
             ]
         },
         "Sir Boots Nightclub Style": {
@@ -234,7 +233,6 @@
                 "Master of MC for ceremony",
                 "Gobo Custom that can be projected on the wall or dance floor ",
                 "Ceremony system 2 PA speakers and a wireless mic if needed. ",
-                "May include 1 time Surprise Dj Remix if needed",
                 "5-6 hours of continuous music"
             ]
         },
@@ -472,13 +470,13 @@
         {
             "name": "School Only Packages",
             "description": "Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. DJ Boots Productions will help create those memories with spectacular set-ups and music.",
-            "packages": ["Cowgirl Boots Package", "Cowboy Boots Package", "Standard"],
+            "packages": ["Cowgirl Boots Package", "Cowboy Boots Package", "DJ Boots"],
             "globalFeatures": ["DJ surprises with 50 pcs Glow sticks and 60 long balloons "]
         },
         {
             "name": "School Dance Parties Only",
             "description": "",
-            "packages": ["Standard", "Tower Boot", "Twin Tower Boots", "Wild Dancing Boot", "Under the Stars"]
+            "packages": ["DJ Boots", "Tower Boot", "Twin Tower Boots", "Wild Dancing Boot", "Under the Stars"]
         },
         {
             "name": "School Rallies Only",

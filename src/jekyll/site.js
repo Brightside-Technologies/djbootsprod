@@ -22,14 +22,16 @@ $(document).ready(function() {
         // cellAlign: "center",
         wrapAround: true,
         setGallerySize: false,
-        freeScroll: true
+        freeScroll: true,
+        autoPlay: 10000
     });
 
     $(".gallery-carousel").flickity({
         cellAlign: "center",
         wrapAround: true,
         fullscreen: true,
-        freeScroll: true
+        freeScroll: true,
+        autoPlay: 1500
     });
 
     $(".service-carousel").each(function(index) {

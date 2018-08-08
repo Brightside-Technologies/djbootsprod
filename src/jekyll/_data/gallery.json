@@ -88,6 +88,10 @@
     ],
     "pictures": [
         {
+            "url": "assets/images/sir-boot-nightclub-2-crop.jpg",
+            "caption": ""
+        },
+        {
             "url": "assets/images/boots-pyramid-custom-1.jpg",
             "caption": ""
         },
@@ -100,6 +104,9 @@
             "caption": ""
         },
         {
+            "url": "assets/images/trio-boot-package-1.jpg"
+        },
+        {
             "url": "assets/images/sir-boot-nightclub-5.jpg",
             "caption": ""
         },
@@ -110,6 +117,13 @@
         {
             "url": "assets/images/double-boot-package-3.jpg",
             "caption": ""
+        },
+        {
+            "url": "assets/images/medium-package-1.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/trio-boot-package-2.jpg"
         },
         {
             "url": "assets/images/double-boot-package-4.jpg",
@@ -125,6 +139,10 @@
         },
         {
             "url": "assets/images/golden-boot-package-2.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/uplighting-20.jpg",
             "caption": ""
         }
     ]
