@@ -22,14 +22,16 @@ $(document).ready(function() {
         // cellAlign: "center",
         wrapAround: true,
         setGallerySize: false,
-        freeScroll: true
+        freeScroll: true,
+        autoPlay: 10000
     });
 
     $(".gallery-carousel").flickity({
         cellAlign: "center",
         wrapAround: true,
         fullscreen: true,
-        freeScroll: true
+        freeScroll: true,
+        autoPlay: 1500
     });
 
     $(".service-carousel").each(function(index) {
@@ -115,6 +117,17 @@ $(document).ready(function() {
             } else {
                 $formSubmitButton.attr("disabled", true);
             }
+        });
+    });
+
+    $(".card-reveal").each(function(i) {
+        var $this = $(this);
+        $this.find(".activator").click(function() {
+            $this.addClass("is-revealed");
+        });
+
+        $this.find(".close").click(function() {
+            $this.removeClass("is-revealed");
         });
     });
 });

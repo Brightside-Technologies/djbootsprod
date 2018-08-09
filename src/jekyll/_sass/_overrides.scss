@@ -127,3 +127,28 @@ header {
         fill: white;
     }
 }
+
+.card-reveal {
+    .card-img-top {
+        height: 15rem;
+    }
+    .card-reveal-mask {
+        overflow-y: auto;
+        transform: translateY(1%);
+        position: absolute;
+        top: 100%;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        transition: all 0.25s;
+        -webkit-transition: all 0.25s;
+    }
+
+    &.is-revealed {
+        overflow: hidden;
+        .card-reveal-mask {
+            // display: block;
+            transform: translateY(-100%);
+        }
+    }
+}
