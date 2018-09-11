@@ -42,7 +42,8 @@ $(document).ready(function() {
             cellAlign: "center",
             wrapAround: doesWrapAround,
             setGallerySize: false,
-            groupCells: isGroupCells
+            groupCells: isGroupCells,
+            initialIndex: 1
         });
     });
 
