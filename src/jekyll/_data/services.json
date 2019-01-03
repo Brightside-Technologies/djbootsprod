@@ -434,6 +434,10 @@
         {
             "description": "Stage: 6ft x 8ft either 16in or 24in tall",
             "price": "160"
+        },
+        {
+            "description": "Robot",
+            "price": "$$"
         }
     ],
     "eventTypes": [
