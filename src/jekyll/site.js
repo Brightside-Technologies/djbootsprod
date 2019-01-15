@@ -31,7 +31,8 @@ $(document).ready(function() {
         wrapAround: true,
         fullscreen: true,
         freeScroll: true,
-        autoPlay: 1500
+        autoPlay: 1500,
+        pageDots: false
     });
 
     $(".service-carousel").each(function(index) {
