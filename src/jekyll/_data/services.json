@@ -18,7 +18,8 @@
                 "1 haze feature",
                 "Wireless mic",
                 "Master of MC",
-                "4-5 hours of continuous music"
+                "4-5 hours of continuous music",
+                "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
             ]
         },
         "UR choice Boot": {
@@ -91,7 +92,8 @@
                 "4 intelligent up lighting in truss and four moving head fixtures",
                 "4 LED moving heads",
                 "1 haze fixture",
-                "3-4 hours of continuous music"
+                "3-4 hours of continuous music",
+                "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
             ]
         },
         "Twin Tower Boots": {
@@ -140,7 +142,8 @@
                 "Master of MC",
                 "Wireless Mic",
                 "May Include 1 time Surprise Remix if needed",
-                "4-5 hours of continuous music"
+                "4-5 hours of continuous music",
+                "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
             ]
         },
         "Country Premium Boot": {
@@ -179,7 +182,8 @@
                 " Master of MC",
                 " Wireless Mic",
                 "May include 1 time Surprise Dj Remix if needed",
-                "5-6 Hours of continuous music "
+                "5-6 Hours of continuous music ",
+                "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
             ]
         },
         "Wild Dancing Boot": {
@@ -215,7 +219,8 @@
                 "Gobo Custom that can be projected on the wall or dance floor ",
                 "Ceremony system 2 PA speakers and a wireless mic if needed. ",
                 "May include 1 time Surprise Dj Remix if needed",
-                "5-6 hours of continuous music"
+                "5-6 hours of continuous music",
+                "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
             ]
         },
         "Under the Stars": {
@@ -453,8 +458,7 @@
                 "Premium",
                 "Trio Boots",
                 "Sir Boots Nightclub Style"
-            ],
-            "globalFeatures": ["DJ surprises with 50 pcs Glow sticks and 60 long balloons "]
+            ]
         },
         {
             "name": "Corporate",
@@ -475,7 +479,7 @@
             "name": "School Only Packages",
             "description": "Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. DJ Boots Productions will help create those memories with spectacular set-ups and music.",
             "packages": ["Cowgirl Boots Package", "Cowboy Boots Package", "DJ Boots"],
-            "globalFeatures": ["DJ surprises with 50 pcs Glow sticks and 60 long balloons "]
+            "globalFeatures": ["DJ surprises with 50 pcs Glow sticks or 60 long balloons "]
         },
         {
             "name": "School Dance Parties Only",
