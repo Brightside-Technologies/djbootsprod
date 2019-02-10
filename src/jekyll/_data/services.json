@@ -118,12 +118,7 @@
                 "image": "assets/images/boots-package-1.jpg",
                 "caption": "Boots Package"
             },
-            "features": [
-                "1 stand-alone Truss with 2 fixture lighting",
-                "2 PA speakers",
-                "1 50in screens for video mixing during dinner and dancing",
-                "4 hours of continuous music"
-            ]
+            "features": ["1 stand-alone Truss with 2 fixture lighting", "2 PA speakers", "4 hours of continuous music"]
         },
         "Premium": {
             "details": "",
@@ -443,6 +438,10 @@
         {
             "description": "La Raza RoboBoot (Robot) - Pricing depends on occasion (see gallery for pictures)",
             "price": "$$"
+        },
+        {
+            "description": "**Dancing On Clouds Machine** - beautiful visual effect that creates heart-stirring moments.  It is perfectly safe, odorless and harmless that will not leave any residue or effect fire alarms.",
+            "price": "200"
         }
     ],
     "eventTypes": [
