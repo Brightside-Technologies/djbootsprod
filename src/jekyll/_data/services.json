@@ -1,12 +1,12 @@
 {
     "packages": {
         "DJ Boots": {
-            "details": "Custom features can be added",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": { "image": "assets/images/standard-package-1.jpg", "caption": "DJ Boots Package" },
             "features": ["'T' lighting with two light fixtures", "2 PA speakers", "3-4 hours of continuous music"]
         },
         "Golden Boot": {
-            "details": "Custom features can be added",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": { "image": "assets/images/golden-boot-package-6.jpg", "caption": "Golden Boot Package" },
             "features": [
                 "7ft x 14ft truss goal with colorful intelligent up lighting around the goal",
@@ -23,7 +23,7 @@
             ]
         },
         "UR choice Boot": {
-            "details": "Custom features can be added. 4 hours",
+            "details": "<a href='#extras'>Custom features can be added. 4 hours</a>",
             "display": { "image": "assets/images/golden-boot-package-5.jpg", "caption": "Golden Boot Package" },
             "features": [
                 "7ft x 14ft truss goal with colorful intelligent up lighting around the goal",
@@ -39,7 +39,7 @@
             ]
         },
         "Double Boot": {
-            "details": "Custom features can be added",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": { "image": "assets/images/double-boot-package-1.jpg", "caption": "Double Boot Package" },
             "features": [
                 "2 7 ft stand-alone truss",
@@ -65,7 +65,7 @@
             ]
         },
         "Medium": {
-            "details": "Custom features can be added",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/medium-package-2.jpg",
                 "caption": "Medium Package"
@@ -113,7 +113,7 @@
             ]
         },
         "Boots": {
-            "details": "Custom features can be added",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/boots-package-1.jpg",
                 "caption": "Boots Package"
@@ -352,7 +352,7 @@
             "features": ["2 PA speakers", "2 18in subwoofers", "MC", "5 hours of continuous music"]
         },
         "Corporate Custom": {
-            "details": "Custom features can be added. 4 hours",
+            "details": "<a href='#extras'>Custom features can be added. 4 hours</a>",
             "display": {
                 "image": "assets/images/corporate-event.jpg",
                 "caption": "Corporate Custom Package"
