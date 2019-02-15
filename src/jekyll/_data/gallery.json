@@ -88,6 +88,14 @@
     ],
     "pictures": [
         {
+            "url": "assets/images/gallery-10.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/gallery-11.jpg",
+            "caption": ""
+        },
+        {
             "url": "assets/images/sir-boot-nightclub-2-crop.jpg",
             "caption": ""
         },
@@ -175,10 +183,6 @@
         },
         {
             "url": "assets/images/gallery-8.jpg",
-            "caption": ""
-        },
-        {
-            "url": "assets/images/gallery-9.jpg",
             "caption": ""
         }
     ]
