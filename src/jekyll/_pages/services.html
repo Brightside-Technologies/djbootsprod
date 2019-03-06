@@ -38,11 +38,11 @@ permalink: services.html
                             {%-capture alt-%}{{package}}{%-endcapture-%}
                             {% include img_srcset.html class="card-img-top" url=url alt=alt %}
                             <div class="card-body">
-                                <h5 class="card-title">{{package}}</h5>
+                                <h6 class="card-title">{{package}}</h6>
                                 <button type="button" class="btn activator bg-gradient border-0">View Details</button>
                             </div>
                             {% if site.data.services.packages[package].details != "" %}
-                                <div class="card-footer">
+                                <div class="card-footer" style="height: 70px">
                                     <small class="text-muted m-0">
                                         {{site.data.services.packages[package].details}}
                                     </small>

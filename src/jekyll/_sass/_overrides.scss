@@ -130,7 +130,9 @@ header {
 
 .card-reveal {
     .card-img-top {
-        height: 15rem;
+        height: 17rem;
+        object-fit: cover;
+        object-position: center;
     }
     .card-reveal-mask {
         overflow-y: auto;

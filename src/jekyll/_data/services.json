@@ -13,8 +13,7 @@
                 "4 PA speakers with 2 subwoofers",
                 "2 50in screens or video projection for video mixing and slideshow presentation that guest provides",
                 "2 panel lighting fixtures with 2 LED moving heads",
-                "2 laser features",
-                "6 LED intelligent lights",
+                "6 LED intelligent up lights",
                 "1 haze feature",
                 "Wireless mic",
                 "Master of MC",
@@ -43,16 +42,15 @@
             "display": { "image": "assets/images/double-boot-package-1.jpg", "caption": "Double Boot Package" },
             "features": [
                 "2 7 ft stand-alone truss",
-                "2 PA speakers and 2 subwoofers",
-                "2 50in screens or one 6ft x 5ft video projection for video mixing and slideshow presentation that guest provides",
-                "2 intelligent up lighting in truss and two moving head fixtures",
-                "2 LED moving heads",
+                "2 PA speakers and 1 subwoofers",
+                "2 50in screens for video mixing and slideshow presentation that guest provides",
+                "2 intelligent LED up lighting in truss and two moving head fixtures",
                 "1 haze fixture",
                 "3-4 hours of continuous music"
             ]
         },
         "Tower Boot": {
-            "details": "No more than 100 students. 4 hours",
+            "details": "<p class='m-0'>No more than 100 students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
             "display": { "image": "assets/images/double-boot-package-5.jpg", "caption": "Tower Boot Package" },
             "features": [
                 "2 7 ft stand-alone truss",
@@ -65,7 +63,7 @@
             ]
         },
         "Medium": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
+            "details": "<p class='m-0'>Recommended for indoor use</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/medium-package-2.jpg",
                 "caption": "Medium Package"
@@ -80,7 +78,7 @@
             ]
         },
         "Twin Boots": {
-            "details": "",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/twin-boots-package.jpg",
                 "caption": "Twin Boots Package"
@@ -88,16 +86,15 @@
             "features": [
                 "4 7 ft. stand-alone truss",
                 "4 PA speakers and 2 subwoofers",
-                "2 50in screens or 1 video projection for video mixing and slideshow presentation that guest provides",
-                "4 intelligent up lighting in truss and four moving head fixtures",
-                "4 LED moving heads",
+                "2 50in screens for video mixing and slideshow presentation that guest provides",
+                "4 intelligent up lighting in truss and four LED moving head fixtures",
                 "1 haze fixture",
                 "3-4 hours of continuous music",
                 "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
             ]
         },
         "Twin Tower Boots": {
-            "details": "No more than 240 students. 4 hours",
+            "details": "<p class='m-0'>No more than 240 students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/dj-boots-2.jpg.jpg",
                 "caption": "Twin Tower Boots Package"
@@ -115,13 +112,13 @@
         "Boots": {
             "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
-                "image": "assets/images/boots-package-1.jpg",
+                "image": "assets/images/standard-package-1.jpg.jpg",
                 "caption": "Boots Package"
             },
             "features": ["1 stand-alone Truss with 2 fixture lighting", "2 PA speakers", "4 hours of continuous music"]
         },
         "Premium": {
-            "details": "",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/premium-package-custom-audio-rental.jpg",
                 "caption": "Premium Custom Package with custom audio rental"
@@ -142,7 +139,7 @@
             ]
         },
         "Country Premium Boot": {
-            "details": "4 hours",
+            "details": "<p class='m-0'>4 hours</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/premium-package-6.jpg",
                 "caption": "Premium Custom Package with custom audio rental"
@@ -162,7 +159,7 @@
             ]
         },
         "Trio Boots": {
-            "details": "",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/trio-boots.jpg",
                 "caption": "Trio Boots Package"
@@ -182,7 +179,7 @@
             ]
         },
         "Wild Dancing Boot": {
-            "details": "300+ students. 4 hours",
+            "details": "<p class='m-0'>300+ students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/dj-boots-1.jpg",
                 "caption": "Trio Boots Package"
@@ -199,7 +196,7 @@
             ]
         },
         "Sir Boots Nightclub Style": {
-            "details": "",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/sir-boot-nightclub-8.jpg",
                 "caption": "Sir Boots Nightclub Package"
@@ -219,7 +216,7 @@
             ]
         },
         "Under the Stars": {
-            "details": "300+ students. 4 hours",
+            "details": "<p class='m-0'300+ students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/under-the-stars.jpg",
                 "caption": "Under the Stars"
@@ -237,7 +234,7 @@
             ]
         },
         "Specialty Boot": {
-            "details": "4 hours",
+            "details": "<p class='m-0'>4 hours</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/sir-boot-nightclub-6.jpg",
                 "caption": "Sir Boots Nightclub Package"
@@ -256,7 +253,7 @@
             ]
         },
         "Rally DJ &amp; Lighting I": {
-            "details": "Pricing based on same day setup. 3-4 hours",
+            "details": "<p class='m-0'>Pricing based on same day setup. 3-4 hours</p><a href='#extras'>Custom features can be added</a>",
             "price": "",
             "features": [
                 "4 intelligent moving head lights",
@@ -267,7 +264,7 @@
             ]
         },
         "Rally DJ &amp; Lighting II": {
-            "details": "Pricing based on same day setup. 3-4 hours",
+            "details": "<p class='m-0'>Pricing based on same day setup. 3-4 hours</p><a href='#extras'>Custom features can be added</a>",
             "price": "",
             "features": [
                 "4 intelligent moving head lights",
@@ -279,7 +276,7 @@
             ]
         },
         "School Rally Sound  &amp; Lighting": {
-            "details": "Pricing based on same day setup. 3-4 hours",
+            "details": "<p class='m-0'>Pricing based on same day setup. 3-4 hours</p><a href='#extras'>Custom features can be added</a>",
             "price": "",
             "features": [
                 "4 12in two-way line array speakers",
@@ -293,7 +290,7 @@
             ]
         },
         "Cowgirl Boots Package": {
-            "details": "3-4 hours. Not recommended for groups larger than 250 students",
+            "details": "<p class=''m-0>3-4 hours. Not recommended for groups larger than 250 students</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/cowgirl-boots-package.jpg",
                 "caption": "Cowgirl Boots Package"
@@ -308,7 +305,7 @@
             ]
         },
         "Cowboy Boots Package": {
-            "details": "3-4 hours. Not recommended for groups larger than 250 students",
+            "details": "<p class='m-0'>3-4 hours. Not recommended for groups larger than 250 students</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/cowboy-boots-package.jpg",
                 "caption": "Cowboyl Boots Package"
@@ -323,7 +320,7 @@
             ]
         },
         "Rodeo Boots Package": {
-            "details": "3-4 hours. Not recommended for groups larger than 250 students",
+            "details": "<p class='m-0'>3-4 hours. Not recommended for groups larger than 250 students</p><a href='#extras'>Custom features can be added</a>",
             "price": "",
             "features": [
                 "4 12in two-way line array speakers",
@@ -334,7 +331,7 @@
             ]
         },
         "Pool Party Package": {
-            "details": "",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/pool-party-2.jpg",
                 "caption": "Pool Party Package"
@@ -343,7 +340,7 @@
             "features": ["2 PA speakers", "MC", "4 hours of continuous music"]
         },
         "Boot Coachella Pool Party": {
-            "details": "",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/coachella-pool-party.jpg",
                 "caption": "Boot Coachella Pool Party Package"
@@ -361,7 +358,7 @@
             "features": ["2 PA speakers", "Draping", "Intelligent Uplighting", "DJ*"]
         },
         "Festivals": {
-            "details": "",
+            "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/festival-1.jpg",
                 "caption": "Festivals"
@@ -380,10 +377,6 @@
     },
     "extras": [
         {
-            "description": "4 **dance boxes** 3ft x 3ft x 16in ",
-            "price": "380"
-        },
-        {
             "description": "**C<sub>O</sub>2 confetti** with 20 lbs tanks",
             "price": "115"
         },
@@ -392,7 +385,7 @@
             "price": "280"
         },
         {
-            "description": "**Up Lighting** includes 12 lights",
+            "description": "**Intelligent Up Lighting** (12 lights for palmtrees and walls)",
             "price": "350"
         },
         {
