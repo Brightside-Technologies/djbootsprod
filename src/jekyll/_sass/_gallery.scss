@@ -1,5 +1,19 @@
 .gallery-carousel {
     background: hsla(0, 0%, 0%, 0.9);
+    .gallery-image {
+        position: relative;
+        overflow: hidden;
+    }
+    img {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
     &.is-fullscreen {
         background: hsla(0, 0%, 0%, 1);
         top: 54px;
