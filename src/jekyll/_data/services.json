@@ -216,7 +216,7 @@
             ]
         },
         "Under the Stars": {
-            "details": "<p class='m-0'300+ students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
+            "details": "<p class='m-0'>300+ students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/under-the-stars.jpg",
                 "caption": "Under the Stars"
