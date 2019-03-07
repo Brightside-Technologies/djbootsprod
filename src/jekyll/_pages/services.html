@@ -37,8 +37,11 @@ permalink: services.html
                             {%-capture url-%} {% if site.data.services.packages[package].display.image %} {{site.data.services.packages[package].display.image}} {% else %} assets/images/boots-logo.png {%endif%} {%-endcapture-%}
                             {%-capture alt-%}{{package}}{%-endcapture-%}
                             {% include img_srcset.html class="card-img-top" url=url alt=alt %}
-                            <div class="card-body">
-                                <h6 class="card-title">{{package}}</h6>
+                            <div class="card-body pt-2 pb-1">
+                                <h6 class="card-title mb-1">{{package}}</h6>
+                                {% if package == "Medium" or package == "Premium" or package == "Golden Boot" or package == "Sir Boots Nightclub Style" %}
+                                <p style="font-size: 12px" class="text-uppercase text-muted mb-1"><i class="text-danger fas fa-fire-alt mr-1"></i>Fan Favorite</p>
+                                {% endif %}
                                 <button type="button" class="btn activator bg-gradient border-0">View Details</button>
                             </div>
                             {% if site.data.services.packages[package].details != "" %}
