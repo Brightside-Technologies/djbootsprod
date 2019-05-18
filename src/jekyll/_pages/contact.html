@@ -74,7 +74,7 @@ permalink: contact.html
                 <div class="card h-100">
                     <div class="card-body p-4">
                         <span class="h4 text-center d-block">Leave Me A Message</span>
-                        <form netlify netlify-honeypot="bot-field" id="contact-form" class="form" method="post" novalidate="true">
+                        <form netlify netlify-honeypot="bot-field" id="contact-form" class="form" method="post" novalidate="true" data-netlify="true">
                             <div class="row form-group">
                                 <label class="form-control-label col-md-12 p-0" for="name">Name</label>
                                 <div class="input-group mb-2">
@@ -83,7 +83,7 @@ permalink: contact.html
                                             <i class="fas fa-user" aria-hidden="true"></i>
                                         </div>
                                     </div>
-                                    <input required type="text" class="form-control" id="name">
+                                    <input required type="text" class="form-control" name="name" id="name">
                                 </div>
                                 <small class="form-control-feedback">Name is required</small>
                             </div>
@@ -95,7 +95,7 @@ permalink: contact.html
                                             <i class="fas fa-envelope" aria-hidden="true"></i>
                                         </div>
                                     </div>
-                                    <input required type="email" class="form-control" id="email">
+                                    <input required name="email" type="email" class="form-control" id="email">
                                 </div>
                                 <small class="form-control-feedback">Email is required</small>
                             </div>
