@@ -1,7 +1,7 @@
---- 
-layout: default 
-title: Contact 
-permalink: contact.html 
+---
+layout: default
+title: Contact
+permalink: contact.html
 ---
 
 <section class="gallery" id="gallery">
@@ -14,9 +14,15 @@ permalink: contact.html
                 </div>
 
                 <p class="lead py-4">
-                    Have a question? You can contact me by email or phone or you can find me on Facebook or Instagram. If you would prefer, you
-                    could also leave me a message below and I will respond as soon as possible.
+                    Have a question? You can contact me by email or phone or you can find me on Facebook or Instagram.
+                    If you would prefer, you could also leave me a message below and I will respond as soon as possible.
                 </p>
+                <div class="alert alert-warning text-center border" role="alert">
+                    <small>
+                        Sorry for any delays. If you have recently contacted me through my website, please do so again
+                        and make sure to leave your phone number. Thanks!
+                    </small>
+                </div>
             </div>
         </div>
         <div class="row d-flex">
@@ -26,30 +32,42 @@ permalink: contact.html
                         <div class="d-flex align-items-center justify-content-center">
                             <div class="d-flex flex-column personal-contact">
                                 <div class="d-flex justify-content-between align-items-center w-100 mb-5">
-                                    <a class="d-xs-only btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center" href="tel:{{site.phoneHref}}"
-                                        target="_blank">
+                                    <a
+                                        class="d-xs-only btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center"
+                                        href="tel:{{ site.phoneHref }}"
+                                        target="_blank"
+                                    >
                                         <i class="fas fa-phone"></i>
                                     </a>
-                                    <a class="d-gt-xs d-sm-flex btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center" href="#">
+                                    <a
+                                        class="d-gt-xs d-sm-flex btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center"
+                                        href="#"
+                                    >
                                         <i class="fas fa-phone"></i>
                                     </a>
                                     <div class="d-flex flex-column col">
                                         <span class="h4">Let's Talk</span>
-                                        <span>{{site.phone}}</span>
+                                        <span>{{ site.phone }}</span>
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center w-100 mb-5">
-                                    <a class="btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center" href="mailto:{{site.email}}">
+                                    <a
+                                        class="btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center"
+                                        href="mailto:{{ site.email }}"
+                                    >
                                         <i class="fas fa-envelope"></i>
                                     </a>
                                     <div class="d-flex flex-column col">
                                         <span class="h4">Email Me</span>
-                                        <span>{{site.email}}</span>
+                                        <span>{{ site.email }}</span>
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center w-100 mb-5">
-                                    <a class="btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center" href="{{site.instagramUrl}}"
-                                        target="_blank">
+                                    <a
+                                        class="btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center"
+                                        href="{{ site.instagramUrl }}"
+                                        target="_blank"
+                                    >
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                     <div class="d-flex flex-column col">
@@ -57,8 +75,11 @@ permalink: contact.html
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center w-100">
-                                    <a class="btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center" href="{{site.facebookUrl}}"
-                                        target="_blank">
+                                    <a
+                                        class="btn btn-contact bg-gradient border rounded-circle d-flex align-items-center justify-content-center"
+                                        href="{{ site.facebookUrl }}"
+                                        target="_blank"
+                                    >
                                         <i class="fab fa-facebook-f"></i>
                                     </a>
                                     <div class="d-flex flex-column col">
@@ -74,7 +95,15 @@ permalink: contact.html
                 <div class="card h-100">
                     <div class="card-body p-4">
                         <span class="h4 text-center d-block">Leave Me A Message</span>
-                        <form netlify netlify-honeypot="bot-field" id="contact-form" class="form" method="post" novalidate="true" data-netlify="true">
+                        <form
+                            netlify
+                            netlify-honeypot="bot-field"
+                            id="contact-form"
+                            class="form"
+                            method="post"
+                            novalidate="true"
+                            data-netlify="true"
+                        >
                             <div class="row form-group">
                                 <label class="form-control-label col-md-12 p-0" for="name">Name</label>
                                 <div class="input-group mb-2">
@@ -83,7 +112,7 @@ permalink: contact.html
                                             <i class="fas fa-user" aria-hidden="true"></i>
                                         </div>
                                     </div>
-                                    <input required type="text" class="form-control" name="name" id="name">
+                                    <input required type="text" class="form-control" name="name" id="name" />
                                 </div>
                                 <small class="form-control-feedback">Name is required</small>
                             </div>
@@ -95,7 +124,7 @@ permalink: contact.html
                                             <i class="fas fa-envelope" aria-hidden="true"></i>
                                         </div>
                                     </div>
-                                    <input required name="email" type="email" class="form-control" id="email">
+                                    <input required name="email" type="email" class="form-control" id="email" />
                                 </div>
                                 <small class="form-control-feedback">Email is required</small>
                             </div>
@@ -107,12 +136,21 @@ permalink: contact.html
                                             <i class="fas fa-comment" aria-hidden="true"></i>
                                         </div>
                                     </div>
-                                    <textarea required id="message" name="message" class="form-control" rows="6" required="required"></textarea>
+                                    <textarea
+                                        required
+                                        id="message"
+                                        name="message"
+                                        class="form-control"
+                                        rows="6"
+                                        required="required"
+                                    ></textarea>
                                 </div>
                                 <small class="form-control-feedback">Message is required</small>
                             </div>
                             <div class="d-flex justify-content-center ">
-                                <button disabled type="submit" class="btn-submit btn bg-gradient btn-round border-0">Send Message</button>
+                                <button disabled type="submit" class="btn-submit btn bg-gradient btn-round border-0">
+                                    Send Message
+                                </button>
                             </div>
                         </form>
                     </div>
