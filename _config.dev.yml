@@ -1,0 +1,46 @@
+title: DJ Boots Productions
+company: DJ Boots Productions
+favicon: assets/images/favicon.ico
+logo: assets/images/boots-logo.png
+type: website
+description: SOUTHERN CALIFORNIA'S BEST IN DJ AND EVENT PRODUCTION
+keywords:
+    - Bryan Maldonado
+    - Indio, California
+    - DJ Boots
+    - Boots Productions
+    - DJs in the Coachella Valley
+    - Coachella Valley Entertainment
+    - DJ Boots Entertainment
+    - DJ Services
+    - Coachella Valley Local Business
+    - DJ Boots Productions
+    - Event Planning
+    - Parties
+    - Weddings
+developer: Brightside Tech
+developerUrl: "https://www.brightsidetech.io"
+image: /assets/images/site-preview.jpg
+url: https://development.djbootsprod.com
+email: bryanmaldo7@gmail.com
+phone: (760)-844-0749
+phoneHref: "+17608440749"
+instagramUrl: https://www.instagram.com/djbootspro/
+facebookUrl: https://www.facebook.com/bryan.maldonado.9634340
+googleAnalyticsId: "UA-121872095-1"
+markdown: kramdown
+source: src/jekyll
+destination: jekyll-dist
+include:
+    - _pages
+    - assets
+plugins:
+    - jemoji
+    - jekyll-sitemap
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - package.json
+    - node_modules
+    - package-lock.json
+    - src/vendors

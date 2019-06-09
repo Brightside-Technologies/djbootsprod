@@ -1,0 +1,10 @@
+[build]
+    publish = "dist"
+    command = "npm run build"
+[context.development]
+    publish = "dist"
+    command = "npm run build:dev"
+[[redirects]]
+    from = "https://djbootsprod.netlify.com/*"
+    to = "https://djbootsprod.com/:splat"
+    status = 301
