@@ -10,20 +10,20 @@
             "display": { "image": "assets/images/golden-boot-package-6.jpg", "caption": "Golden Boot Package" },
             "features": [
                 "7ft x 14ft truss goal with colorful intelligent up lighting around the goal",
-                "4 PA speakers with 2 subwoofers",
+                "2 PA speakers with 2 subwoofers",
                 "2 50in screens or video projection for video mixing and slideshow presentation that guest provides",
-                "2 panel lighting fixtures with 2 LED moving heads",
+                "2 LED Washes movers and 2 LED Beams movers",
                 "6 LED intelligent up lights",
                 "1 haze feature",
                 "Wireless mic",
                 "Master of MC",
-                "4-5 hours of continuous music",
+                "3-4 hours of continuous music",
                 "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
             ]
         },
         "UR choice Boot": {
             "details": "<a href='#extras'>Custom features can be added. 4 hours</a>",
-            "display": { "image": "assets/images/golden-boot-package-5.jpg", "caption": "Golden Boot Package" },
+            "display": { "image": "assets/images/golden-boot-package-5.jpg", "caption": "UR Choice Boot Package" },
             "features": [
                 "7ft x 14ft truss goal with colorful intelligent up lighting around the goal",
                 "4 PA speakers with 2 subwoofers",
@@ -45,7 +45,6 @@
                 "2 PA speakers and 1 subwoofers",
                 "2 50in screens for video mixing and slideshow presentation that guest provides",
                 "2 intelligent LED up lighting in truss and two moving head fixtures",
-                "1 haze fixture",
                 "3-4 hours of continuous music"
             ]
         },
@@ -69,11 +68,10 @@
                 "caption": "Medium Package"
             },
             "features": [
-                "6 ft long lighting truss",
-                "2 colorful LED panels and 2 lasers",
-                "2 PA speakers and subwoofer",
+                "6 ft tall by 3 ft lighting truss",
+                "2 colorful LED panels",
+                "2 PA speakers",
                 "Projection video for video mixing and a slide show presentation that guest presents durning dinner and dancing",
-                "1 haze fixture",
                 "3-4 hours of continuous music"
             ]
         },
@@ -85,7 +83,7 @@
             },
             "features": [
                 "4 7 ft. stand-alone truss",
-                "4 PA speakers and 2 subwoofers",
+                "2 PA speakers and 2 subwoofers",
                 "2 50in screens for video mixing and slideshow presentation that guest provides",
                 "4 intelligent up lighting in truss and four LED moving head fixtures",
                 "1 haze fixture",
@@ -128,8 +126,8 @@
                 "Two  7ft truss with 2 LED Color Panels",
                 "Revolutionary sound system (For outdoor Events)",
                 "2 50in screens for video mixing and slideshow presentation that guest provides",
-                "Lighting features on the dance floor with 4 LED moving heads",
-                "Laser features with 2 fog machines",
+                "Lighting features on the dance floor with 4 LED beams and 2 LED washes",
+                "2 fog machines",
                 "10 intelligent colorful up lighting around the room including the main table if needed.",
                 "Master of MC",
                 "Wireless Mic",
@@ -165,16 +163,16 @@
                 "caption": "Trio Boots Package"
             },
             "features": [
-                "10 Ft. Tall by 20 Ft. and a cross fly bar of 30 Ft. through the dance floor",
+                "10 Ft. Tall by 20 Ft. and a cross fly bar of <b>30 Ft. through the dance floor</b>.",
                 "Revolutionary Sound System (For Outdoor Events)",
                 "Ingenious colorful up lighting through the truss",
-                "Special effects with Led moving heads, laser features, LED disco ball, and one haze machine creating a --nightclub experience ",
+                "Special effects with 4 LED moving Heads, LED Disco Ball, 2 Haze Machines creating a --nightclub experience ",
                 "2 50 In Smart T.V for video mixing",
                 "10 Brilliant LED up lighting around the room including main table if needed ",
-                " Master of MC",
-                " Wireless Mic",
+                "Master of MC",
+                "Wireless Mic",
                 "May include 1 time Surprise Dj Remix if needed",
-                "5-6 Hours of continuous music ",
+                "4-5 Hours of continuous music ",
                 "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
             ]
         },
@@ -182,7 +180,7 @@
             "details": "<p class='m-0'>300+ students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/dj-boots-1.jpg",
-                "caption": "Trio Boots Package"
+                "caption": "Wild Dancing Boot Package"
             },
             "features": [
                 "10 Ft. Tall by 20 Ft. and a cross fly bar of 30 Ft. through the dance floor",
@@ -204,7 +202,7 @@
             "features": [
                 "‘X’ custom flying truss with intelligent lighting around the truss ",
                 "Revolutionary sound system (For Outdoor Events)",
-                "2 50 In Smart T.V. for video mixing and Slide show Projecting",
+                "2 50 In Smart T.V. and 6*12 LED Wall if available for video mixing and Slide show Projecting",
                 "Special effects with 6 LED moving heads, laser features, Colorful Panels and 2 fog machines",
                 "14 LED lights around the room including the main table if needed",
                 "Master of MC for ceremony",
@@ -237,7 +235,7 @@
             "details": "<p class='m-0'>4 hours</p><a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/sir-boot-nightclub-6.jpg",
-                "caption": "Sir Boots Nightclub Package"
+                "caption": "Specialty Boot Package"
             },
             "features": [
                 "‘X’ custom flying truss with intelligent lighting around the truss ",
