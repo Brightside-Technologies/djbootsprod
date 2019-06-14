@@ -23,17 +23,17 @@
         "copy:assets": "gulp copy:assets"
     },
     "dependencies": {
-        "bootstrap": "^4.1.0",
+        "bootstrap": "^4.3.1",
         "flickity": "^2.1.1",
         "flickity-fullscreen": "^1.0.1",
-        "jquery": "^3.3.1",
+        "jquery": "^3.4.1",
         "jquery-bridget": "^2.0.1",
         "normalize.css": "^8.0.0",
         "popper.js": "^1.14.3"
     },
     "devDependencies": {
-        "browserify": "^16.2.0",
-        "browserify-css": "^0.14.0",
+        "browserify": "^16.2.3",
+        "browserify-css": "^0.15.0",
         "del": "^3.0.0",
         "gulp": "^3.9.1",
         "gulp-autoprefixer": "^5.0.0",
@@ -43,7 +43,7 @@
         "gulp-imagemin": "^4.1.0",
         "gulp-inject": "^4.3.2",
         "gulp-rename": "^1.2.3",
-        "gulp-responsive": "^2.10.0",
+        "gulp-responsive": "^2.14.0",
         "gulp-uglify": "^3.0.0",
         "read-yaml": "^1.1.0",
         "stream-series": "^0.1.1"
