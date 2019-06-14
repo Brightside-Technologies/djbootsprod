@@ -117,7 +117,7 @@ gulp.task("responsive-images:clean", function() {
     return del(["src/jekyll/assets/images/**/*.responsive.*"]);
 });
 
-gulp.task("responsive-images", ["responsive-images:clean"], function() {
+gulp.task("responsive-images", gulp.series("responsive-images:clean"), function() {
     return gulp
         .src("src/jekyll/assets/images/*.jpg")
         .pipe(
