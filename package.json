@@ -8,7 +8,7 @@
         "jekyll": "bundle exec jekyll build",
         "jekyll:dev": "bundle exec jekyll build --config _config.dev.yml",
         "build": "npm run clean:prebuild && npm run responsive-images && npm run jekyll && npm run copy && gulp get-hash && npm run minify && gulp inject && npm run clean:postbuild",
-        "build:dev": "npm run clean:prebuild && npm run responsive-images && npm run jekyll:dev && npm run copy && gulp get-hash && npm run minify && gulp inject:dev && npm run clean:postbuild",
+        "build:dev": "npm run clean:prebuild && npm run responsive-images && npm run jekyll:dev && npm run copy && gulp get-hash && npm run minify && gulp injectdev && npm run clean:postbuild",
         "browserify": "browserify -t [ browserify-css --stripComments=true src/vendors/vendors.css --output src/jekyll/vendors.bundle.css] src/vendors/vendors.js -o src/jekyll/vendors.bundle.js",
         "clean:prebuild": "gulp clean:prebuild",
         "clean:postbuild": "gulp clean:postbuild",

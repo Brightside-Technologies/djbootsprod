@@ -113,7 +113,7 @@ gulp.task("inject", function() {
         });
 });
 
-gulp.task("inject:dev", function() {
+gulp.task("injectdev", function() {
     return new Promise(function(resolve, reject) {
         readYaml("_config.dev.yml", function(err, data) {
             if (err) {
