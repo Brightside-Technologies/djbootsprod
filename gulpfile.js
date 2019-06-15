@@ -113,6 +113,33 @@ gulp.task("inject", function() {
         });
 });
 
+gulp.task("inject:dev", function() {
+    return new Promise(function(resolve, reject) {
+        readYaml("_config.dev.yml", function(err, data) {
+            if (err) {
+                return reject(err);
+            }
+            resolve(data.url);
+        });
+    })
+        .then(function(url) {
+            var vendorsStream = gulp.src(["dist/vendors.*"], { read: false });
+            var siteStream = gulp.src(["dist/site.*"], { read: false });
+            return gulp
+                .src("dist/*.html")
+                .pipe(
+                    inject(series(vendorsStream, siteStream), {
+                        relative: true,
+                        addPrefix: url
+                    })
+                )
+                .pipe(gulp.dest("dist"));
+        })
+        .catch(function(err) {
+            throw new Error(err);
+        });
+});
+
 gulp.task("responsive-images:clean", function() {
     return del(["src/jekyll/assets/images/**/*.responsive.*"]);
 });
