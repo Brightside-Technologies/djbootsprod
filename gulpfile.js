@@ -117,7 +117,7 @@ gulp.task("responsive-images:clean", function() {
     return del(["src/jekyll/assets/images/**/*.responsive.*"]);
 });
 
-gulp.task("responsive-images", ["responsive-images:clean"], function() {
+gulp.task("responsive-images", gulp.series("responsive-images:clean", function() {
     return gulp
         .src("src/jekyll/assets/images/*.jpg")
         .pipe(
@@ -166,7 +166,7 @@ gulp.task("responsive-images", ["responsive-images:clean"], function() {
             )
         )
         .pipe(gulp.dest("src/jekyll/assets/images"));
-});
+}));
 
 gulp.task("copy:assets", function() {
     return gulp.src("jekyll-dist/assets/**/*").pipe(gulp.dest("dist/assets"));

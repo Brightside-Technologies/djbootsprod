@@ -18,22 +18,28 @@ $(document).ready(function() {
         }
     });
 
-    $(".testimonials-carousel").flickity({
-        // cellAlign: "center",
-        wrapAround: true,
-        setGallerySize: false,
-        freeScroll: true,
-        autoPlay: 10000
-    });
+    if($(".testimonials-carousel").length > 0){
+        var testimonialsCarousel = new Flickity(".testimonials-carousel", {
+            // cellAlign: "center",
+            wrapAround: true,
+            setGallerySize: false,
+            freeScroll: true,
+            autoPlay: 10000
+        });
+    }
+    
 
-    $(".gallery-carousel").flickity({
-        cellAlign: "center",
-        wrapAround: true,
-        fullscreen: true,
-        freeScroll: true,
-        autoPlay: 1500,
-        pageDots: false
-    });
+    if($(".gallery-carousel").length > 0){
+        var gallleryCarousel =  new Flickity(".gallery-carousel",{
+            cellAlign: "center",
+            wrapAround: true,
+            fullscreen: true,
+            freeScroll: true,
+            autoPlay: 1500,
+            pageDots: false
+        });
+    }
+    
 
     $(".service-carousel").each(function(index) {
         var cellCount = $(this).find(".cell").length;
