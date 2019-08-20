@@ -1,8 +1,8 @@
 {
     "packages": {
-        "Silver Photo Booth Package":{
-            "details":"<p>Optional Upgades</p><p>Scrapbook</p><p>VIP Booth</p>",
-            "display":"",
+        "Silver Photo Booth Package": {
+            "details": "<small class='m-0'>Optional Upgades</small><p class='m-0'>Scrapbook</p><p class='m-0'>VIP Booth</p>",
+            "display": "",
             "features": [
                 "High quality 4x6 hard copies",
                 "Custom layout",
@@ -14,9 +14,9 @@
                 "No setup fees and breakdown fees"
             ]
         },
-        "Gold Photo Booth Package":{
-            "details":"<p>Optional Upgades</p><p>Scrapbook</p><p>VIP Booth</p>",
-            "display":"",
+        "Gold Photo Booth Package": {
+            "details": "<small class='m-0'>Optional Upgades</small><p class='m-0'>Scrapbook</p><p class='m-0'>VIP Booth</p>",
+            "display": "",
             "features": [
                 "High quality 4x6 or 2x6 hard copies",
                 "Custom effects",
@@ -29,9 +29,9 @@
                 "No setup fees and breakdown fees"
             ]
         },
-        "Premium Photo Booth Package":{
-            "details":"<p>Optional Upgades</p><p>Scrapbook</p><p>VIP Booth</p>",
-            "display":"",
+        "Premium Photo Booth Package": {
+            "details": "<small class='m-0'>Optional Upgades</small><p class='m-0'>Scrapbook</p><p class='m-0'>VIP Booth</p>",
+            "display": "",
             "features": [
                 "High quality 4x6 or 2x6 hard copies",
                 "Sleeves to protect 4 * 6 or 2 * 6 copies",
@@ -518,14 +518,17 @@
         },
         {
             "name": "School Only Packages",
-            "description": "Specializing in creating great school memories at all school dances such as homecoming, prom, sadie hawkins dance just to name a few. Providing age appropriate music for all tastes. DJ Boots Productions will help create those memories with spectacular set-ups and music.",
-            "packages": ["Cowgirl Boots Package", "Cowboy Boots Package", "DJ Boots"],
-            "globalFeatures": ["DJ surprises with 50 pcs Glow sticks or 60 long balloons "]
-        },
-        {
-            "name": "School Dance Parties Only",
             "description": "",
-            "packages": ["DJ Boots", "Tower Boot", "Twin Tower Boots", "Wild Dancing Boot", "Under the Stars"]
+            "packages": [
+                "DJ Boots",
+                "Tower Boot",
+                "Twin Tower Boots",
+                "Wild Dancing Boot",
+                "Under the Stars",
+                "Silver Photo Booth Package",
+                "Gold Photo Booth Package",
+                "Premium Photo Booth Package"
+            ]
         },
         {
             "name": "School Rallies Only",
