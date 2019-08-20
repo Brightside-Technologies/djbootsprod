@@ -42,6 +42,9 @@ permalink: services.html
                                 {% if package == "Twin Boots" or package == "Premium" or package == "Golden Boot" or package == "Sir Boots Nightclub Style" %}
                                 <p style="font-size: 12px" class="text-uppercase text-muted mb-1"><i class="text-danger fas fa-fire-alt mr-1"></i>Fan Favorite</p>
                                 {% endif %}
+                                {% if package == "DJ Boots" %}
+                                <p style="font-size: 12px" class="text-uppercase text-muted mb-1"><i class="text-danger fas fa-utensils mr-1"></i>Lunch Special</p>
+                                {% endif %}
                                 <button type="button" class="btn activator bg-gradient border-0">View Details</button>
                             </div>
                             {% if site.data.services.packages[package].details != "" %}

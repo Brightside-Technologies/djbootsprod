@@ -1,54 +1,9 @@
 {
     "packages": {
-        "Silver Photo Booth Package": {
-            "details": "<small class='m-0'>Optional Upgades</small><p class='m-0'>Scrapbook</p><p class='m-0'>VIP Booth</p>",
-            "display": "",
-            "features": [
-                "High quality 4x6 hard copies",
-                "Custom layout",
-                "Text to phone",
-                "Digital copies (Display Slide Show)",
-                "Touch-screen monitor",
-                "Booth attendant",
-                "Second monitor (Display Slide Show)",
-                "No setup fees and breakdown fees"
-            ]
-        },
-        "Gold Photo Booth Package": {
-            "details": "<small class='m-0'>Optional Upgades</small><p class='m-0'>Scrapbook</p><p class='m-0'>VIP Booth</p>",
-            "display": "",
-            "features": [
-                "High quality 4x6 or 2x6 hard copies",
-                "Custom effects",
-                "Custom layout",
-                "Digital copies (online galleries)",
-                "Text to phone",
-                "Touch-screen monitor",
-                "Booth attendant",
-                "Second monitor (Display Slide Show)",
-                "No setup fees and breakdown fees"
-            ]
-        },
-        "Premium Photo Booth Package": {
-            "details": "<small class='m-0'>Optional Upgades</small><p class='m-0'>Scrapbook</p><p class='m-0'>VIP Booth</p>",
-            "display": "",
-            "features": [
-                "High quality 4x6 or 2x6 hard copies",
-                "Sleeves to protect 4 * 6 or 2 * 6 copies",
-                "Custom effects",
-                "Custom layout",
-                "Digital copies (online gallery)",
-                "Text to phone",
-                "Touch-screen monitor",
-                "Booth attendant",
-                "Second monitor (Display Slide Show)",
-                "No setup fees and breakdown fees"
-            ]
-        },
         "DJ Boots": {
             "details": "<a href='#extras'>Custom features can be added</a>",
             "display": { "image": "assets/images/standard-package-1.jpg", "caption": "DJ Boots Package" },
-            "features": ["'T' lighting with two light fixtures", "2 PA speakers", "3-4 hours of continuous music"]
+            "features": ["2 PA speakers", "3-4 hours of continuous music"]
         },
         "Golden Boot": {
             "details": "<a href='#extras'>Custom features can be added</a>",
@@ -148,7 +103,15 @@
                 "2 50in screens or 1 video projection for video mixing and slideshow presentation that guest provides",
                 "4 intelligent up lighting in truss and four moving head fixtures",
                 "1 haze fixture",
-                "3-4 hours of continuous music"
+                "3-4 hours of continuous music",
+                "High quality 4x6 hard copies",
+                "Custom layout",
+                "Text to phone",
+                "Digital copies (Display Slide Show)",
+                "Touch-screen monitor",
+                "Booth attendant",
+                "Second monitor (Display Slide Show)",
+                "No setup fees and breakdown fees"
             ]
         },
         "Boots": {
@@ -235,7 +198,16 @@
                 "10 Brilliant LED up lighting around the room",
                 "Master of MC",
                 "Wireless Mic",
-                "3-4 hours of continuous music"
+                "3-4 hours of continuous music",
+                "High quality 4x6 or 2x6 hard copies",
+                "Custom effects",
+                "Custom layout",
+                "Digital copies (online galleries)",
+                "Text to phone",
+                "Touch-screen monitor",
+                "Booth attendant",
+                "Second monitor (Display Slide Show)",
+                "No setup fees and breakdown fees"
             ]
         },
         "Sir Boots Nightclub Style": {
@@ -275,7 +247,17 @@
                 "GOBO to project schools logo",
                 "Ceremony system 2 PA speakers and a wireless mic if needed.",
                 "1 PA speaker for cocktail hour",
-                "3-4 hours of continuous music"
+                "3-4 hours of continuous music",
+                "High quality 4x6 or 2x6 hard copies",
+                "Sleeves to protect 4 * 6 or 2 * 6 copies",
+                "Custom effects",
+                "Custom layout",
+                "Digital copies (online gallery)",
+                "Text to phone",
+                "Touch-screen monitor",
+                "Booth attendant",
+                "Second monitor (Display Slide Show)",
+                "No setup fees and breakdown fees"
             ]
         },
         "Specialty Boot": {
@@ -332,36 +314,6 @@
                 "4 truss warmers",
                 "DMX software and laptop",
                 "Lighting Tech/Programmer"
-            ]
-        },
-        "Cowgirl Boots Package": {
-            "details": "<p class=''m-0>3-4 hours. Not recommended for groups larger than 250 students</p><a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/cowgirl-boots-package.jpg",
-                "caption": "Cowgirl Boots Package"
-            },
-            "price": "",
-            "features": [
-                "2 12in two-way speakers",
-                "2 18in subwoofers",
-                "2 intelligent moving head lights",
-                "2 truss columns",
-                "2 truss intelligent up lights"
-            ]
-        },
-        "Cowboy Boots Package": {
-            "details": "<p class='m-0'>3-4 hours. Not recommended for groups larger than 250 students</p><a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/cowboy-boots-package.jpg",
-                "caption": "Cowboyl Boots Package"
-            },
-            "price": "",
-            "features": [
-                "4 12in two-way line array speakers",
-                "2 18in subwoofers",
-                "4 intelligent moving head lights",
-                "4 truss columns",
-                "4 truss intelligent up lights"
             ]
         },
         "Rodeo Boots Package": {
@@ -519,16 +471,7 @@
         {
             "name": "School Only Packages",
             "description": "",
-            "packages": [
-                "DJ Boots",
-                "Tower Boot",
-                "Twin Tower Boots",
-                "Wild Dancing Boot",
-                "Under the Stars",
-                "Silver Photo Booth Package",
-                "Gold Photo Booth Package",
-                "Premium Photo Booth Package"
-            ]
+            "packages": ["DJ Boots", "Tower Boot", "Twin Tower Boots", "Wild Dancing Boot", "Under the Stars"]
         },
         {
             "name": "School Rallies Only",
