@@ -1,28 +1,36 @@
---- 
-layout: home 
-title: Home 
-permalink: index.html 
+---
+layout: home
+title: Home
+permalink: index.html
 ---
 
 <div class="about pt-5" id="about">
     <div class="container">
+        <img src="/assets/Halloween Flyer.jpg" class="img-fluid" alt="Responsive image">
         <div class="row">
             <div class="col-lg-12">
                 <div class="d-flex flex-column align-items-center">
                     <h3 class="text-center">About</h3>
                     <span class="header-span bg-gradient"></span>
                 </div>
-                
+
                 <p class="lead pt-4">
-                    Welcome to {{site.company}}, where entertainment moves your soul. {{site.company}} has been around since 2010, providing
-                    excellent dj service, audio visual, special affect lighting, and more. Producing various events including
-                    corporate meetings, holiday parties, school events, weddings, quinceneras, and many other special occasions.
-                    Our goal is to make your experience the most memorable by providing the best service possible. {{site.company}} offers a variety of music for all tastes and ages. Creating great memories with body-moving
-                    music and lighting, we serve all Southern California. We look forward to making your next event dynamic
+                    Welcome to {{site.company}}, where entertainment moves your soul. {{site.company}} has been around
+                    since 2010, providing
+                    excellent dj service, audio visual, special affect lighting, and more. Producing various events
+                    including
+                    corporate meetings, holiday parties, school events, weddings, quinceneras, and many other special
+                    occasions.
+                    Our goal is to make your experience the most memorable by providing the best service possible.
+                    {{site.company}} offers a variety of music for all tastes and ages. Creating great memories with
+                    body-moving
+                    music and lighting, we serve all Southern California. We look forward to making your next event
+                    dynamic
                     and exciting, keeping the energy going throughout the event.
                 </p>
                 <p class="lead">
-                    Don't hesitate on booking your next event with us, as we are certain it will be a great experience and you wont be disappointed!
+                    Don't hesitate on booking your next event with us, as we are certain it will be a great experience
+                    and you wont be disappointed!
                     Hablamos Espa&ntilde;ol!
                 </p>
                 <hr class="my-5">
@@ -38,24 +46,27 @@ permalink: index.html
                 <div class="d-flex flex-column" style="height: 400px;">
                     <div class="py-5 testimonials-carousel h-100">
                         {% for testimonial in site.data.testimonials %}
-                            <div class="testimonials-carousel--cell pb-3 px-1 h-100 col-md-12">
-                                <div class="h-100 shadow d-flex flex-column justify-content-between testimonials-body border p-3 rounded bg-light">
-                                    <p class="mb-1 line-clamp line-clamp-8">{{testimonial.text}}</p>
-                                    <div class="d-flex align-items-center pt-1">
-                                        {% if testimonial.image != "" %}
-                                            <img class="testimonial-picture img-fluid rounded-circle" src="{{testimonial.image | absolute_url}}" alt="{{testimonial.name}}">
-                                        {% else %}
-                                            <div class="testimonial-initials rounded-circle bg-gradient text-white d-flex justify-content-center align-items-center">
-                                                <span>{{testimonial.initials}}</span>
-                                            </div>
-                                        {% endif %}
-                                        <div class="pl-3">
-                                            <div class="h5 m-0">{{testimonial.name}}</div>
-                                            <p class="text-muted m-0">{{testimonial.location}}</p>
-                                        </div>
+                        <div class="testimonials-carousel--cell pb-3 px-1 h-100 col-md-12">
+                            <div
+                                class="h-100 shadow d-flex flex-column justify-content-between testimonials-body border p-3 rounded bg-light">
+                                <p class="mb-1 line-clamp line-clamp-8">{{testimonial.text}}</p>
+                                <div class="d-flex align-items-center pt-1">
+                                    {% if testimonial.image != "" %}
+                                    <img class="testimonial-picture img-fluid rounded-circle"
+                                        src="{{testimonial.image | absolute_url}}" alt="{{testimonial.name}}">
+                                    {% else %}
+                                    <div
+                                        class="testimonial-initials rounded-circle bg-gradient text-white d-flex justify-content-center align-items-center">
+                                        <span>{{testimonial.initials}}</span>
+                                    </div>
+                                    {% endif %}
+                                    <div class="pl-3">
+                                        <div class="h5 m-0">{{testimonial.name}}</div>
+                                        <p class="text-muted m-0">{{testimonial.location}}</p>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                         {% endfor %}
                     </div>
                 </div>
@@ -66,8 +77,9 @@ permalink: index.html
         <span class="mask mask-dark"></span>
         <div class=" position-relative d-flex flex-column justify-content-between">
             <h4 class="text-center text-white pb-4">Contact us for all events</h3>
-            <h4 class="text-center text-white h5">Festivals &bull; Weddings &bull; Quincea&ntilde;eras &bull; Birthdays &bull; Corporate Events &bull; School Events </h4>
-            <p class="h5 text-white text-center mt-5">Thank you for your continued support</p>
+                <h4 class="text-center text-white h5">Festivals &bull; Weddings &bull; Quincea&ntilde;eras &bull;
+                    Birthdays &bull; Corporate Events &bull; School Events </h4>
+                <p class="h5 text-white text-center mt-5">Thank you for your continued support</p>
         </div>
     </div>
 </div>
