@@ -373,6 +373,34 @@
                 "Audio Rentals (Line Arrays)",
                 "DJ*"
             ]
+        },
+        "Boots Silent Disco": {
+            "details": "<a href='#extras'>Custom features can be added</a>",
+            "display": {
+                "image": "",
+                "caption": "Boots Silent Disco"
+            },
+            "price": "",
+            "features": [
+                "200 LED color headphones",
+                "2 channels/ Extra DJ can be added(Continuous music)",
+                "2 LED lighting Fixtures",
+                "4 hours continuous music"
+            ]
+        },
+        "BM 07 Silent DJ": {
+            "details": "<a href='#extras'>Custom features can be added</a>",
+            "display": {
+                "image": "",
+                "caption": "BM 07 Silent DJ"
+            },
+            "price": "",
+            "features": [
+                "100 LED Color Head phones",
+                "1 Channel/ Extra DJ can be added",
+                "2 LED Fixtures",
+                "3 hours continuous music"
+            ]
         }
     },
     "extras": [
@@ -442,6 +470,11 @@
         }
     ],
     "eventTypes": [
+        {
+            "name": "Summit Silent Nights",
+            "description": "",
+            "packages": ["Boots Silent Disco", "BM 07 Silent DJ"]
+        },
         {
             "name": "Weddings &amp; Quincea&ntilde;eras",
             "description": "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
