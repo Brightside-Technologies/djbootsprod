@@ -378,7 +378,7 @@
     "extras": [
         {
             "description": "**C<sub>O</sub>2 confetti** with 20 lbs tanks",
-            "price": "115"
+            "price": "165"
         },
         {
             "description": "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
@@ -390,15 +390,15 @@
         },
         {
             "description": "**Gobo Monogram** displays your initials or name on the dance floor",
-            "price": "85"
+            "price": "120"
         },
         {
             "description": "**Ceremony sound** adds 2 PA speakers and a wireless microphone",
-            "price": "160"
+            "price": "200"
         },
         {
             "description": "**Fog machine**",
-            "price": "60"
+            "price": "85"
         },
         {
             "description": "**50in TV or projection**: show family pictures or videos throughout the night",
@@ -414,7 +414,7 @@
         },
         {
             "description": "Surprise dance remixes",
-            "price": "65"
+            "price": "85"
         },
         {
             "description": "50+ Glow Sticks",
@@ -438,7 +438,7 @@
         },
         {
             "description": "**Dancing On Clouds Machine** - beautiful visual effect that creates heart-stirring moments.  It is perfectly safe, odorless and harmless that will not leave any residue or effect fire alarms.",
-            "price": "200"
+            "price": "280"
         }
     ],
     "eventTypes": [
