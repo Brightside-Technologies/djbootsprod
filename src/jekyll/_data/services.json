@@ -376,10 +376,6 @@
         },
         "Boots Silent Disco": {
             "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "",
-                "caption": "Boots Silent Disco"
-            },
             "price": "",
             "features": [
                 "200 LED color headphones",
@@ -390,10 +386,6 @@
         },
         "BM 07 Silent DJ": {
             "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "",
-                "caption": "BM 07 Silent DJ"
-            },
             "price": "",
             "features": [
                 "100 LED Color Head phones",
