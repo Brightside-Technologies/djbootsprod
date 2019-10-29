@@ -12,6 +12,10 @@
         "label": "Gallery"
     },
     {
+        "url": "our-team.html",
+        "label": "Our Team"
+    },
+    {
         "url": "contact.html",
         "label": "Contact"
     }

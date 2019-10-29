@@ -1,0 +1,44 @@
+--- 
+layout: default 
+title: Our Team 
+permalink: our-team.html
+team: 
+    - image: https://mdbootstrap.com/img/Photos/Others/photo6.jpg
+      name: "Sergio \"MTwoo\" Martinez"
+      bio: "Born and raised in East L.A. 28 years old been djing since 2007. Some of the nightclubs and venues I’ve performed at are Hollywood play house, Velasco theater, conga room, pico Rivera sports arena, status nightclub, rodeo nightclub, spa resort casino, spotlight 29 casino and fantasy springs casino among many others.  My specialty is keeping the party alive with my Latin flavor mixes. Pristine audio and killer lighting effects is my pasion. Anything from a 5 star venue down to a get together in the back yard boots production and yours truly Sergio MTwoo Martinez have you covered."
+---
+<section class="services">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-lg-12">
+                <div class="d-flex flex-column align-items-center">
+                    <h3 class="text-center">{{page.title}}</h3>
+                    <span class="header-span bg-gradient"></span>
+                </div>
+                <p class="lead py-4 text-center">
+                    Our team consists of the top DJs in the area.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            {% for member in page.team %}
+                <div class="col-lg-12">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="{{member.image}}" class="card-img" alt="{{member.name}}" style="height: 100%; object-fit: cover">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{member.name}}</h5>
+                                    <p class="card-text">{{member.bio}}</p>
+                                    {%- comment -%} <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> {%- endcomment -%}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
