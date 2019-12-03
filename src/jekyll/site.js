@@ -18,7 +18,7 @@ $(document).ready(function() {
         }
     });
 
-    if($(".testimonials-carousel").length > 0){
+    if ($(".testimonials-carousel").length > 0) {
         var testimonialsCarousel = new Flickity(".testimonials-carousel", {
             // cellAlign: "center",
             wrapAround: true,
@@ -27,10 +27,9 @@ $(document).ready(function() {
             autoPlay: 10000
         });
     }
-    
 
-    if($(".gallery-carousel").length > 0){
-        var gallleryCarousel =  new Flickity(".gallery-carousel",{
+    if ($(".gallery-carousel").length > 0) {
+        var gallleryCarousel = new Flickity(".gallery-carousel", {
             cellAlign: "center",
             wrapAround: true,
             fullscreen: true,
@@ -39,7 +38,6 @@ $(document).ready(function() {
             pageDots: false
         });
     }
-    
 
     $(".service-carousel").each(function(index) {
         var cellCount = $(this).find(".cell").length;
@@ -138,4 +136,16 @@ $(document).ready(function() {
             $this.removeClass("is-revealed");
         });
     });
+
+    if ($(".lightbox").length > 0) {
+        $(".lightbox").each(function() {
+            var $this = $(this);
+            var chocolatInstance = $this
+                .Chocolat({
+                    container: $("#lightbox-container")
+                })
+                .data("chocolat");
+            //chocolatInstance.api().open();
+        });
+    }
 });

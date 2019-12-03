@@ -36,7 +36,9 @@ permalink: services.html
                         <div class="service-card card card-reveal h-100 text-center">
                             {%-capture url-%} {% if site.data.services.packages[package].display.image %} {{site.data.services.packages[package].display.image}} {% else %} assets/images/boots-logo.png {%endif%} {%-endcapture-%}
                             {%-capture alt-%}{{package}}{%-endcapture-%}
+                            <a data-featherlight="{{url | replace: " ", ""}}" href="#" title="{{package}}">
                             {% include img_srcset.html class="card-img-top" url=url alt=alt %}
+                            </a>
                             <div class="card-body pt-2 pb-1">
                                 <h6 class="card-title mb-1">{{package}}</h6>
                                 {% if package == "Twin Boots" or package == "Premium" or package == "Golden Boot" or package == "Sir Boots Nightclub Style" %}

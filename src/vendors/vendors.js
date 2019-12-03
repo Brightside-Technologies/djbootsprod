@@ -7,3 +7,7 @@ var flickityFullscreen = require("flickity-fullscreen");
 //window.Flickity = require("flickity");
 var flickity = require("flickity");
 window.flickity = flickity;
+
+var Chocolat = require("chocolat");
+//$.fn.Chocolat = Chocolat;
+window.Chocolat = Chocolat;
