@@ -4,6 +4,9 @@
 [context.development]
     publish = "_site"
     command = "npm run build:dev"
+[context.test]
+    publish = "_site"
+    command = "npm run build:test"
 [[redirects]]
     from = "https://djbootsprod.netlify.com/*"
     to = "https://djbootsprod.com/:splat"
