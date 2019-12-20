@@ -1,8 +1,6 @@
-dist/
-jekyll-dist
-.sass-cache/
-.jekyll-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
-node_modules
-package-lock.json
-Thumbs.db
+vendor
+src/jekyll

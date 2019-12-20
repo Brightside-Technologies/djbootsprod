@@ -1,8 +1,8 @@
 [build]
-    publish = "dist"
+    publish = "_site"
     command = "npm run build"
 [context.development]
-    publish = "dist"
+    publish = "_site"
     command = "npm run build:dev"
 [[redirects]]
     from = "https://djbootsprod.netlify.com/*"

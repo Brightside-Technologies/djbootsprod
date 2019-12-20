@@ -1,7 +1,7 @@
 title: DJ Boots Productions
 company: DJ Boots Productions
 favicon: assets/images/favicon.ico
-logo: assets/images/boots-logo.png
+logo: assets/images/boots-logo.jpg
 type: website
 description: SOUTHERN CALIFORNIA'S BEST IN DJ AND EVENT PRODUCTION
 keywords:
@@ -29,18 +29,11 @@ instagramUrl: https://www.instagram.com/bootspro7/
 facebookUrl: https://www.facebook.com/pages/category/Local-Business/Dj-Boots-135831766981148/
 googleAnalyticsId: ""
 markdown: kramdown
-source: src/jekyll
-destination: jekyll-dist
-include:
-    - _pages
-    - assets
+source: src
 plugins:
     - jemoji
     - jekyll-sitemap
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - package.json
-    - node_modules
-    - package-lock.json
-    - src/vendors
+include:
+    - _pages
+sass:
+   sourcemap: never
