@@ -9,6 +9,12 @@ team:
     - image: /assets/images/dj-danny-boy.jpg
       name: DJ Danny Boy
       bio: "25 years of experience, Nighclubs Dj and mobile Dj, playing the best English and Latin music"
+    - image: /assets/images/dj-de-la-raza.jpg
+      name: DJ JM
+      bio: "\"Power man/ Robot\" Was born in Guanajuato Mexico where I began my journey as a DJ. 25 years working as a DJ with friends and family events and clubs. My specialty is Latino Music. Beepeepee!! I speak Spanish/ English but MC is always better in Spanish. My company is DJS DE LA RAZA. I share this Company with my brother MC Garin Mendez who MC all my events. We been Partners for 10 years. His specialty is making all events a great memorable adventure. Boots Productions and I will create the best experience for your event:)"
+    - image: /assets/images/dj-de-la-raza.jpg
+      name: MC Garin Mendez
+      bio: "Born in Guanajuato where my journey began as a MC. I Have 10 years of MC (Spanish). I Came to the Coachella Valley where I began MC for the best clubs like El Club Rio, Sinaloense, Casa Tequilla, Otro Nivel just to name a few. DJM and I own DJ DE LA Raza. Boots Productions and I will create the best experience for your event:)"
 ---
 <section class="services">
     <div class="container">
@@ -26,10 +32,10 @@ team:
         <div class="row">
             {% for member in page.team %}
                 <div class="col-lg-12">
-                    <div class="card mb-3">
+                    <div class="card mb-3 shadow">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="{{member.image}}" class="card-img" alt="{{member.name | replace: '"', '' }}" style="height: 100%; object-fit: cover">
+                                <img src="{{member.image}}" class="card-img rounded-0" alt="{{member.name | replace: '"', '' }}" style="height: 100%; object-fit: cover; min-height: 300px">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
