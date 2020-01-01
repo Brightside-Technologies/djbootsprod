@@ -1,51 +1,63 @@
---- 
-layout: default 
-title: Our Team 
+---
+layout: default
+title: Our Team
 permalink: our-team.html
-team: 
+team:
     - image: /assets/images/mtwoo.jpg
-      name: "Sergio \"MTwoo\" Martinez"
+      name: 'Sergio "MTwoo" Martinez'
       bio: "Born and raised in East L.A. 28 years old been djing since 2007. Some of the nightclubs and venues I’ve performed at are Hollywood play house, Velasco theater, conga room, pico Rivera sports arena, status nightclub, rodeo nightclub, spa resort casino, spotlight 29 casino and fantasy springs casino among many others.  My specialty is keeping the party alive with my Latin flavor mixes. Pristine audio and killer lighting effects is my pasion. Anything from a 5 star venue down to a get together in the back yard boots production and yours truly Sergio MTwoo Martinez have you covered."
     - image: /assets/images/dj-danny-boy.jpg
       name: DJ Danny Boy
       bio: "25 years of experience, Nighclubs Dj and mobile Dj, playing the best English and Latin music"
     - image: /assets/images/dj-de-la-raza.jpg
       name: DJ JM
-      bio: "\"Power man/ Robot\" Was born in Guanajuato Mexico where I began my journey as a DJ. 25 years working as a DJ with friends and family events and clubs. My specialty is Latino Music. Beepeepee!! I speak Spanish/ English but MC is always better in Spanish. My company is DJS DE LA RAZA. I share this Company with my brother MC Garin Mendez who MC all my events. We been Partners for 10 years. His specialty is making all events a great memorable adventure. Boots Productions and I will create the best experience for your event:)"
+      bio: '"Power man/ Robot" Was born in Guanajuato Mexico where I began my journey as a DJ. 25 years working as a DJ with friends and family events and clubs. My specialty is Latino Music. Beepeepee!! I speak Spanish/ English but MC is always better in Spanish. My company is DJS DE LA RAZA. I share this Company with my brother MC Garin Mendez who MC all my events. We been Partners for 10 years. His specialty is making all events a great memorable adventure. Boots Productions and I will create the best experience for your event:)'
     - image: /assets/images/dj-de-la-raza.jpg
       name: MC Garin Mendez
       bio: "Born in Guanajuato where my journey began as a MC. I Have 10 years of MC (Spanish). I Came to the Coachella Valley where I began MC for the best clubs like El Club Rio, Sinaloense, Casa Tequilla, Otro Nivel just to name a few. DJM and I own DJ DE LA Raza. Boots Productions and I will create the best experience for your event:)"
 ---
+
 <section class="services">
-    <div class="container">
-        <div class="row pb-5">
+    <div class="container-fluid p-0 position-relative">
+        <img src="/assets/images/team.jpg" class="img-fluid" />
+        <div
+            style="display:flex; align-items: center; position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;"
+        >
+            <span class="mask mask-dark"></span>
             <div class="col-lg-12">
                 <div class="d-flex flex-column align-items-center">
-                    <h3 class="text-center">{{page.title}}</h3>
+                    <h3 class="text-center text-white">{{page.title}}</h3>
                     <span class="header-span bg-gradient"></span>
                 </div>
-                <p class="lead py-4 text-center">
+                <p class="lead py-4 text-center text-white">
                     Our team consists of the top DJs in the area.
                 </p>
             </div>
         </div>
+    </div>
+    <div class="container mt-5">
         <div class="row">
             {% for member in page.team %}
-                <div class="col-lg-12">
-                    <div class="card mb-3 shadow">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="{{member.image}}" class="card-img rounded-0" alt="{{member.name | replace: '"', '' }}" style="height: 100%; object-fit: cover; min-height: 300px">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{member.name}}</h5>
-                                    <p class="card-text">{{member.bio}}</p>
-                                </div>
+            <div class="col-lg-12">
+                <div class="card mb-3 shadow">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="{{member.image}}" class="card-img rounded-0" alt="{{member.name | replace: '"', ''
+                            }}" style="height: 100%; object-fit: cover; min-height: 300px">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">{{member.name}}</h5>
+                                <p class="card-text">{{member.bio}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
             {% endfor %}
         </div>
     </div>
