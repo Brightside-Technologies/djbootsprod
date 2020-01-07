@@ -43,7 +43,7 @@ $(document).ready(function() {
             cellAlign: "center",
             wrapAround: true,
             freeScroll: true,
-            //autoPlay: 5000,
+            autoPlay: 5000,
             pageDots: false,
             groupCells: true
         });
