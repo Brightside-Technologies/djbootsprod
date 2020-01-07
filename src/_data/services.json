@@ -457,11 +457,11 @@
         },
         {
             "description": "24' x 12' Stage",
-            "price": "$680"
+            "price": "680"
         },
         {
             "description": "16' x 18' Stage",
-            "price": "$550"
+            "price": "550"
         },
         {
             "description": "La Raza RoboBoot (Robot) - Pricing depends on occasion (see gallery for pictures)",
@@ -470,6 +470,10 @@
         {
             "description": "**Dancing On Clouds Machine** - beautiful visual effect that creates heart-stirring moments.  It is perfectly safe, odorless and harmless that will not leave any residue or effect fire alarms.",
             "price": "280"
+        },
+        {
+            "description": "Will Beatz Drums: Drummer/Percussionists specialist..... Energizing crowed to a new level with DJ music. Feel the beatz of those drums!",
+            "price": "$$"
         }
     ],
     "eventTypes": [

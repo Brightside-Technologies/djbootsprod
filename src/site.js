@@ -31,10 +31,10 @@ $(document).ready(function() {
         var gallleryCarousel = new Flickity(".gallery-carousel", {
             cellAlign: "center",
             wrapAround: true,
-            fullscreen: true,
             freeScroll: true,
-            autoPlay: 1500,
-            pageDots: false
+            autoPlay: 10000,
+            pageDots: false,
+            groupCells: true
         });
     }
 
