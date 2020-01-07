@@ -16,12 +16,12 @@ permalink: gallery.html
         </div>
         <div class="row d-flex flex-column pb-5 m-0" style="height: 20rem">
             <div class="gallery-carousel h-100">
-                {% for picture in site.data.gallery.pictures %}
+                {% for picture in site.data.gallery.pictures1 %}
                 <div
                     class="col-sm-12 col-md-4 p-0 gallery-image h-100 d-flex align-items-center justify-content-center"
                 >
-                <a data-featherlight="{{picture.url | replace: " ", ""}}" href="#" title="{{picture.title}}">
-                    <img class="invisible" src="{{ picture.url | absolute_url }}" alt="{{picture.title}}" />
+                <a data-featherlight="{{picture.url | replace: " ", ""}}" href="#">
+                    <img class="invisible" src="{{ picture.url | absolute_url }}" alt="Gallery image" />
                 </a>    
                 </div>
                 {% endfor %}
@@ -29,17 +29,13 @@ permalink: gallery.html
         </div>
         <div class="row d-flex flex-column pb-5 m-0" style="height: 20rem">
             <div class="gallery-packages h-100">
-                {% for package in site.data.services.packages %} 
-                {% if package[1].display.image%}
+                {% for picture in site.data.gallery.pictures2 %} 
                 <div class="col-sm-12 col-md-4 p-0 h-100">
-                    {%-capture url-%}{{package[1].display.image}}{%-endcapture-%} {%-capture
-                    alt-%}{{package[1].display.caption}}{%-endcapture-%}
-                    <a data-featherlight="{{url | replace: " ", ""}}" href="#" title="{{alt}}">
-                        <img  class="card-img-top h-100" alt="{{alt}}" src="{{url}}" />
+                    <a data-featherlight="{{picture.url | replace: " ", ""}}" href="#">
+                        <img style="object-fit: cover; object-position: center;" class="w-100 h-100" alt="Gallery image" src="{{ picture.url | absolute_url }}" />
                     </a>
                 </div>
-                {% endif %} 
-            {% endfor %}
+                {% endfor %}
             </div>
         </div>
         <div class="row d-flex flex-column pb-5 m-0" style="height: 30rem">
@@ -54,21 +50,6 @@ permalink: gallery.html
                         src="{{video.url}}?rel=0"
                     ></iframe>
                 </div>
-                <!-- <div class="card h-100 shadow">
-                    <div class="card-body p-0">
-                        <div class="card-content">
-                            <div class="embed-responsive embed-responsive-1by1">
-                                <iframe
-                                    class="embed-responsive-item"
-                                    allow="autoplay; encrypted-media"
-                                    allowfullscreen
-                                    src="{{video.url}}?rel=0"
-                                ></iframe>
-                            </div>
-                        </div>
-                        <h6 class="card-title pt-2">{{video.title}}</h6>
-                    </div>
-                </div> -->
             </div>
             {% endfor %}
             </div>

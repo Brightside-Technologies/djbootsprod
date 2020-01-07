@@ -104,7 +104,7 @@
             "title": "Premium Boot package"
         }
     ],
-    "pictures": [
+    "pictures1": [
         {
             "url": "assets/images/gallery-10.jpg",
             "caption": ""
@@ -241,6 +241,88 @@
         },
         {
             "url": "assets/images/gallery-22.jpg",
+            "caption": ""
+        }
+    ],
+    "pictures2": [
+        {
+            "url": "assets/images/1.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/2.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/3.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/4.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/5.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/6.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/7.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/8.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/9.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/21.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/11.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/12.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/13.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/14.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/15.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/16.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/17.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/18.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/19.jpg",
+            "caption": ""
+        },
+        {
+            "url": "assets/images/20.jpg",
             "caption": ""
         }
     ]

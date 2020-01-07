@@ -32,7 +32,7 @@ $(document).ready(function() {
             cellAlign: "center",
             wrapAround: true,
             freeScroll: true,
-            autoPlay: 10000,
+            autoPlay: 5000,
             pageDots: false,
             groupCells: true
         });
@@ -43,7 +43,7 @@ $(document).ready(function() {
             cellAlign: "center",
             wrapAround: true,
             freeScroll: true,
-            autoPlay: 10000,
+            //autoPlay: 5000,
             pageDots: false,
             groupCells: true
         });
@@ -54,7 +54,7 @@ $(document).ready(function() {
             cellAlign: "center",
             wrapAround: true,
             freeScroll: true,
-            autoPlay: 10000,
+            autoPlay: 5000,
             pageDots: false,
             groupCells: true
         });
