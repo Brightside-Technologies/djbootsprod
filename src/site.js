@@ -38,6 +38,28 @@ $(document).ready(function() {
         });
     }
 
+    if ($(".gallery-packages").length > 0) {
+        var carousel = new Flickity(".gallery-packages", {
+            cellAlign: "center",
+            wrapAround: true,
+            freeScroll: true,
+            autoPlay: 10000,
+            pageDots: false,
+            groupCells: true
+        });
+    }
+
+    if ($(".gallery-videos").length > 0) {
+        var carousel = new Flickity(".gallery-videos", {
+            cellAlign: "center",
+            wrapAround: true,
+            freeScroll: true,
+            autoPlay: 10000,
+            pageDots: false,
+            groupCells: true
+        });
+    }
+
     $(".service-carousel").each(function(index) {
         var cellCount = $(this).find(".cell").length;
         var isGroupCells = cellCount <= 3;
