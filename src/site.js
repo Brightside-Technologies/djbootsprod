@@ -31,10 +31,32 @@ $(document).ready(function() {
         var gallleryCarousel = new Flickity(".gallery-carousel", {
             cellAlign: "center",
             wrapAround: true,
-            fullscreen: true,
             freeScroll: true,
-            autoPlay: 1500,
-            pageDots: false
+            autoPlay: 5000,
+            pageDots: false,
+            groupCells: true
+        });
+    }
+
+    if ($(".gallery-packages").length > 0) {
+        var carousel = new Flickity(".gallery-packages", {
+            cellAlign: "center",
+            wrapAround: true,
+            freeScroll: true,
+            autoPlay: 5000,
+            pageDots: false,
+            groupCells: true
+        });
+    }
+
+    if ($(".gallery-videos").length > 0) {
+        var carousel = new Flickity(".gallery-videos", {
+            cellAlign: "center",
+            wrapAround: true,
+            freeScroll: true,
+            autoPlay: 5000,
+            pageDots: false,
+            groupCells: true
         });
     }
 
