@@ -8,7 +8,7 @@ permalink: services.html
         <div class="row pb-5">
             <div class="col-lg-12">
                 <div class="d-flex flex-column align-items-center">
-                    <h3 class="text-center">Services</h3>
+                    <h3 class="text-center pt-5">Services</h3>
                     <span class="header-span bg-gradient"></span>
                 </div>
 
@@ -20,7 +20,7 @@ permalink: services.html
         </div>
 
         {% for type in site.data.services.eventTypes %}
-            <div class="row pt-5">
+            <div id="{{type.name | slugify}}" class="row pt-5">
                 <div class="col-lg-12">
                     <div class="d-flex flex-column align-items-center">
                         <h5 class="text-center">{{type.name}}</h5>

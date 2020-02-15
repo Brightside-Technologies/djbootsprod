@@ -8,9 +8,23 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
             {% for link in site.data.nav-links %}
+                {% if link.label != "Services" %}    
                 <li class="nav-item">
                     <a class="nav-link {% if page.url contains link.url %} active {% endif %}" href="{{link.url | absolute_url}}">{{link.label}}</a>
                 </li>
+                {% else %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      {{link.label}}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                      {% for service in site.data.services.eventTypes %}
+                      <a class="dropdown-item" href="/services#{{service.name || slugify}}">{{service.name}}</a>
+                      {% endfor %}
+                    </div>
+                  </li>
+                {% endif %}
+
             {% endfor %}
             </ul>
         </div>
