@@ -1,0 +1,59 @@
+{
+  "clients": [
+    {
+      "name": "Cahuila Desert Academy",
+      "logo": "assets/images/client-1.png",
+      "url": ""
+    },
+    {
+      "name": "Perris High School",
+      "logo": "assets/images/client-2.png",
+      "url": ""
+    },
+    {
+      "name": "Renaissance Indian Wells Resort & Spa",
+      "logo": "assets/images/client-3.png",
+      "url": ""
+    },
+    {
+      "name": "Borrego Springs Rams",
+      "logo": "assets/images/client-4.gif",
+      "url": ""
+    },
+    {
+      "name": "Indio High School",
+      "logo": "assets/images/client-5.png",
+      "url": ""
+    },
+    {
+      "name": "Monroe Elementary School",
+      "logo": "assets/images/client-6.jpg",
+      "url": ""
+    },
+    {
+      "name": "Imagine Schools Riverside County",
+      "logo": "assets/images/client-7.png",
+      "url": ""
+    },
+    {
+      "name": "Andrew Jackson Elementary School",
+      "logo": "assets/images/client-8.jpg",
+      "url": ""
+    },
+    {
+      "name": "Bobby Duke",
+      "logo": "assets/images/client-9.png",
+      "url": ""
+    },
+    {
+      "name": "Fantasy Springs Resort Casino",
+      "logo": "assets/images/client-10.png",
+      "url": ""
+    },
+    {
+      "name": "R&S",
+      "logo": "assets/images/client-11.jpg",
+      "url": ""
+    }
+  ]
+}
