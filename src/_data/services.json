@@ -123,7 +123,7 @@
             },
             "features": ["1 stand-alone Truss with 2 fixture lighting", "2 PA speakers", "4 hours of continuous music"]
         },
-        "Premium": {
+        "Raza Premium": {
             "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
                 "image": "assets/images/premium-package-custom-audio-rental.jpg",
@@ -131,7 +131,7 @@
             },
             "features": [
                 "10 ft. Tall by 20 ft. long truss goal with colorful intelligent up lighting around the goal",
-                "Two  7ft truss with 2 LED Color Panels",
+                "10ft LED Intelligent pyramid background",
                 "Revolutionary sound system (For outdoor Events)",
                 "DJ Stage 8*3",
                 "2 50in screens for video mixing and slideshow presentation that guest provides",
@@ -478,11 +478,6 @@
     ],
     "eventTypes": [
         {
-            "name": "Summit Silent Nights",
-            "description": "",
-            "packages": ["Boots Silent Disco", "BM 07 Silent DJ"]
-        },
-        {
             "name": "Weddings &amp; Quincea&ntilde;eras",
             "description": "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
             "packages": [
@@ -491,7 +486,7 @@
                 "Double Boot",
                 "Twin Boots",
                 "Golden Boot",
-                "Premium",
+                "Raza Premium",
                 "Trio Boots",
                 "Sir Boots Nightclub Style"
             ]
