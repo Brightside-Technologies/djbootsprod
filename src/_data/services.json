@@ -78,7 +78,7 @@
         "Twin Boots": {
             "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
-                "image": "assets/images/2.jpg",
+                "image": "assets/images/23.jpg",
                 "caption": "Twin Boots Package"
             },
             "features": [
@@ -126,7 +126,7 @@
         "Raza Premium": {
             "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
-                "image": "assets/images/raza-premium.jpg",
+                "image": "assets/images/raza-premium-2.png",
                 "caption": "Premium Custom Package with custom audio rental"
             },
             "features": [
