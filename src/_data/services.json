@@ -126,7 +126,7 @@
         "Raza Premium": {
             "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
-                "image": "assets/images/premium-package-custom-audio-rental.jpg",
+                "image": "assets/images/raza-premium.jpg",
                 "caption": "Premium Custom Package with custom audio rental"
             },
             "features": [
@@ -479,6 +479,7 @@
     "eventTypes": [
         {
             "name": "Weddings &amp; Quincea&ntilde;eras",
+            "slug": "Weddings & Quinceaneras",
             "description": "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
             "packages": [
                 "Boots",
@@ -493,26 +494,31 @@
         },
         {
             "name": "Corporate",
+            "slug": "Corporate",
             "description": "DJ Boots Productions brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.",
             "packages": ["UR choice Boot", "Country Premium Boot", "Specialty Boot", "Corporate Custom"]
         },
         {
             "name": "Pool Parties",
+            "slug": "Pool Parties",
             "description": "",
             "packages": ["Pool Party Package", "Boot Coachella Pool Party"]
         },
         {
             "name": "Festivals",
+            "slug": "Festivals",
             "description": "",
             "packages": ["Festivals"]
         },
         {
             "name": "School Only Packages",
+            "slug": "School Only Packages",
             "description": "",
             "packages": ["DJ Boots", "Tower Boot", "Twin Tower Boots", "Wild Dancing Boot", "Under the Stars"]
         },
         {
             "name": "School Rallies Only",
+            "slug": "School Rallies Only",
             "description": "",
             "packages": [
                 "Rally DJ &amp; Lighting I",

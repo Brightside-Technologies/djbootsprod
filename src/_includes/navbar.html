@@ -19,7 +19,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="servicesDropdown">
                       {% for service in site.data.services.eventTypes %}
-                      <a class="dropdown-item" href="/services#{{service.name || slugify}}">{{service.name}}</a>
+                      <a class="dropdown-item" href="/services#{{service.slug || slugify}}">{{service.name}}</a>
                       {% endfor %}
                     </div>
                   </li>
