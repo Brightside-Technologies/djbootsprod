@@ -408,6 +408,18 @@
     },
     "extras": [
         {
+            "description": "**Snow Machines** Add the magic of snow to any event. Includes 2 snow machines.",
+            "price": "480"
+        },
+        {
+            "description": "**Social Media Cams** We can provide you with camera scenes for all occasions on social media - Zoom, Twitch, Facebook or Instagram. Includes 2 cam views and a Pro Light Ring.",
+            "price": "$$"
+        },
+        {
+            "description": "**Cold Spark Machine** Make your favorite dance a memorable one with cold spark fireworks 💥",
+            "price": "480"
+        },
+        {
             "description": "**C<sub>O</sub>2 confetti** with 20 lbs tanks",
             "price": "165"
         },
@@ -436,7 +448,7 @@
             "price": "85"
         },
         {
-            "description": "**Revolutionary sound system**",
+            "description": "Revolutionary sound system (for grupo or banda use)",
             "price": "500"
         },
         {
@@ -470,10 +482,6 @@
         {
             "description": "**Dancing On Clouds Machine** - beautiful visual effect that creates heart-stirring moments.  It is perfectly safe, odorless and harmless that will not leave any residue or effect fire alarms.",
             "price": "280"
-        },
-        {
-            "description": "Will Beatz Drums: Drummer/Percussionists specialist..... Energizing crowed to a new level with DJ music. Feel the beatz of those drums!",
-            "price": "$$"
         }
     ],
     "eventTypes": [
@@ -483,7 +491,6 @@
             "description": "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
             "packages": [
                 "Boots",
-                "Medium",
                 "Double Boot",
                 "Twin Boots",
                 "Golden Boot",
