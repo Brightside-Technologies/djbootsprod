@@ -1,12 +1,11 @@
-<header id="home" class="w-100">
+<header id="home" class="w-100 d-flex flex-column" style="min-height: 100vh; overflow-x: hidden;">
     <span class="mask mask-dark"></span>
     {% include navbar.html %}
-    <div class="d-flex flex-column justify-content-around align-items-center h-100 container pt-4">
+    <div class="d-flex flex-column justify-content-around align-items-center container pt-4" style="flex: 1 0 auto">
         {% comment %} <img class="w-75" src="{{ site.logo | absoulte_url }}" /> {% endcomment %}
-        <h1 class="position-relative text-white text-center h3 pt-4 m-0">
+        <h1 class="position-relative text-white text-center h3 pt-5 m-0">
             SOUTHERN CALIFORNIA'S BEST IN DJ AND EVENT PRODUCTION
         </h1>
-        <div class="d-flex flex-column">
             <h2 class="position-relative text-white text-center h5 pb-3 m-0">
                 Professional &bull; Experienced &bull; Insured
             </h2>
@@ -33,7 +32,6 @@
                     </a>
                 </div>
             </div>
-        </div>
          {%- comment -%} 
          style="background-image: url('https://images.pexels.com/photos/619420/pexels-photo-619420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); background-size: cover; background-repeat: no-repeat; background-position: center;"
          <div class="embed-responsive embed-responsive-16by9">
