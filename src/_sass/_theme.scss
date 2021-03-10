@@ -1,22 +1,24 @@
 @font-face {
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Nunito Regular"), local("Nunito-Regular"),
-        url(https://fonts.gstatic.com/s/nunito/v9/XRXV3I6Li01BKofINeaE.ttf) format("truetype");
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Nunito Regular"), local("Nunito-Regular"),
+    url(https://fonts.gstatic.com/s/nunito/v9/XRXV3I6Li01BKofINeaE.ttf)
+      format("truetype");
 }
 @font-face {
-    font-family: "Sarala";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Sarala"), local("Sarala-Regular"),
-        url(https://fonts.gstatic.com/s/sarala/v2/uK_y4riEZv4o1w9hDRcX.ttf) format("truetype");
+  font-family: "Sarala";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sarala"), local("Sarala-Regular"),
+    url(https://fonts.gstatic.com/s/sarala/v2/uK_y4riEZv4o1w9hDRcX.ttf)
+      format("truetype");
 }
 body {
-    font-family: "Nunito", sans-serif;
-    letter-spacing: 0.5px;
-    // color: #fff;
-    background: #fff;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 0.5px;
+  // color: #fff;
+  background: #fff;
 }
 h1,
 h2,
@@ -24,8 +26,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Sarala", sans-serif;
-    text-transform: uppercase;
+  font-family: "Sarala", sans-serif;
+  text-transform: uppercase;
 }
 // body,
 // html {
@@ -33,342 +35,342 @@ h6 {
 // }
 /* Header - Section */
 header .navbar {
-    padding: 20px 0;
-    transition: all 0.3s;
+  padding: 8px 0;
+  transition: all 0.3s;
 }
 header .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+  color: #fff;
 }
 header .navbar-dark .navbar-nav .nav-link:focus,
 header .navbar-dark .navbar-nav .nav-link:hover {
-    color: #fff;
+  color: #fff;
 }
 
 /* Show - Section */
 .show-stage {
-    padding: 120px 0;
-    color: #333;
+  padding: 120px 0;
+  color: #333;
 }
 .show-stage h3 {
-    font-weight: bold;
-    position: relative;
-    letter-spacing: 5px;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: 5px;
 }
 .show-stage h3 span {
-    position: absolute;
-    top: 15px;
-    left: -65px;
-    width: 40px;
-    height: 2px;
-    background-color: #333;
+  position: absolute;
+  top: 15px;
+  left: -65px;
+  width: 40px;
+  height: 2px;
+  background-color: #333;
 }
 .show-stage .card {
-    width: 50%;
-    box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+  width: 50%;
+  box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
 }
 .show-stage .card .play {
-    position: relative;
+  position: relative;
 }
 .show-stage .card a i {
-    font-size: 3rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
 }
 .show-stage .card .card-title {
-    font-size: 0.9rem;
-    font-weight: bold;
-    text-transform: capitalize;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 .show-stage .card .card-text {
-    font-size: 0.8rem;
-    color: #666;
+  font-size: 0.8rem;
+  color: #666;
 }
 /* Blog - Section */
 .blog {
-    padding: 120px 0;
-    color: #fff;
-    background: url(../images/blog.jpg) no-repeat center center fixed;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
+  padding: 120px 0;
+  color: #fff;
+  background: url(../images/blog.jpg) no-repeat center center fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
 }
 .blog h3 {
-    font-weight: bold;
-    position: relative;
-    letter-spacing: 5px;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: 5px;
 }
 .blog h3 span {
-    position: absolute;
-    top: 15px;
-    left: -65px;
-    width: 40px;
-    height: 2px;
-    background-color: #fff;
+  position: absolute;
+  top: 15px;
+  left: -65px;
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
 }
 .blog .list {
-    border: 0;
-    background-color: transparent;
+  border: 0;
+  background-color: transparent;
 }
 .blog .list h4 {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 .blog .list h4 a {
-    color: #fff !important;
+  color: #fff !important;
 }
 .blog .list .text a {
-    color: #000;
+  color: #000;
 }
 /* Release - Section */
 .release {
-    padding: 120px 0;
-    color: #333;
-    background-color: #fff;
+  padding: 120px 0;
+  color: #333;
+  background-color: #fff;
 }
 .release h3 {
-    font-weight: bold;
-    position: relative;
-    letter-spacing: 5px;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: 5px;
 }
 .release h3 span {
-    position: absolute;
-    top: 15px;
-    left: -65px;
-    width: 40px;
-    height: 2px;
-    background-color: #333;
+  position: absolute;
+  top: 15px;
+  left: -65px;
+  width: 40px;
+  height: 2px;
+  background-color: #333;
 }
 .release .box {
-    margin-bottom: 30px;
-    padding: 50px 0;
-    text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 4px;
-    box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+  margin-bottom: 30px;
+  padding: 50px 0;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
 }
 .release .box img {
-    display: inline-block;
-    width: 150px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
 }
 .release .box h5 {
-    font-size: 1rem;
-    text-transform: capitalize;
-    color: #333;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #333;
 }
 .release .box p {
-    font-size: 0.8rem;
-    color: #8b8b8b;
+  font-size: 0.8rem;
+  color: #8b8b8b;
 }
 .sticky {
-    background-color: #000;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: #000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 /* Gallery - Section */
 .gallery {
-    padding: 120px 0;
-    color: #333;
-    border-top: 1px dashed #dedede;
-    background: #f8f8f8;
+  padding: 120px 0;
+  color: #333;
+  border-top: 1px dashed #dedede;
+  background: #f8f8f8;
 }
 .gallery h3 {
-    font-weight: bold;
-    position: relative;
-    letter-spacing: 5px;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: 5px;
 }
 .gallery h3 span {
-    position: absolute;
-    top: 15px;
-    left: -65px;
-    width: 40px;
-    height: 2px;
-    background-color: #333;
+  position: absolute;
+  top: 15px;
+  left: -65px;
+  width: 40px;
+  height: 2px;
+  background-color: #333;
 }
 .gallery ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 .gallery ul li {
-    float: left;
-    width: 25%;
-    list-style: none;
+  float: left;
+  width: 25%;
+  list-style: none;
 }
 .gallery ul li img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 /* Tour - Section */
 .tour {
-    padding: 120px 0;
-    color: #333;
+  padding: 120px 0;
+  color: #333;
 }
 .tour h3 {
-    font-weight: bold;
-    position: relative;
-    letter-spacing: 5px;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: 5px;
 }
 .tour h3 span {
-    position: absolute;
-    top: 15px;
-    left: -65px;
-    width: 40px;
-    height: 2px;
-    background-color: #333;
+  position: absolute;
+  top: 15px;
+  left: -65px;
+  width: 40px;
+  height: 2px;
+  background-color: #333;
 }
 .tour .card .card-title {
-    font-size: 1.2rem;
-    font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .tour .card .btn-light {
-    color: #fff;
-    background-image: linear-gradient(
-        to right,
-        #b8cbb8 0,
-        #b8cbb8 0,
-        #b465da 0,
-        #cf6cc9 33%,
-        #ee609c 66%,
-        #ee609c 100%
-    );
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0,
+    #b8cbb8 0,
+    #b465da 0,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
 }
 /* About- Section */
 .about {
-    // padding: 120px 0;
-    // color: #fff;
-    // background: #000;
+  // padding: 120px 0;
+  // color: #fff;
+  // background: #000;
 }
 .about h3 {
-    font-weight: bold;
-    letter-spacing: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
 }
 /* Contact - Section */
 .contact {
-    padding: 0 0 120px;
-    color: #333;
+  padding: 0 0 120px;
+  color: #333;
 }
 .contact h3 {
-    font-weight: bold;
-    position: relative;
-    margin-top: 50px;
-    letter-spacing: 5px;
+  font-weight: bold;
+  position: relative;
+  margin-top: 50px;
+  letter-spacing: 5px;
 }
 .contact h3 span {
-    position: absolute;
-    top: 15px;
-    left: -65px;
-    width: 40px;
-    height: 2px;
-    background-color: #333;
+  position: absolute;
+  top: 15px;
+  left: -65px;
+  width: 40px;
+  height: 2px;
+  background-color: #333;
 }
 .contact .btn-light {
-    color: #fff;
-    background-image: linear-gradient(
-        to right,
-        #b8cbb8 0,
-        #b8cbb8 0,
-        #b465da 0,
-        #cf6cc9 33%,
-        #ee609c 66%,
-        #ee609c 100%
-    );
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0,
+    #b8cbb8 0,
+    #b465da 0,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
 }
 .contact input {
-    height: 45px;
+  height: 45px;
 }
 /* Footer - Section */
 footer {
-    padding: 20px 0;
-    text-align: center;
-    color: #333;
-    background: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+  color: #333;
+  background: #f8f8f8;
 }
 footer i {
-    color: #f44336;
+  color: #f44336;
 }
 .reply {
-    margin-bottom: 30px;
-    padding: 20px;
-    border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 4px;
 }
 .reply h3 {
-    margin-top: 0;
-    text-decoration: none;
+  margin-top: 0;
+  text-decoration: none;
 }
 .reply .required {
-    color: red;
+  color: red;
 }
 .reply .btn-submit {
-    margin-top: 10px;
-    padding: 17px;
-    color: #fff;
-    background-image: linear-gradient(
-        to right,
-        #b8cbb8 0,
-        #b8cbb8 0,
-        #b465da 0,
-        #cf6cc9 33%,
-        #ee609c 66%,
-        #ee609c 100%
-    );
+  margin-top: 10px;
+  padding: 17px;
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0,
+    #b8cbb8 0,
+    #b465da 0,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
 }
 .reply .btn-submit:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-    .blog .list {
-        margin-bottom: 30px;
-    }
+  .blog .list {
+    margin-bottom: 30px;
+  }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-    // body,
-    // html {
-    // height: 100%;
-    // }
-    header {
-        height: 100%;
-    }
-    header .container {
-        padding-right: 15px !important;
-        padding-left: 15px !important;
-    }
-    header .title {
-        display: block;
-        text-align: center;
-    }
-    header .download {
-        display: block;
-    }
-    header .download a {
-        display: block;
-        width: 100%;
-        margin-bottom: 10px;
-        margin-left: 0;
-    }
-    .show-stage .card {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .gallery ul li {
-        width: 50%;
-    }
-    .tour .card {
-        margin-bottom: 30px;
-    }
-    .blog-detail .navbar .container {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .blog-detail .navbar .back {
-        margin-right: 0;
-    }
-    .blog-detail .content img {
-        max-width: 100%;
-    }
+  // body,
+  // html {
+  // height: 100%;
+  // }
+  header {
+    height: 100%;
+  }
+  header .container {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  header .title {
+    display: block;
+    text-align: center;
+  }
+  header .download {
+    display: block;
+  }
+  header .download a {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  .show-stage .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .gallery ul li {
+    width: 50%;
+  }
+  .tour .card {
+    margin-bottom: 30px;
+  }
+  .blog-detail .navbar .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .blog-detail .navbar .back {
+    margin-right: 0;
+  }
+  .blog-detail .content img {
+    max-width: 100%;
+  }
 }
