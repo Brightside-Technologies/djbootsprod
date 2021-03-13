@@ -2,7 +2,7 @@
     "packages": {
         "DJ Boots": {
             "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": { "image": "assets/images/standard-package-1.jpg", "caption": "DJ Boots Package" },
+            "display": { "image": "assets/images/24.jpg", "caption": "DJ Boots Package" },
             "features": ["2 PA speakers", "3-4 hours of continuous music"]
         },
         "Golden Boot": {
@@ -126,7 +126,7 @@
         "Raza Premium": {
             "details": "<a href='#extras'>Custom features can be added</a>",
             "display": {
-                "image": "assets/images/raza-premium-2.png",
+                "image": "assets/images/raza-premium.jpg",
                 "caption": "Premium Custom Package with custom audio rental"
             },
             "features": [
