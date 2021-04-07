@@ -1,537 +1,572 @@
 {
-    "packages": {
-        "DJ Boots": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": { "image": "assets/images/24.jpg", "caption": "DJ Boots Package" },
-            "features": ["2 PA speakers", "3-4 hours of continuous music"]
-        },
-        "Golden Boot": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": { "image": "assets/images/golden-boot-package-6.jpg", "caption": "Golden Boot Package" },
-            "features": [
-                "7ft x 14ft truss goal with colorful intelligent up lighting around the goal",
-                "2 PA speakers with 2 subwoofers",
-                "2 50in screens or video projection for video mixing and slideshow presentation that guest provides",
-                "2 LED Washes movers and 2 LED Beams movers",
-                "6 LED intelligent up lights",
-                "1 haze feature",
-                "Wireless mic",
-                "Master of MC",
-                "3-4 hours of continuous music",
-                "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
-            ]
-        },
-        "UR choice Boot": {
-            "details": "<a href='#extras'>Custom features can be added. 4 hours</a>",
-            "display": { "image": "assets/images/golden-boot-package-5.jpg", "caption": "UR Choice Boot Package" },
-            "features": [
-                "7ft x 14ft truss goal with colorful intelligent up lighting around the goal",
-                "4 PA speakers with 2 subwoofers",
-                "2 50in screens or video projection for video mixing and slideshow presentation that guest provides",
-                "2 panel lighting fixtures with 2 LED moving heads",
-                "2 laser features",
-                "6 LED intelligent lights",
-                "1 haze feature",
-                "Wireless mic",
-                "Master of MC",
-                "4-5 hours of continuous music"
-            ]
-        },
-        "Double Boot": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": { "image": "assets/images/double-boot-package-1.jpg", "caption": "Double Boot Package" },
-            "features": [
-                "2 7 ft stand-alone truss",
-                "2 PA speakers and 1 subwoofers",
-                "2 50in screens for video mixing and slideshow presentation that guest provides",
-                "2 intelligent LED up lighting in truss and two moving head fixtures",
-                "3-4 hours of continuous music"
-            ]
-        },
-        "Tower Boot": {
-            "details": "<p class='m-0'>No more than 100 students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
-            "display": { "image": "assets/images/double-boot-package-5.jpg", "caption": "Tower Boot Package" },
-            "features": [
-                "2 7 ft stand-alone truss",
-                "2 PA speakers and 2 subwoofers",
-                "2 50in screens or one 6ft x 5ft video projection for video mixing and slideshow presentation that guest provides",
-                "2 intelligent up lighting in truss and two moving head fixtures",
-                "2 LED moving heads",
-                "1 haze fixture",
-                "3-4 hours of continuous music"
-            ]
-        },
-        "Medium": {
-            "details": "<p class='m-0'>Recommended for indoor use</p><a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/medium-package-2.jpg",
-                "caption": "Medium Package"
-            },
-            "features": [
-                "6 ft tall by 3 ft lighting truss",
-                "2 colorful LED panels",
-                "2 PA speakers",
-                "Projection video for video mixing and a slide show presentation that guest presents durning dinner and dancing",
-                "3-4 hours of continuous music"
-            ]
-        },
-        "Twin Boots": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/23.jpg",
-                "caption": "Twin Boots Package"
-            },
-            "features": [
-                "4 7 ft. stand-alone truss",
-                "2 PA speakers and 2 subwoofers",
-                "2 50in screens for video mixing and slideshow presentation that guest provides",
-                "4 intelligent up lighting in truss and four LED moving head fixtures",
-                "1 haze fixture",
-                "3-4 hours of continuous music",
-                "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
-            ]
-        },
-        "Twin Tower Boots": {
-            "details": "<p class='m-0'>No more than 240 students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/dj-boots-2.jpg",
-                "caption": "Twin Tower Boots Package"
-            },
-            "features": [
-                "4 7 ft. stand-alone truss",
-                "4 PA speakers and 2 subwoofers",
-                "2 50in screens or 1 video projection for video mixing and slideshow presentation that guest provides",
-                "4 intelligent up lighting in truss and four moving head fixtures",
-                "1 haze fixture",
-                "3-4 hours of continuous music",
-                "<p class='font-weight-bold m-0'>Silver Photo Booth Package</p>",
-                "High quality 4x6 hard copies",
-                "Custom layout",
-                "Text to phone",
-                "Digital copies (Display Slide Show)",
-                "Touch-screen monitor",
-                "Booth attendant",
-                "Second monitor (Display Slide Show)",
-                "No setup fees and breakdown fees"
-            ]
-        },
-        "Boots": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/standard-package-1.jpg",
-                "caption": "Boots Package"
-            },
-            "features": ["1 stand-alone Truss with 2 fixture lighting", "2 PA speakers", "4 hours of continuous music"]
-        },
-        "Raza Premium": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/raza-premium.jpg",
-                "caption": "Premium Custom Package with custom audio rental"
-            },
-            "features": [
-                "10 ft. Tall by 20 ft. long truss goal with colorful intelligent up lighting around the goal",
-                "10ft LED Intelligent pyramid background",
-                "Revolutionary sound system (For outdoor Events)",
-                "DJ Stage 8*3",
-                "2 50in screens for video mixing and slideshow presentation that guest provides",
-                "Lighting features on the dance floor with 4 LED beams and 2 LED washes",
-                "2 fog machines",
-                "10 intelligent colorful up lighting around the room including the main table if needed.",
-                "Master of MC",
-                "Wireless Mic",
-                "May Include 1 time Surprise Remix if needed",
-                "4-5 hours of continuous music",
-                "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
-            ]
-        },
-        "Country Premium Boot": {
-            "details": "<p class='m-0'>4 hours</p><a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/premium-package-6.jpg",
-                "caption": "Premium Custom Package with custom audio rental"
-            },
-            "features": [
-                "10 ft. Tall by 20 ft. long truss goal with colorful intelligent up lighting around the goal",
-                "Two  7ft truss with 2 LED Color Panels",
-                "Revolutionary sound system (For outdoor Events)",
-                "2 50in screens for video mixing and slideshow presentation that guest provides",
-                "Lighting features on the dance floor with 4 LED moving heads",
-                "Laser features with 2 fog machines",
-                "10 intelligent colorful up lighting around the room including the main table if needed.",
-                "Master of MC",
-                "Wireless Mic",
-                "May Include 1 time Surprise Remix if needed",
-                "4-5 hours of continuous music"
-            ]
-        },
-        "Trio Boots": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/trio-boots.jpg",
-                "caption": "Trio Boots Package"
-            },
-            "features": [
-                "10 Ft. Tall by 20 Ft. and a cross fly bar of <b>30 Ft. through the dance floor</b>.",
-                "Revolutionary Sound System (For Outdoor Events)",
-                "DJ Stage 8*3",
-                "Ingenious colorful up lighting through the truss",
-                "Special effects with 4 LED moving Heads, LED Disco Ball, 2 Haze Machines",
-                "2 50 In Smart T.V for video mixing",
-                "10 Brilliant LED up lighting around the room including main table if needed ",
-                "Master of MC",
-                "Wireless Mic",
-                "May include 1 time Surprise Dj Remix if needed",
-                "4-5 Hours of continuous music ",
-                "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
-            ]
-        },
-        "Wild Dancing Boot": {
-            "details": "<p class='m-0'>300+ students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/22.jpg",
-                "caption": "Wild Dancing Boot Package"
-            },
-            "features": [
-                "10 Ft. Tall by 20 Ft. and a cross fly bar of 30 Ft. through the dance floor",
-                "Revolutionary Sound System (For Outdoor Events)",
-                "Ingenious colorful up lighting through the truss",
-                "Special Effects with 4 LED moving head including a LED disco Ball, one haze machine, and two LED colorful panels.",
-                "2 50 in T.V. for video mixing and slideshow presentation/school Logos",
-                "10 Brilliant LED up lighting around the room",
-                "Master of MC",
-                "Wireless Mic",
-                "3-4 hours of continuous music",
-                "<p class='font-weight-bold m-0'>Gold Photo Booth Package</p>",
-                "High quality 4x6 or 2x6 hard copies",
-                "Custom effects",
-                "Custom layout",
-                "Digital copies (online galleries)",
-                "Text to phone",
-                "Touch-screen monitor",
-                "Booth attendant",
-                "Second monitor (Display Slide Show)",
-                "No setup fees and breakdown fees"
-            ]
-        },
-        "Sir Boots Nightclub Style": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/picture-3.jpg",
-                "caption": "Sir Boots Nightclub Package"
-            },
-            "features": [
-                "‘X’ custom flying truss with intelligent lighting around the truss ",
-                "Revolutionary sound system (For Outdoor Events)",
-                "DJ Stage 8*3",
-                "2 50 In Smart T.V. and 6*12 LED Wall if available for video mixing and Slide show Projecting",
-                "Special effects with 6 LED moving heads, laser features, Colorful Panels and 2 fog machines",
-                "14 LED lights around the room including the main table if needed",
-                "Master of MC for ceremony",
-                "Gobo Custom that can be projected on the wall or dance floor ",
-                "Ceremony system 2 PA speakers and a wireless mic if needed. ",
-                "May include 1 time Surprise Dj Remix if needed",
-                "5-6 hours of continuous music",
-                "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
-            ]
-        },
-        "Under the Stars": {
-            "details": "<p class='m-0'>300+ students</p><a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/under-the-stars.jpg",
-                "caption": "Under the Stars"
-            },
-            "features": [
-                "‘X’ custom flying truss with intelligent lighting around the truss ",
-                "LED wall for video mixing and Slide show presentation",
-                "Revolutionary sound system (For Outdoor Events if needed)",
-                "2 50 In Smart T.V. for video mixing and Slide show Projecting",
-                "Special Effects including 6 Led Moving heads beams and washes, Large customized mirror disco ball, two lasers fixtures, two colorful panels and two fog machines",
-                "14 LED lights around the room",
-                "Master of MC",
-                "GOBO to project schools logo",
-                "Ceremony system 2 PA speakers and a wireless mic if needed.",
-                "1 PA speaker for cocktail hour",
-                "3-4 hours of continuous music",
-                "<p class='font-weight-bold m-0'>Premium Photo Booth Package</p>",
-                "High quality 4x6 or 2x6 hard copies",
-                "Sleeves to protect 4 * 6 or 2 * 6 copies",
-                "Custom effects",
-                "Custom layout",
-                "Digital copies (online gallery)",
-                "Text to phone",
-                "Touch-screen monitor",
-                "Booth attendant",
-                "Second monitor (Display Slide Show)",
-                "No setup fees and breakdown fees"
-            ]
-        },
-        "Specialty Boot": {
-            "details": "<p class='m-0'>4 hours</p><a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/sir-boot-nightclub-6.jpg",
-                "caption": "Specialty Boot Package"
-            },
-            "features": [
-                "‘X’ custom flying truss with intelligent lighting around the truss ",
-                "Revolutionary sound system (For Outdoor Events if needed)",
-                "2 50 In Smart T.V. for video mixing and Slide show Projecting",
-                "Special effects with 6 LED moving heads, laser features, Colorful Panels and 2 fog machines",
-                "14 LED lights around the room including the main table if needed",
-                "Master of MC for ceremony",
-                "Gobo Custom that can be projected on the wall or dance floor ",
-                "Ceremony system 2 PA speakers and a wireless mic if needed. ",
-                "May include 1 time Surprise Dj Remix if needed",
-                "5-6 hours of continuous music"
-            ]
-        },
-        "Rally DJ &amp; Lighting I": {
-            "details": "<p class='m-0'>Pricing based on same day setup. 3-4 hours</p><a href='#extras'>Custom features can be added</a>",
-            "price": "",
-            "features": [
-                "4 intelligent moving head lights",
-                "4 truss columns",
-                "4 truss intelligent up lighting",
-                "DMX software and laptop",
-                "Lighting Tech/Programmer"
-            ]
-        },
-        "Rally DJ &amp; Lighting II": {
-            "details": "<p class='m-0'>Pricing based on same day setup. 3-4 hours</p><a href='#extras'>Custom features can be added</a>",
-            "price": "",
-            "features": [
-                "4 intelligent moving head lights",
-                "4 intelligent moving head wash lights",
-                "6 truss columns",
-                "6 truss intelligent up lighting",
-                "DMX software and laptop",
-                "Lighting Tech/Programmer"
-            ]
-        },
-        "School Rally Sound  &amp; Lighting": {
-            "details": "<p class='m-0'>Pricing based on same day setup. 3-4 hours</p><a href='#extras'>Custom features can be added</a>",
-            "price": "",
-            "features": [
-                "4 12in two-way line array speakers",
-                "4 18in subwoofers",
-                "1 cordless UHF microphone",
-                "4 intelligent moving head lights",
-                "4 truss columns",
-                "4 truss warmers",
-                "DMX software and laptop",
-                "Lighting Tech/Programmer"
-            ]
-        },
-        "Rodeo Boots Package": {
-            "details": "<p class='m-0'>3-4 hours. Not recommended for groups larger than 250 students</p><a href='#extras'>Custom features can be added</a>",
-            "price": "",
-            "features": [
-                "4 12in two-way line array speakers",
-                "4 18in subwoofers",
-                "4 intelligent moving head lights",
-                "8 truss columns or pyramid custom truss",
-                "8 truss intelligent up lights"
-            ]
-        },
-        "Pool Party Package": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/pool-party-2.jpg",
-                "caption": "Pool Party Package"
-            },
-            "price": "",
-            "features": ["2 PA speakers", "MC", "4 hours of continuous music"]
-        },
-        "Boot Coachella Pool Party": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/coachella-pool-party.jpg",
-                "caption": "Boot Coachella Pool Party Package"
-            },
-            "price": "",
-            "features": ["2 PA speakers", "2 18in subwoofers", "MC", "5 hours of continuous music"]
-        },
-        "Corporate Custom": {
-            "details": "<a href='#extras'>Custom features can be added. 4 hours</a>",
-            "display": {
-                "image": "assets/images/corporate-event.jpg",
-                "caption": "Corporate Custom Package"
-            },
-            "price": "",
-            "features": ["2 PA speakers", "Draping", "Intelligent Uplighting", "DJ*"]
-        },
-        "Festivals": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/festival-1.jpg",
-                "caption": "Festivals"
-            },
-            "price": "",
-            "features": [
-                "Truss Custom",
-                "Truss Booths Rentals (any size)",
-                "Truss Designs",
-                "Food Stand Banners",
-                "Lighting Rentals",
-                "Audio Rentals (Line Arrays)",
-                "DJ*"
-            ]
-        },
-        "Boots Silent Disco": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/silent-dj.jpg",
-                "caption": "Boots Silent Disco"
-            },
-            "price": "",
-            "features": [
-                "200 LED color headphones",
-                "2 channels/ Extra DJ can be added(Continuous music)",
-                "2 LED lighting Fixtures",
-                "4 hours continuous music"
-            ]
-        },
-        "BM 07 Silent DJ": {
-            "details": "<a href='#extras'>Custom features can be added</a>",
-            "display": {
-                "image": "assets/images/silent-dj.jpg",
-                "caption": "BM 07 Silent DJ"
-            },
-            "price": "",
-            "features": [
-                "100 LED Color Head phones",
-                "1 Channel/ Extra DJ can be added",
-                "2 LED Fixtures",
-                "3 hours continuous music"
-            ]
-        }
+  "packages": {
+    "DJ Boots": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/24.jpg",
+        "caption": "DJ Boots Package"
+      },
+      "features": ["2 PA speakers", "3-4 hours of continuous music"]
     },
-    "extras": [
-        {
-            "description": "**Snow Machines** Add the magic of snow to any event. Includes 2 snow machines.",
-            "price": "480"
-        },
-        {
-            "description": "**Social Media Cams** We can provide you with camera scenes for all occasions on social media - Zoom, Twitch, Facebook or Instagram. Includes 2 cam views and a Pro Light Ring.",
-            "price": "$$"
-        },
-        {
-            "description": "**Cold Spark Machine** Make your favorite dance a memorable one with cold spark fireworks 💥",
-            "price": "480"
-        },
-        {
-            "description": "**C<sub>O</sub>2 confetti** with 20 lbs tanks",
-            "price": "165"
-        },
-        {
-            "description": "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
-            "price": "280"
-        },
-        {
-            "description": "**Intelligent Up Lighting** (12 lights for palmtrees and walls)",
-            "price": "350"
-        },
-        {
-            "description": "**Gobo Monogram** displays your initials or name on the dance floor",
-            "price": "120"
-        },
-        {
-            "description": "**Ceremony sound** adds 2 PA speakers and a wireless microphone",
-            "price": "200"
-        },
-        {
-            "description": "**Fog machine**",
-            "price": "85"
-        },
-        {
-            "description": "**50in TV or projection**: show family pictures or videos throughout the night",
-            "price": "85"
-        },
-        {
-            "description": "Revolutionary sound system (for grupo or banda use)",
-            "price": "500"
-        },
-        {
-            "description": "Colorful string lighting 100ft",
-            "price": "180"
-        },
-        {
-            "description": "Surprise dance remixes",
-            "price": "85"
-        },
-        {
-            "description": "50+ Glow Sticks",
-            "price": "40"
-        },
-        {
-            "description": "250+ balloons",
-            "price": "75"
-        },
-        {
-            "description": "24' x 12' Stage",
-            "price": "680"
-        },
-        {
-            "description": "16' x 18' Stage",
-            "price": "550"
-        },
-        {
-            "description": "La Raza RoboBoot (Robot) - Pricing depends on occasion (see gallery for pictures)",
-            "price": "$$"
-        },
-        {
-            "description": "**Dancing On Clouds Machine** - beautiful visual effect that creates heart-stirring moments.  It is perfectly safe, odorless and harmless that will not leave any residue or effect fire alarms.",
-            "price": "280"
-        }
-    ],
-    "eventTypes": [
-        {
-            "name": "Weddings &amp; Quincea&ntilde;eras",
-            "slug": "Weddings & Quinceaneras",
-            "description": "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
-            "packages": [
-                "Boots",
-                "Double Boot",
-                "Twin Boots",
-                "Golden Boot",
-                "Raza Premium",
-                "Trio Boots",
-                "Sir Boots Nightclub Style"
-            ]
-        },
-        {
-            "name": "Corporate",
-            "slug": "Corporate",
-            "description": "DJ Boots Productions brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.",
-            "packages": ["UR choice Boot", "Country Premium Boot", "Specialty Boot", "Corporate Custom"]
-        },
-        {
-            "name": "Pool Parties",
-            "slug": "Pool Parties",
-            "description": "",
-            "packages": ["Pool Party Package", "Boot Coachella Pool Party"]
-        },
-        {
-            "name": "Festivals",
-            "slug": "Festivals",
-            "description": "",
-            "packages": ["Festivals"]
-        },
-        {
-            "name": "School Only Packages",
-            "slug": "School Only Packages",
-            "description": "",
-            "packages": ["DJ Boots", "Tower Boot", "Twin Tower Boots", "Wild Dancing Boot", "Under the Stars"]
-        },
-        {
-            "name": "School Rallies Only",
-            "slug": "School Rallies Only",
-            "description": "",
-            "packages": [
-                "Rally DJ &amp; Lighting I",
-                "Rally DJ &amp; Lighting II",
-                "School Rally Sound  &amp; Lighting"
-            ]
-        }
-    ]
+    "Golden Boot": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/golden-boot-package-6.jpg",
+        "caption": "Golden Boot Package"
+      },
+      "features": [
+        "7ft x 14ft truss goal with colorful intelligent up lighting around the goal",
+        "2 PA speakers with 2 subwoofers",
+        "2 50in screens or video projection for video mixing and slideshow presentation that guest provides",
+        "2 LED Washes movers and 2 LED Beams movers",
+        "6 LED intelligent up lights",
+        "1 haze feature",
+        "Wireless mic",
+        "Master of MC",
+        "3-4 hours of continuous music",
+        "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
+      ]
+    },
+    "UR choice Boot": {
+      "details": "<a href='#extras'>Custom features can be added. 4 hours</a>",
+      "display": {
+        "image": "assets/images/golden-boot-package-5.jpg",
+        "caption": "UR Choice Boot Package"
+      },
+      "features": [
+        "7ft x 14ft truss goal with colorful intelligent up lighting around the goal",
+        "4 PA speakers with 2 subwoofers",
+        "2 50in screens or video projection for video mixing and slideshow presentation that guest provides",
+        "2 panel lighting fixtures with 2 LED moving heads",
+        "2 laser features",
+        "6 LED intelligent lights",
+        "1 haze feature",
+        "Wireless mic",
+        "Master of MC",
+        "4-5 hours of continuous music"
+      ]
+    },
+    "Double Boot": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/double-boot-package-1.jpg",
+        "caption": "Double Boot Package"
+      },
+      "features": [
+        "2 7 ft stand-alone truss",
+        "2 PA speakers and 1 subwoofers",
+        "2 50in screens for video mixing and slideshow presentation that guest provides",
+        "2 intelligent LED up lighting in truss and two moving head fixtures",
+        "3-4 hours of continuous music"
+      ]
+    },
+    "Tower Boot": {
+      "details": "<p class='m-0'>No more than 100 students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/double-boot-package-5.jpg",
+        "caption": "Tower Boot Package"
+      },
+      "features": [
+        "2 7 ft stand-alone truss",
+        "2 PA speakers and 2 subwoofers",
+        "2 50in screens or one 6ft x 5ft video projection for video mixing and slideshow presentation that guest provides",
+        "2 intelligent up lighting in truss and two moving head fixtures",
+        "2 LED moving heads",
+        "1 haze fixture",
+        "3-4 hours of continuous music"
+      ]
+    },
+    "Medium": {
+      "details": "<p class='m-0'>Recommended for indoor use</p><a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/medium-package-2.jpg",
+        "caption": "Medium Package"
+      },
+      "features": [
+        "6 ft tall by 3 ft lighting truss",
+        "2 colorful LED panels",
+        "2 PA speakers",
+        "Projection video for video mixing and a slide show presentation that guest presents durning dinner and dancing",
+        "3-4 hours of continuous music"
+      ]
+    },
+    "Twin Boots": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/23.jpg",
+        "caption": "Twin Boots Package"
+      },
+      "features": [
+        "4 7 ft. stand-alone truss",
+        "2 PA speakers and 2 subwoofers",
+        "2 50in screens for video mixing and slideshow presentation that guest provides",
+        "4 intelligent up lighting in truss and four LED moving head fixtures",
+        "1 haze fixture",
+        "3-4 hours of continuous music",
+        "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
+      ]
+    },
+    "Twin Tower Boots": {
+      "details": "<p class='m-0'>No more than 240 students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/dj-boots-2.jpg",
+        "caption": "Twin Tower Boots Package"
+      },
+      "features": [
+        "4 7 ft. stand-alone truss",
+        "4 PA speakers and 2 subwoofers",
+        "2 50in screens or 1 video projection for video mixing and slideshow presentation that guest provides",
+        "4 intelligent up lighting in truss and four moving head fixtures",
+        "1 haze fixture",
+        "3-4 hours of continuous music",
+        "<p class='font-weight-bold m-0'>Silver Photo Booth Package</p>",
+        "High quality 4x6 hard copies",
+        "Custom layout",
+        "Text to phone",
+        "Digital copies (Display Slide Show)",
+        "Touch-screen monitor",
+        "Booth attendant",
+        "Second monitor (Display Slide Show)",
+        "No setup fees and breakdown fees"
+      ]
+    },
+    "Boots": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/standard-package-1.jpg",
+        "caption": "Boots Package"
+      },
+      "features": [
+        "1 stand-alone Truss with 2 fixture lighting",
+        "2 PA speakers",
+        "4 hours of continuous music"
+      ]
+    },
+    "Raza Premium": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/raza-premium.jpg",
+        "caption": "Premium Custom Package with custom audio rental"
+      },
+      "features": [
+        "10 ft. Tall by 20 ft. long truss goal with colorful intelligent up lighting around the goal",
+        "10ft LED Intelligent pyramid background",
+        "Revolutionary sound system (For outdoor Events)",
+        "DJ Stage 8*3",
+        "2 50in screens for video mixing and slideshow presentation that guest provides",
+        "Lighting features on the dance floor with 4 LED beams and 2 LED washes",
+        "2 fog machines",
+        "10 intelligent colorful up lighting around the room including the main table if needed.",
+        "Master of MC",
+        "Wireless Mic",
+        "May Include 1 time Surprise Remix if needed",
+        "4-5 hours of continuous music",
+        "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
+      ]
+    },
+    "Country Premium Boot": {
+      "details": "<p class='m-0'>4 hours</p><a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/premium-package-6.jpg",
+        "caption": "Premium Custom Package with custom audio rental"
+      },
+      "features": [
+        "10 ft. Tall by 20 ft. long truss goal with colorful intelligent up lighting around the goal",
+        "Two  7ft truss with 2 LED Color Panels",
+        "Revolutionary sound system (For outdoor Events)",
+        "2 50in screens for video mixing and slideshow presentation that guest provides",
+        "Lighting features on the dance floor with 4 LED moving heads",
+        "Laser features with 2 fog machines",
+        "10 intelligent colorful up lighting around the room including the main table if needed.",
+        "Master of MC",
+        "Wireless Mic",
+        "May Include 1 time Surprise Remix if needed",
+        "4-5 hours of continuous music"
+      ]
+    },
+    "Trio Boots": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/trio-boots.jpg",
+        "caption": "Trio Boots Package"
+      },
+      "features": [
+        "10 Ft. Tall by 20 Ft. and a cross fly bar of <b>30 Ft. through the dance floor</b>.",
+        "Revolutionary Sound System (For Outdoor Events)",
+        "DJ Stage 8*3",
+        "Ingenious colorful up lighting through the truss",
+        "Special effects with 4 LED moving Heads, LED Disco Ball, 2 Haze Machines",
+        "2 50 In Smart T.V for video mixing",
+        "10 Brilliant LED up lighting around the room including main table if needed ",
+        "Master of MC",
+        "Wireless Mic",
+        "May include 1 time Surprise Dj Remix if needed",
+        "4-5 Hours of continuous music ",
+        "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
+      ]
+    },
+    "Wild Dancing Boot": {
+      "details": "<p class='m-0'>300+ students. 4 hours</p><a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/22.jpg",
+        "caption": "Wild Dancing Boot Package"
+      },
+      "features": [
+        "10 Ft. Tall by 20 Ft. and a cross fly bar of 30 Ft. through the dance floor",
+        "Revolutionary Sound System (For Outdoor Events)",
+        "Ingenious colorful up lighting through the truss",
+        "Special Effects with 4 LED moving head including a LED disco Ball, one haze machine, and two LED colorful panels.",
+        "2 50 in T.V. for video mixing and slideshow presentation/school Logos",
+        "10 Brilliant LED up lighting around the room",
+        "Master of MC",
+        "Wireless Mic",
+        "3-4 hours of continuous music",
+        "<p class='font-weight-bold m-0'>Gold Photo Booth Package</p>",
+        "High quality 4x6 or 2x6 hard copies",
+        "Custom effects",
+        "Custom layout",
+        "Digital copies (online galleries)",
+        "Text to phone",
+        "Touch-screen monitor",
+        "Booth attendant",
+        "Second monitor (Display Slide Show)",
+        "No setup fees and breakdown fees"
+      ]
+    },
+    "Sir Boots Nightclub Style": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/picture-3.jpg",
+        "caption": "Sir Boots Nightclub Package"
+      },
+      "features": [
+        "‘X’ custom flying truss with intelligent lighting around the truss ",
+        "Revolutionary sound system (For Outdoor Events)",
+        "DJ Stage 8*3",
+        "2 50 In Smart T.V. and 6*12 LED Wall if available for video mixing and Slide show Projecting",
+        "Special effects with 6 LED moving heads, laser features, Colorful Panels and 2 fog machines",
+        "14 LED lights around the room including the main table if needed",
+        "Master of MC for ceremony",
+        "Gobo Custom that can be projected on the wall or dance floor ",
+        "Ceremony system 2 PA speakers and a wireless mic if needed. ",
+        "May include 1 time Surprise Dj Remix if needed",
+        "5-6 hours of continuous music",
+        "DJ surprises with 50 pcs Glow sticks or 60 long balloons"
+      ]
+    },
+    "Under the Stars": {
+      "details": "<p class='m-0'>300+ students</p><a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/under-the-stars.jpg",
+        "caption": "Under the Stars"
+      },
+      "features": [
+        "‘X’ custom flying truss with intelligent lighting around the truss ",
+        "LED wall for video mixing and Slide show presentation",
+        "Revolutionary sound system (For Outdoor Events if needed)",
+        "2 50 In Smart T.V. for video mixing and Slide show Projecting",
+        "Special Effects including 6 Led Moving heads beams and washes, Large customized mirror disco ball, two lasers fixtures, two colorful panels and two fog machines",
+        "14 LED lights around the room",
+        "Master of MC",
+        "GOBO to project schools logo",
+        "Ceremony system 2 PA speakers and a wireless mic if needed.",
+        "1 PA speaker for cocktail hour",
+        "3-4 hours of continuous music",
+        "<p class='font-weight-bold m-0'>Premium Photo Booth Package</p>",
+        "High quality 4x6 or 2x6 hard copies",
+        "Sleeves to protect 4 * 6 or 2 * 6 copies",
+        "Custom effects",
+        "Custom layout",
+        "Digital copies (online gallery)",
+        "Text to phone",
+        "Touch-screen monitor",
+        "Booth attendant",
+        "Second monitor (Display Slide Show)",
+        "No setup fees and breakdown fees"
+      ]
+    },
+    "Specialty Boot": {
+      "details": "<p class='m-0'>4 hours</p><a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/sir-boot-nightclub-6.jpg",
+        "caption": "Specialty Boot Package"
+      },
+      "features": [
+        "‘X’ custom flying truss with intelligent lighting around the truss ",
+        "Revolutionary sound system (For Outdoor Events if needed)",
+        "2 50 In Smart T.V. for video mixing and Slide show Projecting",
+        "Special effects with 6 LED moving heads, laser features, Colorful Panels and 2 fog machines",
+        "14 LED lights around the room including the main table if needed",
+        "Master of MC for ceremony",
+        "Gobo Custom that can be projected on the wall or dance floor ",
+        "Ceremony system 2 PA speakers and a wireless mic if needed. ",
+        "May include 1 time Surprise Dj Remix if needed",
+        "5-6 hours of continuous music"
+      ]
+    },
+    "Rally DJ &amp; Lighting I": {
+      "details": "<p class='m-0'>Pricing based on same day setup. 3-4 hours</p><a href='#extras'>Custom features can be added</a>",
+      "price": "",
+      "features": [
+        "4 intelligent moving head lights",
+        "4 truss columns",
+        "4 truss intelligent up lighting",
+        "DMX software and laptop",
+        "Lighting Tech/Programmer"
+      ]
+    },
+    "Rally DJ &amp; Lighting II": {
+      "details": "<p class='m-0'>Pricing based on same day setup. 3-4 hours</p><a href='#extras'>Custom features can be added</a>",
+      "price": "",
+      "features": [
+        "4 intelligent moving head lights",
+        "4 intelligent moving head wash lights",
+        "6 truss columns",
+        "6 truss intelligent up lighting",
+        "DMX software and laptop",
+        "Lighting Tech/Programmer"
+      ]
+    },
+    "School Rally Sound  &amp; Lighting": {
+      "details": "<p class='m-0'>Pricing based on same day setup. 3-4 hours</p><a href='#extras'>Custom features can be added</a>",
+      "price": "",
+      "features": [
+        "4 12in two-way line array speakers",
+        "4 18in subwoofers",
+        "1 cordless UHF microphone",
+        "4 intelligent moving head lights",
+        "4 truss columns",
+        "4 truss warmers",
+        "DMX software and laptop",
+        "Lighting Tech/Programmer"
+      ]
+    },
+    "Rodeo Boots Package": {
+      "details": "<p class='m-0'>3-4 hours. Not recommended for groups larger than 250 students</p><a href='#extras'>Custom features can be added</a>",
+      "price": "",
+      "features": [
+        "4 12in two-way line array speakers",
+        "4 18in subwoofers",
+        "4 intelligent moving head lights",
+        "8 truss columns or pyramid custom truss",
+        "8 truss intelligent up lights"
+      ]
+    },
+    "Pool Party Package": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/pool-party-2.jpg",
+        "caption": "Pool Party Package"
+      },
+      "price": "",
+      "features": ["2 PA speakers", "MC", "4 hours of continuous music"]
+    },
+    "Boot Coachella Pool Party": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/coachella-pool-party.jpg",
+        "caption": "Boot Coachella Pool Party Package"
+      },
+      "price": "",
+      "features": [
+        "2 PA speakers",
+        "2 18in subwoofers",
+        "MC",
+        "5 hours of continuous music"
+      ]
+    },
+    "Corporate Custom": {
+      "details": "<a href='#extras'>Custom features can be added. 4 hours</a>",
+      "display": {
+        "image": "assets/images/corporate-event.jpg",
+        "caption": "Corporate Custom Package"
+      },
+      "price": "",
+      "features": ["2 PA speakers", "Draping", "Intelligent Uplighting", "DJ*"]
+    },
+    "Festivals": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/festival-1.jpg",
+        "caption": "Festivals"
+      },
+      "price": "",
+      "features": [
+        "Truss Custom",
+        "Truss Booths Rentals (any size)",
+        "Truss Designs",
+        "Food Stand Banners",
+        "Lighting Rentals",
+        "Audio Rentals (Line Arrays)",
+        "DJ*"
+      ]
+    },
+    "Boots Silent Disco": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/silent-dj.jpg",
+        "caption": "Boots Silent Disco"
+      },
+      "price": "",
+      "features": [
+        "200 LED color headphones",
+        "2 channels/ Extra DJ can be added(Continuous music)",
+        "2 LED lighting Fixtures",
+        "4 hours continuous music"
+      ]
+    },
+    "BM 07 Silent DJ": {
+      "details": "<a href='#extras'>Custom features can be added</a>",
+      "display": {
+        "image": "assets/images/silent-dj.jpg",
+        "caption": "BM 07 Silent DJ"
+      },
+      "price": "",
+      "features": [
+        "100 LED Color Head phones",
+        "1 Channel/ Extra DJ can be added",
+        "2 LED Fixtures",
+        "3 hours continuous music"
+      ]
+    }
+  },
+  "extras": [
+    {
+      "description": "**Snow Machines** Add the magic of snow to any event. Includes 2 snow machines.",
+      "price": "480"
+    },
+    {
+      "description": "**Social Media Cams** We can provide you with camera scenes for all occasions on social media - Zoom, Twitch, Facebook or Instagram. Includes 2 cam views and a Pro Light Ring.",
+      "price": "$$"
+    },
+    {
+      "description": "**Cold Spark Machine** Make your favorite dance a memorable one with cold spark fireworks 💥",
+      "price": "480 per pair"
+    },
+    {
+      "description": "**C<sub>O</sub>2 confetti** with 20 lbs tanks",
+      "price": "165"
+    },
+    {
+      "description": "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
+      "price": "280"
+    },
+    {
+      "description": "**Intelligent Up Lighting** (12 lights for palmtrees and walls)",
+      "price": "350"
+    },
+    {
+      "description": "**Gobo Monogram** displays your initials or name on the dance floor",
+      "price": "120"
+    },
+    {
+      "description": "**Ceremony sound** adds 2 PA speakers and a wireless microphone",
+      "price": "200"
+    },
+    {
+      "description": "**Fog machine**",
+      "price": "85"
+    },
+    {
+      "description": "**50in TV or projection**: show family pictures or videos throughout the night",
+      "price": "85"
+    },
+    {
+      "description": "Revolutionary sound system (for grupo or banda use)",
+      "price": "500"
+    },
+    {
+      "description": "Colorful string lighting 100ft",
+      "price": "180"
+    },
+    {
+      "description": "Surprise dance remixes",
+      "price": "85"
+    },
+    {
+      "description": "50+ Glow Sticks",
+      "price": "40"
+    },
+    {
+      "description": "250+ balloons",
+      "price": "75"
+    },
+    {
+      "description": "24' x 12' Stage",
+      "price": "680"
+    },
+    {
+      "description": "16' x 18' Stage",
+      "price": "550"
+    },
+    {
+      "description": "La Raza RoboBoot (Robot) - Pricing depends on occasion (see gallery for pictures)",
+      "price": "$$"
+    },
+    {
+      "description": "**Dancing On Clouds Machine** - beautiful visual effect that creates heart-stirring moments.  It is perfectly safe, odorless and harmless that will not leave any residue or effect fire alarms.",
+      "price": "280"
+    }
+  ],
+  "eventTypes": [
+    {
+      "name": "Weddings &amp; Quincea&ntilde;eras",
+      "slug": "Weddings & Quinceaneras",
+      "description": "Let's make your event unforgettable by booking your event with DJ Boots Productions. We offer many great set-up options to choose from. The following are some of the packages we offer, all packages can be customized especially for you.",
+      "packages": [
+        "Boots",
+        "Double Boot",
+        "Twin Boots",
+        "Golden Boot",
+        "Raza Premium",
+        "Trio Boots",
+        "Sir Boots Nightclub Style"
+      ]
+    },
+    {
+      "name": "Corporate",
+      "slug": "Corporate",
+      "description": "DJ Boots Productions brings you the engagement of entertainment. Providing good strategies and up to date ideas to make your event a great experience. Whether it’s a conference, sales meeting, trade show, or a special employee recognition dinner,our experience in the entertainment and corporate fields will bring a unique, memorable vibe to your next event.",
+      "packages": [
+        "UR choice Boot",
+        "Country Premium Boot",
+        "Specialty Boot",
+        "Corporate Custom"
+      ]
+    },
+    {
+      "name": "Pool Parties",
+      "slug": "Pool Parties",
+      "description": "",
+      "packages": ["Pool Party Package", "Boot Coachella Pool Party"]
+    },
+    {
+      "name": "Festivals",
+      "slug": "Festivals",
+      "description": "",
+      "packages": ["Festivals"]
+    },
+    {
+      "name": "School Only Packages",
+      "slug": "School Only Packages",
+      "description": "",
+      "packages": [
+        "DJ Boots",
+        "Tower Boot",
+        "Twin Tower Boots",
+        "Wild Dancing Boot",
+        "Under the Stars"
+      ]
+    },
+    {
+      "name": "School Rallies Only",
+      "slug": "School Rallies Only",
+      "description": "",
+      "packages": [
+        "Rally DJ &amp; Lighting I",
+        "Rally DJ &amp; Lighting II",
+        "School Rally Sound  &amp; Lighting"
+      ]
+    }
+  ]
 }
