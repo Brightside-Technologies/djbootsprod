@@ -428,6 +428,41 @@
         "2 LED Fixtures",
         "3 hours continuous music"
       ]
+    },
+    "Sunset/Sunise Package A": {
+      "details": "",
+      "display": {
+        "image": "",
+        "caption": ""
+      },
+      "price": "",
+      "features": [
+        "LED Wall 7'x15'",
+        "Logo, slideshow presentation, special video effects, and live views",
+        "2 PA speakers 2 subs"
+      ]
+    },
+    "Sunset/Sunise Package B": {
+      "details": "",
+      "display": {
+        "image": "",
+        "caption": ""
+      },
+      "price": "",
+      "features": [
+        "4 75\" Matrix screens",
+        "Logo, slideshow presentation",
+        "2 PA speakers 1 sub"
+      ]
+    },
+    "Senior Awards Night Package": {
+      "details": "",
+      "display": {
+        "image": "",
+        "caption": ""
+      },
+      "price": "",
+      "features": ["4 PA speakers", "2 subs", "2 monitors", "2 wireless mics"]
     }
   },
   "extras": [
@@ -547,8 +582,8 @@
       "packages": ["Festivals"]
     },
     {
-      "name": "School Only Packages",
-      "slug": "School Only Packages",
+      "name": "School Dance Packages Only ",
+      "slug": "School Dance Packages Only ",
       "description": "",
       "packages": [
         "DJ Boots",
@@ -566,6 +601,16 @@
         "Rally DJ &amp; Lighting I",
         "Rally DJ &amp; Lighting II",
         "School Rally Sound  &amp; Lighting"
+      ]
+    },
+    {
+      "name": "Special School Events",
+      "slug": "Special School Events",
+      "description": "",
+      "packages": [
+        "Sunset/Sunrise Package A",
+        "Sunset/Sunrise Package B",
+        "Senior Awards Night Package"
       ]
     }
   ]

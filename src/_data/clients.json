@@ -37,7 +37,7 @@
     },
     {
       "name": "Andrew Jackson Elementary School",
-      "logo": "assets/images/client-8.jpg",
+      "logo": "assets/images/client-14.png",
       "url": ""
     },
     {
@@ -53,6 +53,16 @@
     {
       "name": "R&S",
       "logo": "assets/images/client-11.jpg",
+      "url": ""
+    },
+    {
+      "name": "Coachella Valley High School",
+      "logo": "assets/images/client-12.png",
+      "url": ""
+    },
+    {
+      "name": "Bulldogs",
+      "logo": "assets/images/client-13.png",
       "url": ""
     }
   ]
