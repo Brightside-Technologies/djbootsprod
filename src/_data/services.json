@@ -429,11 +429,11 @@
         "3 hours continuous music"
       ]
     },
-    "Sunset/Sunise Package A": {
+    "Sunset/Sunrise Package A": {
       "details": "",
       "display": {
-        "image": "",
-        "caption": ""
+        "image": "assets/images/sunset-sunrise-a.jpeg",
+        "caption": "Sunset/Sunrise Package A"
       },
       "price": "",
       "features": [
@@ -442,13 +442,12 @@
         "2 PA speakers 2 subs"
       ]
     },
-    "Sunset/Sunise Package B": {
+    "Sunset/Sunrise Package B": {
       "details": "",
       "display": {
-        "image": "",
-        "caption": ""
+        "image": "assets/images/sunset-sunrise-b.jpeg",
+        "caption": "Sunset/Sunrise Package B"
       },
-      "price": "",
       "features": [
         "4 75\" Matrix screens",
         "Logo, slideshow presentation",
@@ -458,8 +457,8 @@
     "Senior Awards Night Package": {
       "details": "",
       "display": {
-        "image": "",
-        "caption": ""
+        "image": "assets/images/senior-awards-night.jpeg",
+        "caption": "Senior Awards Night Package"
       },
       "price": "",
       "features": ["4 PA speakers", "2 subs", "2 monitors", "2 wireless mics"]
@@ -480,7 +479,7 @@
     },
     {
       "description": "**C<sub>O</sub>2 confetti** with 20 lbs tanks",
-      "price": "165"
+      "price": "200"
     },
     {
       "description": "Video game station with 1 60in LCD TV, 1 TV truss stand, 1 PS4 with 2 controllers and 2 games",
