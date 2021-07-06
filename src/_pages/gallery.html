@@ -14,25 +14,21 @@ permalink: gallery.html
                 </div>
             </div>
         </div>
-        <div class="row d-flex flex-column pb-5 m-0" style="height: 20rem">
-            <div class="gallery-carousel h-100">
+        <div class="row">
+            <div class="card-columns">
                 {% for picture in site.data.gallery.pictures1 %}
-                <div
-                    class="col-sm-12 col-md-4 p-0 gallery-image h-100 d-flex align-items-center justify-content-center"
-                >
-                <a data-featherlight="{{picture.url | replace: " ", ""}}" href="#">
-                    <img class="invisible" src="{{ picture.url | absolute_url }}" alt="Gallery image" />
-                </a>    
+                <div class="card">
+                    <a data-featherlight="{{picture.url | replace: " ", ""}}" href="#">
+                        <img class="class=" card-img rounded-0 border-0" style="width: 100%;"" src=" {{ picture.url |
+                            absolute_url }}" alt="Gallery image" />
+                    </a>
                 </div>
                 {% endfor %}
-            </div>
-        </div>
-        <div class="row d-flex flex-column pb-5 m-0" style="height: 20rem">
-            <div class="gallery-packages h-100">
-                {% for picture in site.data.gallery.pictures2 %} 
-                <div class="col-sm-12 col-md-4 p-0 h-100">
+                {% for picture in site.data.gallery.pictures2 %}
+                <div class="card">
                     <a data-featherlight="{{picture.url | replace: " ", ""}}" href="#">
-                        <img style="object-fit: cover; object-position: center;" class="w-100 h-100" alt="Gallery image" src="{{ picture.url | absolute_url }}" />
+                        <img class="class=" card-img rounded-0 border-0" style="width: 100%;"" src=" {{ picture.url |
+                            absolute_url }}" alt="Gallery image" />
                     </a>
                 </div>
                 {% endfor %}
@@ -40,18 +36,14 @@ permalink: gallery.html
         </div>
         <div class="row d-flex flex-column pb-5 m-0" style="height: 30rem">
             <div class="gallery-videos h-100">
-            {% for video in site.data.gallery.videos %}
-            <div class="col-sm-12 col-md-4 h-100 p-0">
-                <div class="embed-responsive embed-responsive-1by1">
-                    <iframe
-                        class="embed-responsive-item"
-                        allow="autoplay; encrypted-media"
-                        allowfullscreen
-                        src="{{video.url}}?rel=0"
-                    ></iframe>
+                {% for video in site.data.gallery.videos %}
+                <div class="col-sm-12 col-md-4 h-100 p-0">
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" allow="autoplay; encrypted-media" allowfullscreen
+                            src="{{video.url}}?rel=0"></iframe>
+                    </div>
                 </div>
-            </div>
-            {% endfor %}
+                {% endfor %}
             </div>
         </div>
     </div>
