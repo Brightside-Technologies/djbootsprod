@@ -51,7 +51,12 @@ permalink: services.html
                                 {% if package == "DJ Boots" %}
                                 <p style="font-size: 12px" class="text-uppercase text-muted mb-1"><i class="text-danger fas fa-utensils mr-1"></i>Lunch Special</p>
                                 {% endif %}
+                                {% if package != "Graduation Ceremony" %}
                                 <button type="button" class="btn activator bg-gradient border-0">View Details</button>
+                                {% endif %}
+                                {% if package == "Graduation Ceremony" %}
+                                <p style="font-size: 12px" class="text-uppercase text-muted mb-1">Contact for Details</p>
+                                {% endif %}
                             </div>
                             {% if site.data.services.packages[package].details != "" %}
                                 <div class="card-footer py-1" style="height: 70px">

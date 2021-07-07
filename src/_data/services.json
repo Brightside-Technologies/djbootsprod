@@ -145,7 +145,7 @@
     "Raza Premium": {
       "details": "<a href='#extras'>Custom features can be added</a>",
       "display": {
-        "image": "assets/images/raza-premium.jpg",
+        "image": "assets/images/gallery-43.jpeg",
         "caption": "Premium Custom Package with custom audio rental"
       },
       "features": [
@@ -445,7 +445,7 @@
     "Sunset/Sunrise Package B": {
       "details": "",
       "display": {
-        "image": "assets/images/sunset-sunrise-b.jpeg",
+        "image": "assets/images/gallery-48.jpeg",
         "caption": "Sunset/Sunrise Package B"
       },
       "features": [
@@ -459,6 +459,15 @@
       "display": {
         "image": "assets/images/senior-awards-night.jpeg",
         "caption": "Senior Awards Night Package"
+      },
+      "price": "",
+      "features": ["4 PA speakers", "2 subs", "2 monitors", "2 wireless mics"]
+    },
+    "Graduation Ceremony": {
+      "details": "",
+      "display": {
+        "image": "assets/images/gallery-44.jpeg",
+        "caption": "Graduation Ceremony"
       },
       "price": "",
       "features": ["4 PA speakers", "2 subs", "2 monitors", "2 wireless mics"]
@@ -609,7 +618,8 @@
       "packages": [
         "Sunset/Sunrise Package A",
         "Sunset/Sunrise Package B",
-        "Senior Awards Night Package"
+        "Senior Awards Night Package",
+        "Graduation Ceremony"
       ]
     }
   ]
