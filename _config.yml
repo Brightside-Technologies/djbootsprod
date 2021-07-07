@@ -35,5 +35,6 @@ plugins:
   - jekyll-sitemap
 include:
   - _pages
+  - __gallery__
 sass:
   sourcemap: never

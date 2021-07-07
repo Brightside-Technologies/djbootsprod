@@ -15,23 +15,17 @@ permalink: gallery.html
             </div>
         </div>
         <div class="row">
-            <div class="card-columns">
-                {% for picture in site.data.gallery.pictures1 %}
-                <div class="card">
-                    <a data-featherlight="{{picture.url | replace: " ", ""}}" href="#">
-                        <img class="class=" card-img rounded-0 border-0" style="width: 100%;"" src=" {{ picture.url |
-                            absolute_url }}" alt="Gallery image" />
+            <div class="card-columns" style="width:100%">
+                {% for picture in site.data.gallery.pictures %}
+                <div class="card border-0" style="min-height: {{picture.height}}px; background-color: black;">
+                    <a class="position-absolute" data-featherlight="{{picture.url | replace: " ", "" }}" href="#" style="top: 0; right: 0; bottom: 0; left: 0;">
+                        <img class="card-img rounded-0 border-0" style="width: 100%; height: 100%; object-fit: cover; object-position: center;"
+                            src="{{ picture.url | prepend: "__gallery__/" | absolute_url }}" alt="Gallery image"
+                             />
                     </a>
                 </div>
                 {% endfor %}
-                {% for picture in site.data.gallery.pictures2 %}
-                <div class="card">
-                    <a data-featherlight="{{picture.url | replace: " ", ""}}" href="#">
-                        <img class="class=" card-img rounded-0 border-0" style="width: 100%;"" src=" {{ picture.url |
-                            absolute_url }}" alt="Gallery image" />
-                    </a>
-                </div>
-                {% endfor %}
+               
             </div>
         </div>
         <div class="row d-flex flex-column pb-5 m-0" style="height: 30rem">
@@ -39,7 +33,7 @@ permalink: gallery.html
                 {% for video in site.data.gallery.videos %}
                 <div class="col-sm-12 col-md-4 h-100 p-0">
                     <div class="embed-responsive embed-responsive-1by1">
-                        <iframe class="embed-responsive-item" allow="autoplay; encrypted-media" allowfullscreen
+                        <iframe class="embed-responsive-item" allow="autoplay; encrypted-media" loading="lazy" allowfullscreen
                             src="{{video.url}}?rel=0"></iframe>
                     </div>
                 </div>

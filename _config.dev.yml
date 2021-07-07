@@ -5,19 +5,19 @@ logo: assets/images/boots-logo.jpg
 type: website
 description: SOUTHERN CALIFORNIA'S BEST IN DJ AND EVENT PRODUCTION
 keywords:
-    - Bryan Maldonado
-    - Indio, California
-    - DJ Boots
-    - Boots Productions
-    - DJs in the Coachella Valley
-    - Coachella Valley Entertainment
-    - DJ Boots Entertainment
-    - DJ Services
-    - Coachella Valley Local Business
-    - DJ Boots Productions
-    - Event Planning
-    - Parties
-    - Weddings
+  - Bryan Maldonado
+  - Indio, California
+  - DJ Boots
+  - Boots Productions
+  - DJs in the Coachella Valley
+  - Coachella Valley Entertainment
+  - DJ Boots Entertainment
+  - DJ Services
+  - Coachella Valley Local Business
+  - DJ Boots Productions
+  - Event Planning
+  - Parties
+  - Weddings
 developerUrl: "https://godiego.me"
 image: /assets/images/site-preview.jpg
 url: https://development.djbootsprod.com
@@ -30,9 +30,10 @@ googleAnalyticsId: ""
 markdown: kramdown
 source: src
 plugins:
-    - jemoji
-    - jekyll-sitemap
+  - jemoji
+  - jekyll-sitemap
 include:
-    - _pages
+  - _pages
+  - __gallery__
 sass:
-   sourcemap: never
+  sourcemap: never

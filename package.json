@@ -7,5 +7,9 @@
         "build": "bundle exec jekyll build",
         "build:dev": "bundle exec jekyll build --config _config.dev.yml",
         "build:test": "bundle exec jekyll build --config _config.test.yml"
+    },
+    "devDependencies": {
+        "colors": "^1.4.0",
+        "jimp": "^0.16.1"
     }
 }
